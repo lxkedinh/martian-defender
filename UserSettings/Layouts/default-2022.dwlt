@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 1037
   m_ShowMode: 4
-  m_Title: Git for Unity
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 17
+  controlID: 103
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -70,10 +70,10 @@ MonoBehaviour:
     height: 987
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 13}
   m_Panes:
-  - {fileID: 14}
-  - {fileID: 12}
+  - {fileID: 15}
+  - {fileID: 13}
   m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &4
@@ -97,9 +97,9 @@ MonoBehaviour:
     height: 584
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -123,12 +123,13 @@ MonoBehaviour:
     height: 403
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 13}
-  - {fileID: 18}
+  - {fileID: 14}
+  - {fileID: 19}
+  - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 18
+  controlID: 38
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 19
+  controlID: 39
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -269,15 +270,50 @@ MonoBehaviour:
     y: 0
     width: 1105
     height: 584
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 16}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 16}
   - {fileID: 17}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6629f1bb292b749a18b5fff7994c8b19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 600, y: 350}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Unity Version Control
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 657
+    width: 1466
+    height: 382
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  mForceToOpen: 0
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -311,7 +347,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  progressMessageClearTime: -1
+  progressMessageClearTime: 1830.1545567
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
@@ -319,13 +355,13 @@ MonoBehaviour:
   currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 0
   appManagerProgressHasUpdate: 0
-  changeTab: 5
-  activeTab: 5
+  changeTab: 4
+  activeTab: 4
   initProjectView:
-    hasCompletedInitialCheck: 0
-    isUserDataPresent: 0
+    hasCompletedInitialCheck: 1
+    isUserDataPresent: 1
     lastCheckUserChangedEvent:
-      updatedTimeString: 2023-09-22T13:24:52.483-07:00
+      updatedTimeString: 2023-09-22T13:28:52.013-07:00
       cacheType: 8
   branchesView:
     treeLocals:
@@ -333,10 +369,21 @@ MonoBehaviour:
       folders:
         keys:
         - Local branches
+        - luke
         values:
         - path: Local branches
           label: Local branches
           level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+        - path: luke
+          label: luke
+          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -363,9 +410,19 @@ MonoBehaviour:
         isActive: 0
         treeIsCheckable: 0
         checkState: 0
-      - path: main
-        label: main
+      - path: luke
+        label: luke
         level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: luke/tower-ai
+        label: tower-ai
+        level: 2
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -373,15 +430,25 @@ MonoBehaviour:
         isActive: 1
         treeIsCheckable: 0
         checkState: 0
-      selectedNode:
-        path: 
-        label: 
-        level: 0
+      - path: main
+        label: main
+        level: 1
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: luke/tower-ai
+        label: tower-ai
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 1
         treeIsCheckable: 0
         checkState: 0
     treeRemotes:
@@ -390,6 +457,7 @@ MonoBehaviour:
         keys:
         - Remote branches
         - origin
+        - origin/luke
         values:
         - path: Remote branches
           label: Remote branches
@@ -404,6 +472,16 @@ MonoBehaviour:
         - path: origin
           label: origin
           level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+        - path: origin/luke
+          label: luke
+          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -440,6 +518,26 @@ MonoBehaviour:
         isActive: 0
         treeIsCheckable: 0
         checkState: 0
+      - path: origin/luke
+        label: luke
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin/luke/tower-ai
+        label: tower-ai
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
       - path: origin/main
         label: main
         level: 2
@@ -451,9 +549,9 @@ MonoBehaviour:
         treeIsCheckable: 0
         checkState: 0
       selectedNode:
-        path: origin/main
-        label: main
-        level: 2
+        path: 
+        label: 
+        level: 0
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -465,28 +563,32 @@ MonoBehaviour:
     newBranchName: 
     scroll: {x: 0, y: 0}
     disableDelete: 1
-    disableCreate: 1
+    disableCreate: 0
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2023-09-22T13:24:32.090-07:00
+      updatedTimeString: 2023-09-22T13:49:20.362-07:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-09-22T13:49:20.367-07:00
       cacheType: 1
     currentBranch:
-      name: main
-      tracking: 
+      name: luke/tower-ai
+      tracking: origin/luke/tower-ai
     currentRemote:
       name: origin
-      url: https://github.com/lxkedinh/martian-defender
+      url: https://github.com/lxkedinh/martian-defender.git
       login: 
       user: 
       host: 
       function: 0
       token: 
     localBranches:
+    - name: luke/tower-ai
+      tracking: origin/luke/tower-ai
     - name: main
-      tracking: 
+      tracking: origin/main
     remoteBranches:
+    - name: origin/luke/tower-ai
+      tracking: '[None]'
     - name: origin/main
       tracking: '[None]'
   changesView:
@@ -499,13 +601,17 @@ MonoBehaviour:
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
+        keys: []
+        values: []
+      folders:
         keys:
-        - 0000000000000000b000000000000000
+        - UserSettings
+        - UserSettings\Layouts
         values:
-        - path: ProjectSettings\EditorBuildSettings.asset
-          label: EditorBuildSettings.asset
-          level: 1
-          isFolder: 0
+        - path: UserSettings
+          label: UserSettings
+          level: 0
+          isFolder: 1
           isContainer: 0
           isCollapsed: 0
           isHidden: 0
@@ -514,19 +620,15 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: ProjectSettings\EditorBuildSettings.asset
-            fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\EditorBuildSettings.asset
-            projectPath: ProjectSettings\EditorBuildSettings.asset
+            path: 
+            fullPath: 
+            projectPath: 
             originalPath: 
             indexStatus: 0
-            workTreeStatus: 3
-      folders:
-        keys:
-        - ProjectSettings
-        values:
-        - path: ProjectSettings
-          label: ProjectSettings
-          level: 0
+            workTreeStatus: 0
+        - path: UserSettings\Layouts
+          label: Layouts
+          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -570,8 +672,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: ProjectSettings
-        label: ProjectSettings
+      - path: UserSettings
+        label: UserSettings
         level: 0
         isFolder: 1
         isContainer: 0
@@ -588,9 +690,27 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: ProjectSettings\EditorBuildSettings.asset
-        label: EditorBuildSettings.asset
+      - path: UserSettings\Layouts
+        label: Layouts
         level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        label: default-2022.dwlt
+        level: 2
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -600,9 +720,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: ProjectSettings\EditorBuildSettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\EditorBuildSettings.asset
-          projectPath: ProjectSettings\EditorBuildSettings.asset
+          path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -626,255 +746,27 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: ProjectSettings\EditorBuildSettings.asset
-      fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\EditorBuildSettings.asset
-      projectPath: ProjectSettings\EditorBuildSettings.asset
+    - path: UserSettings\Layouts\default-2022.dwlt
+      fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Layouts\default-2022.dwlt
+      projectPath: UserSettings\Layouts\default-2022.dwlt
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
     changedFilesText: 1 changed file
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-09-22T13:48:18.174-07:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-09-22T13:48:18.394-07:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-09-22T13:25:16.164-07:00
+      updatedTimeString: 2023-09-22T13:48:19.777-07:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
-    - commitID: 8a1ac53d010f889d7245c6f0854783a5a94c831b
-      mergeA: 
-      mergeB: 
-      authorName: Luke Dinh
-      authorEmail: lukexdinh@gmail.com
-      commitEmail: lukexdinh@gmail.com
-      commitName: Luke Dinh
-      summary: 'feat: project init'
-      description: 
-      timeString: 2023-09-22T13:21:07.000-07:00
-      commitTimeString: 2023-09-22T13:21:07.000-07:00
-      changes:
-      - path: .gitignore
-        fullPath: C:\Users\ldluc\Martian Defender\.gitignore
-        projectPath: .gitignore
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: Assets\Scenes.meta
-        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes.meta
-        projectPath: Assets\Scenes.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\EnemyScene.unity
-        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\EnemyScene.unity
-        projectPath: Assets\Scenes\EnemyScene.unity
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\EnemyScene.unity.meta
-        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\EnemyScene.unity.meta
-        projectPath: Assets\Scenes\EnemyScene.unity.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\LevelScene.unity
-        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\LevelScene.unity
-        projectPath: Assets\Scenes\LevelScene.unity
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\LevelScene.unity.meta
-        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\LevelScene.unity.meta
-        projectPath: Assets\Scenes\LevelScene.unity.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\MainScene.unity
-        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\MainScene.unity
-        projectPath: Assets\Scenes\MainScene.unity
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\MainScene.unity.meta
-        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\MainScene.unity.meta
-        projectPath: Assets\Scenes\MainScene.unity.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\TowerScene.unity
-        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity
-        projectPath: Assets\Scenes\TowerScene.unity
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\TowerScene.unity.meta
-        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity.meta
-        projectPath: Assets\Scenes\TowerScene.unity.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\UIScene.unity
-        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\UIScene.unity
-        projectPath: Assets\Scenes\UIScene.unity
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\UIScene.unity.meta
-        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\UIScene.unity.meta
-        projectPath: Assets\Scenes\UIScene.unity.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Packages\manifest.json
-        fullPath: C:\Users\ldluc\Martian Defender\Packages\manifest.json
-        projectPath: Packages\manifest.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Packages\packages-lock.json
-        fullPath: C:\Users\ldluc\Martian Defender\Packages\packages-lock.json
-        projectPath: Packages\packages-lock.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\AudioManager.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\AudioManager.asset
-        projectPath: ProjectSettings\AudioManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\ClusterInputManager.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\ClusterInputManager.asset
-        projectPath: ProjectSettings\ClusterInputManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\DynamicsManager.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\DynamicsManager.asset
-        projectPath: ProjectSettings\DynamicsManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\EditorBuildSettings.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\EditorBuildSettings.asset
-        projectPath: ProjectSettings\EditorBuildSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\EditorSettings.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\EditorSettings.asset
-        projectPath: ProjectSettings\EditorSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\GraphicsSettings.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\GraphicsSettings.asset
-        projectPath: ProjectSettings\GraphicsSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\InputManager.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\InputManager.asset
-        projectPath: ProjectSettings\InputManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\MemorySettings.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\MemorySettings.asset
-        projectPath: ProjectSettings\MemorySettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\NavMeshAreas.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\NavMeshAreas.asset
-        projectPath: ProjectSettings\NavMeshAreas.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\NetworkManager.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\NetworkManager.asset
-        projectPath: ProjectSettings\NetworkManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\PackageManagerSettings.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\PackageManagerSettings.asset
-        projectPath: ProjectSettings\PackageManagerSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\Physics2DSettings.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\Physics2DSettings.asset
-        projectPath: ProjectSettings\Physics2DSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\PresetManager.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\PresetManager.asset
-        projectPath: ProjectSettings\PresetManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\ProjectSettings.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\ProjectSettings.asset
-        projectPath: ProjectSettings\ProjectSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\ProjectVersion.txt
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\ProjectVersion.txt
-        projectPath: ProjectSettings\ProjectVersion.txt
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\QualitySettings.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\QualitySettings.asset
-        projectPath: ProjectSettings\QualitySettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\TagManager.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\TagManager.asset
-        projectPath: ProjectSettings\TagManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\TimeManager.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\TimeManager.asset
-        projectPath: ProjectSettings\TimeManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\UnityConnectSettings.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\UnityConnectSettings.asset
-        projectPath: ProjectSettings\UnityConnectSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\VFXManager.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\VFXManager.asset
-        projectPath: ProjectSettings\VFXManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\VersionControlSettings.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\VersionControlSettings.asset
-        projectPath: ProjectSettings\VersionControlSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\XRSettings.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\XRSettings.asset
-        projectPath: ProjectSettings\XRSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-    - commitID: be5fa5c0277347a994d56a0e808b53d606cb4ee2
+    - commitID: a9db2ddde2cc4995ca1a9808892e2cdf8f18ece2
       mergeA: 
       mergeB: 
       authorName: Luke Dinh
@@ -883,8 +775,8 @@ MonoBehaviour:
       commitName: Luke Dinh
       summary: Initial commit
       description: 
-      timeString: 2023-09-22T13:17:02.000-07:00
-      commitTimeString: 2023-09-22T13:17:02.000-07:00
+      timeString: 2023-09-22T13:29:03.000-07:00
+      commitTimeString: 2023-09-22T13:29:03.000-07:00
       changes:
       - path: .gitattributes
         fullPath: C:\Users\ldluc\Martian Defender\.gitattributes
@@ -914,235 +806,7 @@ MonoBehaviour:
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
-      - commitID: 8a1ac53d010f889d7245c6f0854783a5a94c831b
-        mergeA: 
-        mergeB: 
-        authorName: Luke Dinh
-        authorEmail: lukexdinh@gmail.com
-        commitEmail: lukexdinh@gmail.com
-        commitName: Luke Dinh
-        summary: 'feat: project init'
-        description: 
-        timeString: 2023-09-22T13:21:07.000-07:00
-        commitTimeString: 2023-09-22T13:21:07.000-07:00
-        changes:
-        - path: .gitignore
-          fullPath: C:\Users\ldluc\Martian Defender\.gitignore
-          projectPath: .gitignore
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-        - path: Assets\Scenes.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes.meta
-          projectPath: Assets\Scenes.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\EnemyScene.unity
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\EnemyScene.unity
-          projectPath: Assets\Scenes\EnemyScene.unity
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\EnemyScene.unity.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\EnemyScene.unity.meta
-          projectPath: Assets\Scenes\EnemyScene.unity.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\LevelScene.unity
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\LevelScene.unity
-          projectPath: Assets\Scenes\LevelScene.unity
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\LevelScene.unity.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\LevelScene.unity.meta
-          projectPath: Assets\Scenes\LevelScene.unity.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\MainScene.unity
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\MainScene.unity
-          projectPath: Assets\Scenes\MainScene.unity
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\MainScene.unity.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\MainScene.unity.meta
-          projectPath: Assets\Scenes\MainScene.unity.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\TowerScene.unity
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity
-          projectPath: Assets\Scenes\TowerScene.unity
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\TowerScene.unity.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity.meta
-          projectPath: Assets\Scenes\TowerScene.unity.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\UIScene.unity
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\UIScene.unity
-          projectPath: Assets\Scenes\UIScene.unity
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\UIScene.unity.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\UIScene.unity.meta
-          projectPath: Assets\Scenes\UIScene.unity.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Packages\manifest.json
-          fullPath: C:\Users\ldluc\Martian Defender\Packages\manifest.json
-          projectPath: Packages\manifest.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Packages\packages-lock.json
-          fullPath: C:\Users\ldluc\Martian Defender\Packages\packages-lock.json
-          projectPath: Packages\packages-lock.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\AudioManager.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\AudioManager.asset
-          projectPath: ProjectSettings\AudioManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\ClusterInputManager.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\ClusterInputManager.asset
-          projectPath: ProjectSettings\ClusterInputManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\DynamicsManager.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\DynamicsManager.asset
-          projectPath: ProjectSettings\DynamicsManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\EditorBuildSettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\EditorBuildSettings.asset
-          projectPath: ProjectSettings\EditorBuildSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\EditorSettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\EditorSettings.asset
-          projectPath: ProjectSettings\EditorSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\GraphicsSettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\GraphicsSettings.asset
-          projectPath: ProjectSettings\GraphicsSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\InputManager.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\InputManager.asset
-          projectPath: ProjectSettings\InputManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\MemorySettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\MemorySettings.asset
-          projectPath: ProjectSettings\MemorySettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\NavMeshAreas.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\NavMeshAreas.asset
-          projectPath: ProjectSettings\NavMeshAreas.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\NetworkManager.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\NetworkManager.asset
-          projectPath: ProjectSettings\NetworkManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\PackageManagerSettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\PackageManagerSettings.asset
-          projectPath: ProjectSettings\PackageManagerSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\Physics2DSettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\Physics2DSettings.asset
-          projectPath: ProjectSettings\Physics2DSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\PresetManager.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\PresetManager.asset
-          projectPath: ProjectSettings\PresetManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\ProjectSettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\ProjectSettings.asset
-          projectPath: ProjectSettings\ProjectSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\ProjectVersion.txt
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\ProjectVersion.txt
-          projectPath: ProjectSettings\ProjectVersion.txt
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\QualitySettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\QualitySettings.asset
-          projectPath: ProjectSettings\QualitySettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\TagManager.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\TagManager.asset
-          projectPath: ProjectSettings\TagManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\TimeManager.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\TimeManager.asset
-          projectPath: ProjectSettings\TimeManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\UnityConnectSettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\UnityConnectSettings.asset
-          projectPath: ProjectSettings\UnityConnectSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\VFXManager.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\VFXManager.asset
-          projectPath: ProjectSettings\VFXManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\VersionControlSettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\VersionControlSettings.asset
-          projectPath: ProjectSettings\VersionControlSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\XRSettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\XRSettings.asset
-          projectPath: ProjectSettings\XRSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - commitID: be5fa5c0277347a994d56a0e808b53d606cb4ee2
+      - commitID: a9db2ddde2cc4995ca1a9808892e2cdf8f18ece2
         mergeA: 
         mergeB: 
         authorName: Luke Dinh
@@ -1151,8 +815,8 @@ MonoBehaviour:
         commitName: Luke Dinh
         summary: Initial commit
         description: 
-        timeString: 2023-09-22T13:17:02.000-07:00
-        commitTimeString: 2023-09-22T13:17:02.000-07:00
+        timeString: 2023-09-22T13:29:03.000-07:00
+        commitTimeString: 2023-09-22T13:29:03.000-07:00
         changes:
         - path: .gitattributes
           fullPath: C:\Users\ldluc\Martian Defender\.gitattributes
@@ -1234,11 +898,11 @@ MonoBehaviour:
       changingManually: 0
     hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-09-22T13:48:18.174-07:00
       cacheType: 1
-    newRepositoryRemoteUrl: https://github.com/lxkedinh/martian-defender
+    newRepositoryRemoteUrl: https://github.com/lxkedinh/martian-defender.git
     repositoryRemoteName: origin
-    repositoryRemoteUrl: https://github.com/lxkedinh/martian-defender
+    repositoryRemoteUrl: https://github.com/lxkedinh/martian-defender.git
     scroll: {x: 0, y: 0}
     userSettingsView:
       gitName: Luke Dinh
@@ -1247,7 +911,7 @@ MonoBehaviour:
       newGitEmail: lukexdinh@gmail.com
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2023-09-22T13:24:52.483-07:00
+        updatedTimeString: 2023-09-22T13:48:32.876-07:00
         cacheType: 8
     webTimeout: 100000
     gitTimeout: 5000
@@ -1276,22 +940,250 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 1 Jan 0001, 00:00
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-09-22T13:29:04.336-07:00
       cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 2023-09-22T13:25:16.164-07:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
     lastStatusEntriesChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 6
     lockedFiles: []
     gitStatusEntries:
+    - path: Assets\Scenes.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\EnemyScene.unity
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\EnemyScene.unity
+      projectPath: Assets\Scenes\EnemyScene.unity
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\EnemyScene.unity.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\EnemyScene.unity.meta
+      projectPath: Assets\Scenes\EnemyScene.unity.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\LevelScene.unity
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\LevelScene.unity
+      projectPath: Assets\Scenes\LevelScene.unity
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\LevelScene.unity.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\LevelScene.unity.meta
+      projectPath: Assets\Scenes\LevelScene.unity.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\MainScene.unity
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\MainScene.unity
+      projectPath: Assets\Scenes\MainScene.unity
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\MainScene.unity.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\MainScene.unity.meta
+      projectPath: Assets\Scenes\MainScene.unity.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\TowerScene.unity
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity
+      projectPath: Assets\Scenes\TowerScene.unity
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\TowerScene.unity.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity.meta
+      projectPath: Assets\Scenes\TowerScene.unity.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\UIScene.unity
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\UIScene.unity
+      projectPath: Assets\Scenes\UIScene.unity
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\UIScene.unity.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\UIScene.unity.meta
+      projectPath: Assets\Scenes\UIScene.unity.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Packages\manifest.json
+      fullPath: C:\Users\ldluc\Martian Defender\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Packages\packages-lock.json
+      fullPath: C:\Users\ldluc\Martian Defender\Packages\packages-lock.json
+      projectPath: Packages\packages-lock.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\AudioManager.asset
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\ClusterInputManager.asset
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
     - path: ProjectSettings\EditorBuildSettings.asset
       fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\EditorBuildSettings.asset
       projectPath: ProjectSettings\EditorBuildSettings.asset
       originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\InputManager.asset
+      fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\MemorySettings.asset
+      fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\MemorySettings.asset
+      projectPath: ProjectSettings\MemorySettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\NetworkManager.asset
+      fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\NetworkManager.asset
+      projectPath: ProjectSettings\NetworkManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\PackageManagerSettings.asset
+      fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\PackageManagerSettings.asset
+      projectPath: ProjectSettings\PackageManagerSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\Physics2DSettings.asset
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\TagManager.asset
+      fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\VersionControlSettings.asset
+      fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\VersionControlSettings.asset
+      projectPath: ProjectSettings\VersionControlSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\VFXManager.asset
+      fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\VFXManager.asset
+      projectPath: ProjectSettings\VFXManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\XRSettings.asset
+      fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\XRSettings.asset
+      projectPath: ProjectSettings\XRSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: C:\Users\ldluc\Martian Defender\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\Layouts\default-2022.dwlt
+      fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Layouts\default-2022.dwlt
+      projectPath: UserSettings\Layouts\default-2022.dwlt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\Search.index
+      fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Search.index
+      projectPath: UserSettings\Search.index
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\Search.settings
+      fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Search.settings
+      projectPath: UserSettings\Search.settings
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
     currentUsername: 
     unlockFileMenuContent:
       m_Text: Release Lock
@@ -1303,28 +1195,28 @@ MonoBehaviour:
       m_Tooltip: 
   hasRemote: 1
   currentRemoteName: origin
-  currentBranch: main
-  currentRemoteUrl: https://github.com/lxkedinh/martian-defender
+  currentBranch: luke/tower-ai
+  currentRemoteUrl: https://github.com/lxkedinh/martian-defender.git
   statusAhead: 0
   statusBehind: 0
   hasItemsToCommit: 1
-  isTrackingRemoteBranch: 0
+  isTrackingRemoteBranch: 1
   currentBranchContent:
-    m_Text: main
+    m_Text: luke/tower-ai
     m_Image: {fileID: 0}
     m_Tooltip: Active branch
   currentRemoteUrlContent:
-    m_Text: https://github.com/lxkedinh/martian-defender
+    m_Text: https://github.com/lxkedinh/martian-defender.git
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 0001-01-01T00:00:00.000+00:00
+    updatedTimeString: 2023-09-22T13:49:20.367-07:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 0001-01-01T00:00:00.000+00:00
+    updatedTimeString: 2023-09-22T14:18:32.305-07:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 0001-01-01T00:00:00.000+00:00
+    updatedTimeString: 2023-09-22T14:18:32.296-07:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -1342,12 +1234,12 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
-  appManagerProgressValue: 0
+  repositoryProgressValue: 1
+  repositoryProgressMessage: Pushed
+  appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1392,7 +1284,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1400,16 +1292,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\ldluc\Martian Defender
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 70250000
-    m_LastClickedID: 9584
-    m_ExpandedIDs: 00000000fa25000000ca9a3bffffff7f
+    m_SelectedIDs: 34630000
+    m_LastClickedID: 25396
+    m_ExpandedIDs: 000000003463000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1437,7 +1329,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 0000000034630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1493,7 +1385,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1540,7 +1432,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1579,7 +1471,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 7cf7ffffc2f7ffff08f8ffff4ef8fffffcfaffff
+      m_ExpandedIDs: 1afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1603,7 +1495,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2051,7 +1943,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2149,7 +2041,7 @@ MonoBehaviour:
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
