@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -144,14 +144,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: isometric-sandbox-sheet_1
+      name: half-grass
       rect:
         serializedVersion: 2
         x: 32
         y: 256
         width: 32
         height: 32
-      alignment: 0
+      alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -256,8 +256,8 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -277,8 +277,8 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -509,7 +509,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.75}
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -634,8 +634,8 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -655,8 +655,8 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -795,15 +795,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: isometric-sandbox-sheet_32
+      name: ore-vein
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -928,8 +928,8 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -949,8 +949,8 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1130,6 +1130,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: isometric-sandbox-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 271
+        width: 78
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da67e2f69df245478d74ed23ac5792f
+      internalID: 956264851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1142,53 +1163,54 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       green_square_tile: -1828174824
-      isometric-sandbox-sheet_1: 1546882233
-      isometric-sandbox-sheet_10: -415264672
-      isometric-sandbox-sheet_11: 1370013662
-      isometric-sandbox-sheet_12: 353410636
-      isometric-sandbox-sheet_13: -2144406514
-      isometric-sandbox-sheet_14: 1710648505
-      isometric-sandbox-sheet_15: -1439884487
-      isometric-sandbox-sheet_16: -2024263116
-      isometric-sandbox-sheet_17: -2010609904
-      isometric-sandbox-sheet_19: -482373383
-      isometric-sandbox-sheet_2: 534381387
-      isometric-sandbox-sheet_20: -1871668075
-      isometric-sandbox-sheet_21: 40434934
-      isometric-sandbox-sheet_22: -2036068580
-      isometric-sandbox-sheet_23: 654395541
-      isometric-sandbox-sheet_24: 1100254263
-      isometric-sandbox-sheet_25: -77898964
-      isometric-sandbox-sheet_26: -1460794097
-      isometric-sandbox-sheet_27: 1601451934
-      isometric-sandbox-sheet_28: -1324068390
-      isometric-sandbox-sheet_29: 1766040130
-      isometric-sandbox-sheet_3: 680045700
-      isometric-sandbox-sheet_30: -1613053309
-      isometric-sandbox-sheet_31: -896688923
-      isometric-sandbox-sheet_32: -1645213594
-      isometric-sandbox-sheet_33: 2079261168
-      isometric-sandbox-sheet_34: 203725841
-      isometric-sandbox-sheet_35: -267496913
-      isometric-sandbox-sheet_36: -911305411
-      isometric-sandbox-sheet_37: 408627966
-      isometric-sandbox-sheet_38: 652132834
-      isometric-sandbox-sheet_39: 1872253897
-      isometric-sandbox-sheet_4: 122971025
-      isometric-sandbox-sheet_40: -1032637254
-      isometric-sandbox-sheet_41: -1657908082
-      isometric-sandbox-sheet_42: -1368689770
-      isometric-sandbox-sheet_43: -600607707
-      isometric-sandbox-sheet_44: -1968836130
-      isometric-sandbox-sheet_45: 1846511390
-      isometric-sandbox-sheet_46: -1993288042
-      isometric-sandbox-sheet_47: 1408245670
-      isometric-sandbox-sheet_5: 1857510445
-      isometric-sandbox-sheet_6: -663829523
-      isometric-sandbox-sheet_7: 430713486
-      isometric-sandbox-sheet_8: 1892575876
-      isometric-sandbox-sheet_9: 1862114993
-      tower: -608842647
+      half-grass: 1546882233
+      isometric-sandbox-sheet_0: 956264851
+      isometric-sandbox-sheet_10: 1370013662
+      isometric-sandbox-sheet_11: 353410636
+      isometric-sandbox-sheet_12: -2144406514
+      isometric-sandbox-sheet_13: 1710648505
+      isometric-sandbox-sheet_14: -1439884487
+      isometric-sandbox-sheet_15: -2024263116
+      isometric-sandbox-sheet_16: -2010609904
+      isometric-sandbox-sheet_17: -482373383
+      isometric-sandbox-sheet_19: 534381387
+      isometric-sandbox-sheet_2: -1871668075
+      isometric-sandbox-sheet_20: 40434934
+      isometric-sandbox-sheet_21: -2036068580
+      isometric-sandbox-sheet_22: 654395541
+      isometric-sandbox-sheet_23: 1100254263
+      isometric-sandbox-sheet_24: -77898964
+      isometric-sandbox-sheet_25: -1460794097
+      isometric-sandbox-sheet_26: 1601451934
+      isometric-sandbox-sheet_27: -1324068390
+      isometric-sandbox-sheet_28: 1766040130
+      isometric-sandbox-sheet_29: 680045700
+      isometric-sandbox-sheet_3: -1613053309
+      isometric-sandbox-sheet_30: -896688923
+      isometric-sandbox-sheet_31: -1645213594
+      isometric-sandbox-sheet_33: 203725841
+      isometric-sandbox-sheet_34: -267496913
+      isometric-sandbox-sheet_35: -911305411
+      isometric-sandbox-sheet_36: 408627966
+      isometric-sandbox-sheet_37: 652132834
+      isometric-sandbox-sheet_38: 1872253897
+      isometric-sandbox-sheet_39: 122971025
+      isometric-sandbox-sheet_4: -1032637254
+      isometric-sandbox-sheet_40: -1657908082
+      isometric-sandbox-sheet_41: -1368689770
+      isometric-sandbox-sheet_42: -600607707
+      isometric-sandbox-sheet_43: -1968836130
+      isometric-sandbox-sheet_44: 1846511390
+      isometric-sandbox-sheet_45: -1993288042
+      isometric-sandbox-sheet_46: 1408245670
+      isometric-sandbox-sheet_47: 1857510445
+      isometric-sandbox-sheet_5: -663829523
+      isometric-sandbox-sheet_6: 430713486
+      isometric-sandbox-sheet_7: 1892575876
+      isometric-sandbox-sheet_8: 1862114993
+      isometric-sandbox-sheet_9: -608842647
+      ore-vein: -1645213594
+      tower: 1546882233
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
