@@ -9,11 +9,12 @@ public class MouseController : MonoBehaviour
 {
     public Tower towerPrefab;
     private readonly Mouse mouse = Mouse.current;
+    private SpriteRenderer spriteRenderer;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -32,13 +33,14 @@ public class MouseController : MonoBehaviour
                 }
             }
 
-            if (cursorHit.Value.collider.gameObject.TryGetComponent<Tower>(out Tower tower) && mouse.leftButton.wasPressedThisFrame)
+            else if (cursorHit.Value.collider.gameObject.TryGetComponent<Tower>(out Tower tower))
             {
-                foreach (Tower placedTower in MapController.Instance.towersPlaced)
+                spriteRenderer.enabled = false;
+
+                if (mouse.leftButton.wasPressedThisFrame)
                 {
-                    placedTower.Deselect();
+                    SelectTower(tower);
                 }
-                tower.Select();
             }
         }
     }
@@ -46,27 +48,32 @@ public class MouseController : MonoBehaviour
     public void ShowCursorIndicator(OverlayTile tile)
     {
         transform.position = tile.transform.position;
-        GetComponent<SpriteRenderer>().sortingOrder = tile.GetComponent<SpriteRenderer>().sortingOrder;
+        spriteRenderer.enabled = true;
+        spriteRenderer.sortingOrder = tile.GetComponent<SpriteRenderer>().sortingOrder;
     }
 
     private void PlaceTowerOnTile(OverlayTile tile)
+    {
+        Tower tower = Instantiate(towerPrefab).GetComponent<Tower>();
+        tower.transform.position = new Vector3(tile.transform.position.x, tile.transform.position.y, tile.transform.position.z);
+        tower.GetComponent<SpriteRenderer>().sortingOrder = tile.GetComponent<SpriteRenderer>().sortingOrder;
+        MapController.Instance.towersPlaced.Add(tower);
+        SelectTower(tower);
+    }
+
+    private void SelectTower(Tower tower)
     {
         foreach (Tower placedTower in MapController.Instance.towersPlaced)
         {
             placedTower.Deselect();
         }
-
-        Tower tower = Instantiate(towerPrefab).GetComponent<Tower>();
-        tower.transform.position = new Vector3(tile.transform.position.x, tile.transform.position.y, tile.transform.position.z);
-        tower.GetComponent<SpriteRenderer>().sortingOrder = tile.GetComponent<SpriteRenderer>().sortingOrder;
-        MapController.Instance.towersPlaced.Add(tower);
         tower.Select();
     }
 
 
     public RaycastHit2D? GetObjectOnCursor()
     {
-        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector3 mousePos = Camera.main.ScreenToWorldPoint(mouse.position.ReadValue());
         Vector2 mousePos2d = new(mousePos.x, mousePos.y);
         RaycastHit2D[] hits = Physics2D.RaycastAll(mousePos2d, Vector2.zero);
 

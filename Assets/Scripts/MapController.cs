@@ -32,7 +32,7 @@ public class MapController : MonoBehaviour
         BoundsInt bounds = tilemap.cellBounds;
         map = new Dictionary<Vector2Int, OverlayTile>();
 
-        // looping through all tiles from top to bottom
+        // looping through all tiles from highest to lowest elevation
         for (int z = bounds.max.z; z >= bounds.min.z; z--)
         {
             for (int y = bounds.min.y; y < bounds.max.y; y++)
@@ -41,6 +41,8 @@ public class MapController : MonoBehaviour
                 {
                     Vector3Int tileLocation = new(x, y, z);
                     Vector2Int tileKey = new(x, y);
+
+                    // we only want to create overlay tiles to show cursor on the surface tiles
                     if (tilemap.HasTile(tileLocation) && !map.ContainsKey(tileKey))
                     {
                         OverlayTile overlayTile = Instantiate(overlayTilePrefab, overlayContainer.transform);
