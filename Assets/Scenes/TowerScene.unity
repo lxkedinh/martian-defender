@@ -202,7 +202,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &265556275
 AudioListener:
   m_ObjectHideFlags: 0
@@ -210,7 +210,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265556274}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &265556276
 Camera:
   m_ObjectHideFlags: 0
