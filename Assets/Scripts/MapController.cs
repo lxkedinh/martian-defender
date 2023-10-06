@@ -9,6 +9,7 @@ public class MapController : MonoBehaviour
     public Tilemap tilemap;
     public OverlayTile overlayTilePrefab;
     public GameObject overlayContainer;
+    public HashSet<Tower> towersPlaced = new();
 
     private Dictionary<Vector2Int, OverlayTile> map;
 

@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Tilemaps;
 
 public class MouseController : MonoBehaviour
 {
     public Tower towerPrefab;
+    private readonly Mouse mouse = Mouse.current;
 
     // Start is called before the first frame update
     void Start()
@@ -19,22 +21,25 @@ public class MouseController : MonoBehaviour
         RaycastHit2D? cursorHit = GetObjectOnCursor();
         if (cursorHit.HasValue)
         {
-            // show cursor tile indicator for mouse hovering
-            OverlayTile tile = cursorHit.Value.collider.gameObject.GetComponent<OverlayTile>();
-
-            if (tile != null)
+            if (cursorHit.Value.collider.gameObject.TryGetComponent<OverlayTile>(out OverlayTile tile))
             {
                 ShowCursorIndicator(tile);
 
                 // spawn tower prefab on tile click
-                Mouse mouse = Mouse.current;
                 if (mouse.leftButton.wasPressedThisFrame)
                 {
                     PlaceTowerOnTile(tile);
                 }
             }
 
-
+            if (cursorHit.Value.collider.gameObject.TryGetComponent<Tower>(out Tower tower) && mouse.leftButton.wasPressedThisFrame)
+            {
+                foreach (Tower placedTower in MapController.Instance.towersPlaced)
+                {
+                    placedTower.Deselect();
+                }
+                tower.Select();
+            }
         }
     }
 
@@ -46,9 +51,16 @@ public class MouseController : MonoBehaviour
 
     private void PlaceTowerOnTile(OverlayTile tile)
     {
+        foreach (Tower placedTower in MapController.Instance.towersPlaced)
+        {
+            placedTower.Deselect();
+        }
+
         Tower tower = Instantiate(towerPrefab).GetComponent<Tower>();
         tower.transform.position = new Vector3(tile.transform.position.x, tile.transform.position.y, tile.transform.position.z);
         tower.GetComponent<SpriteRenderer>().sortingOrder = tile.GetComponent<SpriteRenderer>().sortingOrder;
+        MapController.Instance.towersPlaced.Add(tower);
+        tower.Select();
     }
 
 
