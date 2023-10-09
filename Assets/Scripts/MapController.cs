@@ -8,6 +8,7 @@ public class MapController : MonoBehaviour
     public static MapController Instance { get; private set; }
     public Tilemap tilemap;
     public OverlayTile overlayTilePrefab;
+    public Tower towerPrefab;
     public GameObject overlayContainer;
     public HashSet<Tower> towersPlaced = new();
 
@@ -17,7 +18,7 @@ public class MapController : MonoBehaviour
     {
         if (Instance != null && Instance != this)
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
         else
         {
@@ -29,9 +30,14 @@ public class MapController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        BoundsInt bounds = tilemap.cellBounds;
         map = new Dictionary<Vector2Int, OverlayTile>();
+        GenerateOverlayTiles();
 
+    }
+
+    private void GenerateOverlayTiles()
+    {
+        BoundsInt bounds = tilemap.cellBounds;
         // looping through all tiles from highest to lowest elevation
         for (int z = bounds.max.z; z >= bounds.min.z; z--)
         {
@@ -54,6 +60,23 @@ public class MapController : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void SelectTower(Tower tower)
+    {
+        foreach (Tower placedTower in towersPlaced)
+        {
+            placedTower.Deselect();
+        }
+        tower.Select();
+    }
+
+    public void PlaceTowerOnTile(OverlayTile tile)
+    {
+        Tower tower = Instantiate(towerPrefab);
+        tower.transform.position = new Vector3(tile.transform.position.x, tile.transform.position.y, tile.transform.position.z + 1);
+        Instance.towersPlaced.Add(tower);
+        Instance.SelectTower(tower);
     }
 
     // Update is called once per frame
