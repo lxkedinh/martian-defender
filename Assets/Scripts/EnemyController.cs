@@ -1,26 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyController : MonoBehaviour
 {
-    public GameObject objectToFollow;
-    public float speed;
-
-    private float distance;
+    [SerializeField] Transform target;
+    NavMeshAgent agent;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        distance = Vector2.Distance(transform.position, objectToFollow.transform.position);
-        Vector2 direction = objectToFollow.transform.position - transform.position;
-
-        transform.position = Vector2.MoveTowards(this.transform.position, objectToFollow.transform.position, speed * Time.deltaTime);
+        agent.SetDestination(target.position); 
     }
 }
