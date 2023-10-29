@@ -63,7 +63,7 @@ public class MouseController : MonoBehaviour
     {
         transform.position = tile.transform.position;
         spriteRenderer.enabled = true;
-        spriteRenderer.sortingOrder = tile.GetComponent<SpriteRenderer>().sortingOrder;
+        // spriteRenderer.sortingOrder = tile.GetComponent<SpriteRenderer>().sortingOrder;
     }
 
 

@@ -168,6 +168,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &3638108297183621161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9119585492499608738}
+  m_Layer: 0
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9119585492499608738
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3638108297183621161}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1403372068998415167}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5814182504533383940
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,7 +214,7 @@ GameObject:
   - component: {fileID: 1594055660536132756}
   - component: {fileID: 835058883451228277}
   - component: {fileID: 4403567562380353086}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -205,6 +236,7 @@ Transform:
   m_Children:
   - {fileID: 1187209470318354743}
   - {fileID: 8245628133474282643}
+  - {fileID: 9119585492499608738}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5565290022535420818
@@ -378,3 +410,7 @@ MonoBehaviour:
   rangeRadius: 0
   rangeIndicator: {fileID: 2850841656061583421}
   outlineIndicator: {fileID: 1168228761990596295}
+  firePoint: {fileID: 3638108297183621161}
+  projectilePrefab: {fileID: 7401622448639956225, guid: 39afe696854b1344bbeeebba22d7eb5c, type: 3}
+  attackCooldown: 1.5
+  target: {fileID: 0}

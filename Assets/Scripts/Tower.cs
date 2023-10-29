@@ -10,6 +10,11 @@ public class Tower : MonoBehaviour
     private bool isSelected;
     public GameObject rangeIndicator;
     public GameObject outlineIndicator;
+    public GameObject firePoint;
+    public Projectile projectilePrefab;
+    public float attackCooldown = 1.5f; // seconds
+    private float nextAttack = 0.0f;
+    public Enemy target = null;
 
     // Start is called before the first frame update
     void Start()
@@ -19,16 +24,12 @@ public class Tower : MonoBehaviour
         rangeIndicator.transform.localScale = new Vector3(scaleFactor, scaleFactor, scaleFactor);
     }
 
-    void OnMouseEnter()
+    void Update()
     {
-        ShowOutline();
-    }
-
-    void OnMouseExit()
-    {
-        if (!isSelected)
+        if (Time.time > nextAttack)
         {
-            HideOutline();
+            nextAttack = Time.time + attackCooldown;
+            Instantiate(projectilePrefab, firePoint.transform.position, transform.rotation);
         }
     }
 
@@ -54,5 +55,10 @@ public class Tower : MonoBehaviour
         isSelected = false;
         rangeIndicator.GetComponent<SpriteRenderer>().enabled = false;
         HideOutline();
+    }
+
+    public void FireAttack()
+    {
+
     }
 }
