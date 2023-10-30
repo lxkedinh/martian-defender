@@ -14,6 +14,7 @@ public class Tower : MonoBehaviour
     public Projectile projectilePrefab;
     public float attackCooldown = 1.5f; // seconds
     private float nextAttack = 0.0f;
+    private List<Enemy> enemiesInRange = new();
     public Enemy target = null;
 
     // Start is called before the first frame update
@@ -26,11 +27,7 @@ public class Tower : MonoBehaviour
 
     void Update()
     {
-        if (Time.time > nextAttack)
-        {
-            nextAttack = Time.time + attackCooldown;
-            Instantiate(projectilePrefab, firePoint.transform.position, transform.rotation);
-        }
+        FireAttack();
     }
 
     public void Select()
@@ -59,6 +56,34 @@ public class Tower : MonoBehaviour
 
     public void FireAttack()
     {
+        if (Time.time > nextAttack)
+        {
+            nextAttack = Time.time + attackCooldown;
+            Instantiate(projectilePrefab, firePoint.transform.position, transform.rotation);
+        }
+    }
 
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.TryGetComponent<Enemy>(out Enemy enemy))
+        {
+            enemiesInRange.Add(enemy);
+            Debug.Log(enemiesInRange.Count);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collider)
+    {
+        if (collider == null) return;
+
+        if (collider.TryGetComponent<Enemy>(out Enemy enemy))
+        {
+            Enemy enemyLeavingRange = enemiesInRange.Find(e => e == enemy);
+            if (enemyLeavingRange != null)
+            {
+                enemiesInRange.Remove(enemyLeavingRange);
+            }
+            Debug.Log(enemiesInRange.Count);
+        }
     }
 }
