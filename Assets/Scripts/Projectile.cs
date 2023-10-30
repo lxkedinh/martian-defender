@@ -5,13 +5,13 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    private Vector2 velocity;
+    public Vector2 fireDirection;
     public Rigidbody2D rbody;
 
     // Start is called before the first frame update
     void Start()
     {
-        rbody.velocity = transform.right * moveSpeed;
+        rbody.velocity = fireDirection * moveSpeed;
     }
 
     void OnTriggerEnter2D(Collider2D collider)

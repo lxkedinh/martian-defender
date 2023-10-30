@@ -237,9 +237,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1594055660536132756, guid: 10260b8a830428243b8441b231bf326a, type: 3}
+      propertyPath: attackDamage
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4403567562380353086, guid: 10260b8a830428243b8441b231bf326a, type: 3}
       propertyPath: attackCooldown
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5645345430360565505, guid: 10260b8a830428243b8441b231bf326a, type: 3}
       propertyPath: m_BodyType
@@ -354,7 +358,7 @@ Transform:
   m_GameObject: {fileID: 265556274}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.52, y: 2.55, z: -10}
+  m_LocalPosition: {x: 3.3, y: 3.04, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -414,11 +418,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4858481532897602598, guid: d5e517b46c611d441858f3ba96e9d3b1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.61
+      value: 4.95
       objectReference: {fileID: 0}
     - target: {fileID: 4858481532897602598, guid: d5e517b46c611d441858f3ba96e9d3b1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.29
+      value: 6.23
       objectReference: {fileID: 0}
     - target: {fileID: 4858481532897602598, guid: d5e517b46c611d441858f3ba96e9d3b1, type: 3}
       propertyPath: m_LocalPosition.z
