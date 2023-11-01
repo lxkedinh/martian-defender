@@ -71,14 +71,6 @@ public class MapController : MonoBehaviour
         tower.Select();
     }
 
-    public void PlaceTowerOnTile(OverlayTile tile)
-    {
-        Tower tower = Instantiate(towerPrefab);
-        tower.transform.position = new Vector3(tile.transform.position.x, tile.transform.position.y, tile.transform.position.z + 1);
-        Instance.towersPlaced.Add(tower);
-        Instance.SelectTower(tower);
-    }
-
     // Update is called once per frame
     void Update()
     {

@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 1187209470318354743}
   - component: {fileID: 482816920083380621}
   - component: {fileID: 6185731477629456076}
+  - component: {fileID: 1307800399822046479}
   m_Layer: 8
   m_Name: RangeIndicator
   m_TagString: Untagged
@@ -234,6 +235,18 @@ PolygonCollider2D:
       - {x: 0.29296875, y: 0.40234375}
       - {x: 0.15234375, y: 0.47265625}
   m_UseDelaunayMesh: 0
+--- !u!114 &1307800399822046479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2850841656061583421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd5266ae83aaf84191e84e57dceca42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3638108297183621161
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,4 +491,4 @@ MonoBehaviour:
   outlineIndicator: {fileID: 1168228761990596295}
   firePoint: {fileID: 3638108297183621161}
   projectilePrefab: {fileID: 7401622448639956225, guid: 39afe696854b1344bbeeebba22d7eb5c, type: 3}
-  attackCooldown: 1.5
+  attackCooldown: 1

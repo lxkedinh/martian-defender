@@ -22,6 +22,7 @@ public class MouseController : MonoBehaviour
         {
             Instance = this;
         }
+
     }
 
     // Start is called before the first frame update
@@ -32,31 +33,31 @@ public class MouseController : MonoBehaviour
 
     void Update()
     {
-        RaycastHit2D? cursorHit = GetObjectOnCursor();
-        if (cursorHit.HasValue)
-        {
-            if (cursorHit.Value.collider.gameObject.TryGetComponent(out OverlayTile tile))
-            {
-                ShowCursorIndicator(tile);
+        // RaycastHit2D? cursorHit = GetObjectOnCursor();
+        // if (cursorHit.HasValue)
+        // {
+        //     if (cursorHit.Value.collider.gameObject.TryGetComponent(out OverlayTile tile))
+        //     {
+        //         ShowCursorIndicator(tile);
 
-                // spawn tower prefab on tile click
-                if (mouse.leftButton.wasPressedThisFrame)
-                {
-                    MapController.Instance.PlaceTowerOnTile(tile);
-                }
-            }
+        //         // spawn tower prefab on tile click
+        //         if (mouse.leftButton.wasPressedThisFrame)
+        //         {
+        //             MapController.Instance.PlaceTowerOnTile(tile);
+        //         }
+        //     }
 
-            else if (cursorHit.Value.collider.gameObject.TryGetComponent(out Tower tower))
-            {
-                spriteRenderer.enabled = false;
-                // tower.ShowOutline();
+        //     else if (cursorHit.Value.collider.gameObject.TryGetComponent(out Tower tower))
+        //     {
+        //         spriteRenderer.enabled = false;
+        //         // tower.ShowOutline();
 
-                if (mouse.leftButton.wasPressedThisFrame)
-                {
-                    MapController.Instance.SelectTower(tower);
-                }
-            }
-        }
+        //         if (mouse.leftButton.wasPressedThisFrame)
+        //         {
+        //             MapController.Instance.SelectTower(tower);
+        //         }
+        //     }
+        // }
     }
 
     public void ShowCursorIndicator(OverlayTile tile)

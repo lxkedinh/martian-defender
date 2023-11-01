@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(Attack))]
 [RequireComponent(typeof(Health))]
-public class Tower : MonoBehaviour
+public class Tower : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     public int rangeRadius;
     private bool isSelected;
@@ -112,5 +113,20 @@ public class Tower : MonoBehaviour
                 targetReference = null;
             }
         }
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        ShowOutline();
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        HideOutline();
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        MapController.Instance.SelectTower(this);
     }
 }
