@@ -6,13 +6,9 @@ using UnityEngine.Tilemaps;
 public class MapController : MonoBehaviour
 {
     public static MapController Instance { get; private set; }
-    public Tilemap tilemap;
-    public OverlayTile overlayTilePrefab;
     public Tower towerPrefab;
-    public GameObject overlayContainer;
     public HashSet<Tower> towersPlaced = new();
 
-    private Dictionary<Vector2Int, OverlayTile> map;
 
     private void Awake()
     {

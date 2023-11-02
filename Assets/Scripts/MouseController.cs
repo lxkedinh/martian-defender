@@ -32,8 +32,9 @@ public class MouseController : MonoBehaviour
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(mouse.position.ReadValue());
         RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
 
-        if (hit.collider == null || hit.collider.name != "Tilemap")
+        if (hit.collider == null || hit.collider.name != "Tilemap" || hit.collider.name != "Cursor")
         {
+            Debug.Log(hit.collider.name == "Tilemap");
             spriteRenderer.enabled = false;
             return;
         }
