@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -5,12 +6,21 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Tilemaps;
 
+public enum PlacementObjectType
+{
+    Tower,
+    Wall,
+}
+
 public class MouseController : MonoBehaviour
 {
     public static MouseController Instance { get; private set; }
 
     private readonly Mouse mouse = Mouse.current;
     private SpriteRenderer spriteRenderer;
+
+
+    public PlacementObjectType currentPlacementObjectType = PlacementObjectType.Tower;
 
     private void Awake()
     {
@@ -39,10 +49,10 @@ public class MouseController : MonoBehaviour
             {
                 ShowCursorIndicator(tile);
 
-                // spawn tower prefab on tile click
+                // spawn tower or wall prefab on tile click
                 if (mouse.leftButton.wasPressedThisFrame)
                 {
-                    MapController.Instance.PlaceTowerOnTile(tile);
+                    MapController.Instance.PlaceObjectOnTile(tile, currentPlacementObjectType);
                 }
             }
 
@@ -56,6 +66,10 @@ public class MouseController : MonoBehaviour
                     MapController.Instance.SelectTower(tower);
                 }
             }
+        }
+        if (Keyboard.current.tKey.wasPressedThisFrame)
+        {
+            currentPlacementObjectType = (PlacementObjectType)(((int)currentPlacementObjectType + 1) % Enum.GetValues(typeof(PlacementObjectType)).Length);
         }
     }
 

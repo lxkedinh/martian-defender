@@ -11,6 +11,7 @@ public class MapController : MonoBehaviour
     public Tower towerPrefab;
     public GameObject overlayContainer;
     public HashSet<Tower> towersPlaced = new();
+    public Wall wallPrefab;
 
     private Dictionary<Vector2Int, OverlayTile> map;
 
@@ -77,6 +78,22 @@ public class MapController : MonoBehaviour
         tower.transform.position = new Vector3(tile.transform.position.x, tile.transform.position.y, tile.transform.position.z + 1);
         Instance.towersPlaced.Add(tower);
         Instance.SelectTower(tower);
+    }
+
+
+    public void PlaceObjectOnTile(OverlayTile tile, PlacementObjectType objectType)
+    {
+        switch (objectType)
+        {
+            case PlacementObjectType.Tower:
+                PlaceTowerOnTile(tile);
+                break;
+            case PlacementObjectType.Wall:
+                // Handle placing other object types here
+                Wall wall = Instantiate(wallPrefab);
+                wall.transform.position = new Vector3(tile.transform.position.x, tile.transform.position.y, tile.transform.position.z + 1);
+                break;
+        }
     }
 
     // Update is called once per frame
