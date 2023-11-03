@@ -3,15 +3,31 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Tilemaps;
 
 public class MouseController : MonoBehaviour
 {
-    public Tower towerPrefab;
+    public static MouseController Instance { get; private set; }
+
+    private readonly Mouse mouse = Mouse.current;
+    private SpriteRenderer spriteRenderer;
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -19,42 +35,42 @@ public class MouseController : MonoBehaviour
         RaycastHit2D? cursorHit = GetObjectOnCursor();
         if (cursorHit.HasValue)
         {
-            // show cursor tile indicator for mouse hovering
-            OverlayTile tile = cursorHit.Value.collider.gameObject.GetComponent<OverlayTile>();
-
-            if (tile != null)
+            if (cursorHit.Value.collider.gameObject.TryGetComponent(out OverlayTile tile))
             {
                 ShowCursorIndicator(tile);
 
                 // spawn tower prefab on tile click
-                Mouse mouse = Mouse.current;
                 if (mouse.leftButton.wasPressedThisFrame)
                 {
-                    PlaceTowerOnTile(tile);
+                    MapController.Instance.PlaceTowerOnTile(tile);
                 }
             }
 
+            else if (cursorHit.Value.collider.gameObject.TryGetComponent(out Tower tower))
+            {
+                spriteRenderer.enabled = false;
+                // tower.ShowOutline();
 
+                if (mouse.leftButton.wasPressedThisFrame)
+                {
+                    MapController.Instance.SelectTower(tower);
+                }
+            }
         }
     }
 
     public void ShowCursorIndicator(OverlayTile tile)
     {
         transform.position = tile.transform.position;
-        GetComponent<SpriteRenderer>().sortingOrder = tile.GetComponent<SpriteRenderer>().sortingOrder;
+        spriteRenderer.enabled = true;
+        // spriteRenderer.sortingOrder = tile.GetComponent<SpriteRenderer>().sortingOrder;
     }
 
-    private void PlaceTowerOnTile(OverlayTile tile)
-    {
-        Tower tower = Instantiate(towerPrefab).GetComponent<Tower>();
-        tower.transform.position = new Vector3(tile.transform.position.x, tile.transform.position.y, tile.transform.position.z);
-        tower.GetComponent<SpriteRenderer>().sortingOrder = tile.GetComponent<SpriteRenderer>().sortingOrder;
-    }
 
 
     public RaycastHit2D? GetObjectOnCursor()
     {
-        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector3 mousePos = Camera.main.ScreenToWorldPoint(mouse.position.ReadValue());
         Vector2 mousePos2d = new(mousePos.x, mousePos.y);
         RaycastHit2D[] hits = Physics2D.RaycastAll(mousePos2d, Vector2.zero);
 

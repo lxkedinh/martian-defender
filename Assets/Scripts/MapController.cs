@@ -8,7 +8,9 @@ public class MapController : MonoBehaviour
     public static MapController Instance { get; private set; }
     public Tilemap tilemap;
     public OverlayTile overlayTilePrefab;
+    public Tower towerPrefab;
     public GameObject overlayContainer;
+    public HashSet<Tower> towersPlaced = new();
 
     private Dictionary<Vector2Int, OverlayTile> map;
 
@@ -16,7 +18,7 @@ public class MapController : MonoBehaviour
     {
         if (Instance != null && Instance != this)
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
         else
         {
@@ -28,10 +30,15 @@ public class MapController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        BoundsInt bounds = tilemap.cellBounds;
         map = new Dictionary<Vector2Int, OverlayTile>();
+        GenerateOverlayTiles();
 
-        // looping through all tiles from top to bottom
+    }
+
+    private void GenerateOverlayTiles()
+    {
+        BoundsInt bounds = tilemap.cellBounds;
+        // looping through all tiles from highest to lowest elevation
         for (int z = bounds.max.z; z >= bounds.min.z; z--)
         {
             for (int y = bounds.min.y; y < bounds.max.y; y++)
@@ -40,6 +47,8 @@ public class MapController : MonoBehaviour
                 {
                     Vector3Int tileLocation = new(x, y, z);
                     Vector2Int tileKey = new(x, y);
+
+                    // we only want to create overlay tiles to show cursor on the surface tiles
                     if (tilemap.HasTile(tileLocation) && !map.ContainsKey(tileKey))
                     {
                         OverlayTile overlayTile = Instantiate(overlayTilePrefab, overlayContainer.transform);
@@ -51,6 +60,23 @@ public class MapController : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void SelectTower(Tower tower)
+    {
+        foreach (Tower placedTower in towersPlaced)
+        {
+            placedTower.Deselect();
+        }
+        tower.Select();
+    }
+
+    public void PlaceTowerOnTile(OverlayTile tile)
+    {
+        Tower tower = Instantiate(towerPrefab);
+        tower.transform.position = new Vector3(tile.transform.position.x, tile.transform.position.y, tile.transform.position.z + 1);
+        Instance.towersPlaced.Add(tower);
+        Instance.SelectTower(tower);
     }
 
     // Update is called once per frame
