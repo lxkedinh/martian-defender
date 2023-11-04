@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7468757258083314610
+--- !u!1 &1942069504311835841
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,12 +8,12 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5729545489817323065}
-  - component: {fileID: 7542084468056689601}
-  - component: {fileID: 7255083335958206584}
-  - component: {fileID: 7016452519457399053}
-  - component: {fileID: 6362376296090703393}
-  - component: {fileID: 3858615028879949081}
+  - component: {fileID: 5291398941110691299}
+  - component: {fileID: 5754771064298108612}
+  - component: {fileID: 4928106048209435589}
+  - component: {fileID: 1580432572410170914}
+  - component: {fileID: 8125835499500993947}
+  - component: {fileID: 8112709496582550627}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -21,28 +21,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5729545489817323065
+--- !u!4 &5291398941110691299
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7468757258083314610}
+  m_GameObject: {fileID: 1942069504311835841}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.14, y: 2.99, z: 0}
+  m_LocalPosition: {x: 9.77, y: -4.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &7542084468056689601
+--- !u!212 &5754771064298108612
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7468757258083314610}
+  m_GameObject: {fileID: 1942069504311835841}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -88,28 +88,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7255083335958206584
+--- !u!114 &4928106048209435589
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7468757258083314610}
+  m_GameObject: {fileID: 1942069504311835841}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e66c90773b48c70429ca70ec47ef22f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
---- !u!50 &7016452519457399053
+  speed: 3
+--- !u!50 &1580432572410170914
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7468757258083314610}
-  m_BodyType: 0
+  m_GameObject: {fileID: 1942069504311835841}
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -128,13 +129,13 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!195 &6362376296090703393
+--- !u!195 &8125835499500993947
 NavMeshAgent:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7468757258083314610}
+  m_GameObject: {fileID: 1942069504311835841}
   m_Enabled: 1
   m_AgentTypeID: -1372625422
   m_Radius: 0.5
@@ -150,13 +151,13 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!68 &3858615028879949081
-EdgeCollider2D:
+--- !u!60 &8112709496582550627
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7468757258083314610}
+  m_GameObject: {fileID: 1942069504311835841}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -183,14 +184,19 @@ EdgeCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 0.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   m_Points:
-  - {x: 0.0050320625, y: 0.052033663}
-  - {x: -0.4064827, y: -0.1620655}
-  - {x: 0.009107113, y: -0.36729598}
-  - {x: 0.40585375, y: -0.1682899}
-  - {x: 0.0072112083, y: 0.048972607}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
+    m_Paths:
+    - - {x: -0.34048462, y: -0.20653987}
+      - {x: 0.018296242, y: -0.37371945}
+      - {x: 0.35339165, y: -0.21888447}
+      - {x: 0.020632744, y: -0.055714607}
+  m_UseDelaunayMesh: 0

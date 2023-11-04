@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
+using System.Diagnostics;
 using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.AI;
@@ -21,6 +22,19 @@ public class EnemyController : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+
+        if (target == null)
+        {
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null)
+            {
+                target = player.transform;
+            }
+            else
+            {
+                UnityEngine.Debug.Log("No player found.");
+            }
+        }
     }
 
     // Update is called once per frame
@@ -32,7 +46,7 @@ public class EnemyController : MonoBehaviour
 
         if (path.status == NavMeshPathStatus.PathComplete)
         {
-            Debug.Log("Has Path: " + agent.hasPath);
+            UnityEngine.Debug.Log("Has Path: " + agent.hasPath);
             agent.SetDestination(target.position);
         } else
         {
