@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.Tilemaps;
 
-public class MouseController : MonoBehaviour
+public class MouseController : MonoBehaviour, IPointerClickHandler
 {
     public static MouseController Instance { get; private set; }
 
@@ -27,36 +27,30 @@ public class MouseController : MonoBehaviour
 
     }
 
-    void Update()
+    void FixedUpdate()
     {
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(mouse.position.ReadValue());
         RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
 
-        if (hit.collider == null || hit.collider.name != "Tilemap" || hit.collider.name != "Cursor")
+
+        if (hit.collider == null || !hit.collider.name.Equals("Tilemap"))
         {
-            Debug.Log(hit.collider.name == "Tilemap");
-            spriteRenderer.enabled = false;
             return;
         }
 
         ShowCursorTile(mousePos);
-
-        if (mouse.leftButton.wasPressedThisFrame)
-        {
-            MapController.Instance.PlaceTower(transform.position);
-        }
     }
 
     public void ShowCursorTile(Vector2 mousePos)
     {
         Vector3Int cell = tilemap.WorldToCell(mousePos);
-        if (!tilemap.HasTile(cell))
-        {
-            spriteRenderer.enabled = false;
-            return;
-        }
 
         transform.position = tilemap.GetCellCenterWorld(cell);
         spriteRenderer.enabled = true;
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        MapController.Instance.PlaceTower(transform.position);
     }
 }

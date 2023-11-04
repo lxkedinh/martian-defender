@@ -33,14 +33,14 @@ public class Tower : MonoBehaviour
     public void Select()
     {
         isSelected = true;
-        rangeIndicator.SetActive(true);
+        rangeIndicator.GetComponent<SpriteRenderer>().enabled = true;
         towerBody.ShowOutline();
     }
 
     public void Deselect()
     {
         isSelected = false;
-        rangeIndicator.SetActive(false);
+        rangeIndicator.GetComponent<SpriteRenderer>().enabled = false;
         towerBody.HideOutline();
     }
 
