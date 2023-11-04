@@ -1,26 +1,18 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.Tilemaps;
 
-public enum PlacementObjectType
-{
-    Tower,
-    Wall,
-}
-
-public class MouseController : MonoBehaviour
+public class MouseController : MonoBehaviour, IPointerClickHandler
 {
     public static MouseController Instance { get; private set; }
 
     private readonly Mouse mouse = Mouse.current;
-    private SpriteRenderer spriteRenderer;
-
-
-    public PlacementObjectType currentPlacementObjectType = PlacementObjectType.Tower;
+    public SpriteRenderer spriteRenderer;
+    public Tilemap tilemap;
 
     private void Awake()
     {
@@ -32,67 +24,34 @@ public class MouseController : MonoBehaviour
         {
             Instance = this;
         }
+
     }
 
-    // Start is called before the first frame update
-    void Start()
+    void FixedUpdate()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-    }
+        Vector2 mousePos = Camera.main.ScreenToWorldPoint(mouse.position.ReadValue());
+        RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
 
-    void Update()
-    {
-        RaycastHit2D? cursorHit = GetObjectOnCursor();
-        if (cursorHit.HasValue)
+
+        if (hit.collider == null || !hit.collider.name.Equals("Tilemap"))
         {
-            if (cursorHit.Value.collider.gameObject.TryGetComponent(out OverlayTile tile))
-            {
-                ShowCursorIndicator(tile);
-
-                // spawn tower or wall prefab on tile click
-                if (mouse.leftButton.wasPressedThisFrame)
-                {
-                    MapController.Instance.PlaceObjectOnTile(tile, currentPlacementObjectType);
-                }
-            }
-
-            else if (cursorHit.Value.collider.gameObject.TryGetComponent(out Tower tower))
-            {
-                spriteRenderer.enabled = false;
-                // tower.ShowOutline();
-
-                if (mouse.leftButton.wasPressedThisFrame)
-                {
-                    MapController.Instance.SelectTower(tower);
-                }
-            }
+            return;
         }
-        if (Keyboard.current.tKey.wasPressedThisFrame)
-        {
-            currentPlacementObjectType = (PlacementObjectType)(((int)currentPlacementObjectType + 1) % Enum.GetValues(typeof(PlacementObjectType)).Length);
-        }
+
+
+        ShowCursorTile(mousePos);
     }
 
-    public void ShowCursorIndicator(OverlayTile tile)
+    public void ShowCursorTile(Vector2 mousePos)
     {
-        transform.position = tile.transform.position;
+        Vector3Int cell = tilemap.WorldToCell(mousePos);
+
+        transform.position = tilemap.GetCellCenterWorld(cell);
         spriteRenderer.enabled = true;
-        // spriteRenderer.sortingOrder = tile.GetComponent<SpriteRenderer>().sortingOrder;
     }
 
-
-
-    public RaycastHit2D? GetObjectOnCursor()
+    public void OnPointerClick(PointerEventData eventData)
     {
-        Vector3 mousePos = Camera.main.ScreenToWorldPoint(mouse.position.ReadValue());
-        Vector2 mousePos2d = new(mousePos.x, mousePos.y);
-        RaycastHit2D[] hits = Physics2D.RaycastAll(mousePos2d, Vector2.zero);
-
-        // return collider hit first highest in elevation sorted by z axis
-        if (hits.Length > 0)
-        {
-            return hits.OrderByDescending(i => i.collider.transform.position.z).First();
-        }
-        return null;
+        MapController.Instance.PlaceTower(transform.position);
     }
 }
