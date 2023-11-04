@@ -37289,8 +37289,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6056829c5d32a340a2adfb0d4328721, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteRenderer: {fileID: 0}
-  tilemap: {fileID: 0}
+  spriteRenderer: {fileID: 1789588128}
+  tilemap: {fileID: 1266624715}
 --- !u!4 &1789588127
 Transform:
   m_ObjectHideFlags: 0
