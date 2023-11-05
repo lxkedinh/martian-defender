@@ -47,11 +47,12 @@ public class MapController : MonoBehaviour
 
     public void PlaceWall(Vector3 pos)
     {
+
         Wall wall = Instantiate(wallPrefab);
-        wall.transform.position = new Vector3(pos.x, pos.y, pos.z + 1);
+        wall.transform.position = new Vector3(pos.x, pos.y, pos.z);
         Instance.wallsPlaced.Add(wall);
 
-        Surface2D.UpdateNavMesh(Surface2D.navMeshData);
+        Surface2D.BuildNavMesh();
     }
 
     public void PlaceObject(Vector3 pos)

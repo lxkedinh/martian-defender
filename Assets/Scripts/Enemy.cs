@@ -8,13 +8,17 @@ public class Enemy : MonoBehaviour
     public Rigidbody2D rbody;
     public float moveSpeed;
     public Transform target;
-    public NavMeshAgent agent;
     private float distance;
+
+    NavMeshAgent agent;
 
     // Start is called before the first frame update
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Ship").transform;
+
+        // Keeps NavMesh from rotating Enemy
+        agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
     }
@@ -22,15 +26,11 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        // Vector3 movement = new(0f, -1f, 0f);
-        // rbody.MovePosition(transform.position + moveSpeed * Time.fixedDeltaTime * movement);
-
         NavMeshPath path = new NavMeshPath();
         agent.CalculatePath(target.position, path);
 
         if (path.status == NavMeshPathStatus.PathComplete)
         {
-            UnityEngine.Debug.Log("Has Path: " + agent.hasPath);
             agent.SetDestination(target.position);
         }
         else

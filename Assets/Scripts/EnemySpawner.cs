@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemySpawner : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class EnemySpawner : MonoBehaviour
 
     public int numEnemies = 5;
 
-    // Start is called before the first frame update
+    // Start is called before the first frame updated
     void Start()
     {
     }
@@ -37,6 +38,11 @@ public class EnemySpawner : MonoBehaviour
             Vector3 randomPos = new Vector3(spawnerPos.x + offsetX, spawnerPos.y + offsetY, spawnerPos.z);
             GameObject newEnemy = Instantiate(enemyPrefab, randomPos, Quaternion.identity);
 
+            // Keeps NavMesh from rotating Enemy
+            NavMeshAgent agent = newEnemy.GetComponent<NavMeshAgent>();
+            agent.updateRotation = false;
+            agent.updateUpAxis = false;
+
             Enemy newEnemyScript = newEnemy.GetComponent<Enemy>();
 
             if (newEnemyScript != null )
@@ -44,7 +50,7 @@ public class EnemySpawner : MonoBehaviour
                 newEnemyScript.target = target;
             } else
             {
-                UnityEngine.Debug.Log("No enemy script found.");
+                UnityEngine.Debug.Log("No 'Enemy' script found.");
             }
 
         }
