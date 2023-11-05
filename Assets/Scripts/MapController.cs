@@ -8,6 +8,8 @@ public class MapController : MonoBehaviour
     public static MapController Instance { get; private set; }
     public Tower towerPrefab;
     public HashSet<Tower> towersPlaced = new();
+    public Wall wallPrefab;
+    public HashSet<Wall> wallsPlaced = new();
 
     private void Awake()
     {
@@ -36,5 +38,12 @@ public class MapController : MonoBehaviour
         tower.transform.position = new Vector3(pos.x, pos.y, pos.z + 1);
         Instance.towersPlaced.Add(tower);
         Instance.SelectTower(tower);
+    }
+
+    public void PlaceWall(Vector3 pos)
+    {
+        Wall wall = Instantiate(wallPrefab);
+        wall.transform.position = new Vector3(pos.x, pos.y, pos.z + 1);
+        Instance.wallsPlaced.Add(wall);
     }
 }

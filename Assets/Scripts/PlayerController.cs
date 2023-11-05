@@ -85,4 +85,9 @@ public class PlayerController : MonoBehaviour
     {
         print("Shots fired");
     }
+
+    public void OnBuildMode()
+    {
+        print("Build mode activated");
+    }
 }
