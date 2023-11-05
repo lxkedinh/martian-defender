@@ -14,7 +14,6 @@ public class EnemySpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        spawnEnemies(enemyPrefab, numEnemies);
     }
 
     // Update is called once per frame
@@ -23,7 +22,7 @@ public class EnemySpawner : MonoBehaviour
         // Any update logic
     }
 
-    void spawnEnemies(GameObject enemy, int numEnemies)
+    public void spawnEnemies(int numEnemies)
     {
         for (int i = 0; i < numEnemies; i++)
         {
@@ -33,7 +32,9 @@ public class EnemySpawner : MonoBehaviour
             float offsetY = UnityEngine.Random.Range(-spawnRange.y, spawnRange.y);
 
             Vector3 randomPos = new Vector3(spawnerPos.x + offsetX, spawnerPos.y + offsetY, spawnerPos.z);
-            GameObject newEnemy = Instantiate(enemy, randomPos, Quaternion.identity);
+            GameObject newEnemy = Instantiate(enemyPrefab, randomPos, Quaternion.identity);
         }
     }
+
+
 }

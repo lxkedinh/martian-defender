@@ -38,6 +38,7 @@ public class MouseController : MonoBehaviour, IPointerClickHandler
             return;
         }
 
+
         ShowCursorTile(mousePos);
     }
 
@@ -51,6 +52,6 @@ public class MouseController : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        MapController.Instance.PlaceTower(transform.position);
+        MapController.Instance.PlaceObject(transform.position);
     }
 }
