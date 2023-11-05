@@ -24,19 +24,19 @@ public class PlayerController : MonoBehaviour
 
     public void FixedUpdate()
     {
-        
+
         // rb.MovePosition(rb.position + (moveInput * moveSpeed * Time.fixedDeltaTime));
-        
-        
+
+
         // Try to move player in input direction, followed by left right and up down input if failed
         bool success = MovePlayer(moveInput);
-        
-        if(!success)
+
+        if (!success)
         {
             // Try Left / Right
             success = MovePlayer(new Vector2(moveInput.x, 0));
 
-            if(!success)
+            if (!success)
             {
                 success = MovePlayer(new Vector2(0, moveInput.y));
             }
@@ -75,7 +75,7 @@ public class PlayerController : MonoBehaviour
             return false;
         }
     }
-	
+
     public void OnMove(InputValue value)
     {
         moveInput = value.Get<Vector2>();
@@ -88,6 +88,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnBuildMode()
     {
-        print("Build mode activated");
+        print("Build mode");
+        MapController.Instance.ChangeObjectPlacementType();
     }
 }
