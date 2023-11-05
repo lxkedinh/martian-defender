@@ -8,70 +8,23 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-<<<<<<< HEAD
-  m_EditorHideFlags: 0
-<<<<<<< HEAD
-=======
   m_EditorHideFlags: 1
->>>>>>> napoleon/enemy-ai
-=======
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-========
-  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PixelRect:
-    serializedVersion: 2
-    x: 0
-    y: 43
-    width: 1920
-    height: 1037
-  m_ShowMode: 4
-  m_Title: Hierarchy
-  m_RootView: {fileID: 3}
-  m_MinSize: {x: 875, y: 300}
-  m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 1
---- !u!114 &2
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
->>>>>>> origin/cameron/player
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
   - {fileID: 3}
-<<<<<<< HEAD
-=======
   - {fileID: 13}
->>>>>>> napoleon/enemy-ai
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
-<<<<<<< HEAD
-    width: 1536
-    height: 740.4
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 1
-  controlID: 3285
-=======
-    width: 1920
-    height: 947
+    width: 1503
+    height: 569
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 38
->>>>>>> napoleon/enemy-ai
+  controlID: 98
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -81,32 +34,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
+  m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Game
-<<<<<<< HEAD
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Text: Inspector
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 290.6
-    y: 19
-    width: 878.80005
-    height: 416.6
-=======
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 267
-    y: 73
-    width: 1195
-    height: 574
->>>>>>> napoleon/enemy-ai
+    x: 1282
+    y: 136
+    width: 354
+    height: 548
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -117,110 +59,19 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
-  m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
-  m_TargetDisplay: 0
-  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-<<<<<<< HEAD
-  m_TargetSize: {x: 1920, y: 1080}
-  m_TextureFilterMode: 0
-  m_TextureHideFlags: 61
-  m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 1
-=======
-  m_TargetSize: {x: 1195, y: 553}
-  m_TextureFilterMode: 0
-  m_TextureHideFlags: 61
-  m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 0
->>>>>>> napoleon/enemy-ai
-  m_UseMipMap: 0
-  m_VSyncEnabled: 0
-  m_Gizmos: 0
-  m_Stats: 0
-<<<<<<< HEAD
-  m_SelectedSizes: 03000000000000000000000000000000000000000000000000000000000000000000000000000000
-=======
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
->>>>>>> napoleon/enemy-ai
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-<<<<<<< HEAD
-    m_HBaseRangeMin: -768
-    m_HBaseRangeMax: 768
-    m_VBaseRangeMin: -432
-    m_VBaseRangeMax: 432
-=======
-    m_HBaseRangeMin: -597.5
-    m_HBaseRangeMax: 597.5
-    m_VBaseRangeMin: -276.5
-    m_VBaseRangeMax: 276.5
->>>>>>> napoleon/enemy-ai
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-<<<<<<< HEAD
-    m_EnableMouseInput: 0
-=======
-    m_EnableMouseInput: 1
->>>>>>> napoleon/enemy-ai
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 21
-<<<<<<< HEAD
-      width: 878.80005
-      height: 395.6
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 439.40002, y: 197.8}
-=======
-      width: 1195
-      height: 553
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 597.5, y: 276.5}
->>>>>>> napoleon/enemy-ai
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-<<<<<<< HEAD
-      x: -439.40002
-      y: -197.8
-      width: 878.80005
-      height: 395.6
-    m_MinimalGUI: 1
-  m_defaultScale: 0.45787036
-  m_LastWindowPixelSize: {x: 1098.5, y: 520.75}
-=======
-      x: -597.5
-      y: -276.5
-      width: 1195
-      height: 553
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1195, y: 574}
->>>>>>> napoleon/enemy-ai
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000000000000
-  m_XRRenderMode: 0
-  m_RenderTexture: {fileID: 0}
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: 160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -235,87 +86,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 4}
-<<<<<<< HEAD
-  - {fileID: 17}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1536
-    height: 740.4
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 0
-  controlID: 3286
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 5}
   - {fileID: 10}
-=======
-  - {fileID: 9}
->>>>>>> napoleon/enemy-ai
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 1170.4
-    height: 740.4
+    width: 1148
+    height: 569
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 3278
-========
-  - {fileID: 6}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 30
-    width: 1920
-    height: 987
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
   controlID: 41
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 4}
-  - {fileID: 2}
-  - {fileID: 5}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1920
-    height: 1037
-  m_MinSize: {x: 875, y: 300}
-  m_MaxSize: {x: 10000, y: 10000}
-  m_UseTopView: 1
-  m_TopViewHeight: 30
-  m_UseBottomView: 1
-  m_BottomViewHeight: 20
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -325,85 +106,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1920
-    height: 30
-  m_MinSize: {x: 0, y: 0}
-  m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: 
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
---- !u!114 &5
-=======
-    width: 1464
-    height: 947
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 39
---- !u!114 &4
->>>>>>> napoleon/enemy-ai
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-<<<<<<< HEAD
-  - {fileID: 6}
-  - {fileID: 8}
-=======
   - {fileID: 5}
   - {fileID: 7}
->>>>>>> napoleon/enemy-ai
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 1170.4
-    height: 437.6
+    width: 1148
+    height: 341
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 3207
-========
-  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 1017
-    width: 1920
-    height: 20
-  m_MinSize: {x: 0, y: 0}
-  m_MaxSize: {x: 0, y: 0}
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
---- !u!114 &6
-=======
-    width: 1464
-    height: 595
-  m_MinSize: {x: 200, y: 50}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: 40
+  controlID: 42
 --- !u!114 &5
->>>>>>> napoleon/enemy-ai
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -412,58 +131,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children: []
-========
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 7}
-  - {fileID: 14}
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
->>>>>>> origin/cameron/player
-    width: 289.6
-    height: 437.6
+    width: 520
+    height: 341
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 7}
-  m_Panes:
-  - {fileID: 7}
-  m_Selected: 0
-  m_LastSelected: 0
-========
-    width: 1920
-    height: 987
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 0
-  controlID: 42
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
---- !u!114 &7
-=======
-    width: 267
-    height: 595
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &6
->>>>>>> napoleon/enemy-ai
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -472,7 +157,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
   m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -480,24 +164,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-<<<<<<< HEAD
-    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
-=======
     m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
->>>>>>> napoleon/enemy-ai
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-<<<<<<< HEAD
-    y: 73.6
-    width: 288.6
-    height: 416.6
-=======
-    y: 73
-    width: 266
-    height: 574
->>>>>>> napoleon/enemy-ai
+    x: 134
+    y: 136
+    width: 519
+    height: 320
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -511,15 +185,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-      m_SelectedIDs: 
+      m_SelectedIDs: cc680000
       m_LastClickedID: 0
-      m_ExpandedIDs: 14fbffff34660000
-=======
-      m_SelectedIDs: 20630000
-      m_LastClickedID: 25376
-      m_ExpandedIDs: 1afbffff12630000
->>>>>>> napoleon/enemy-ai
+      m_ExpandedIDs: 16fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -535,11 +203,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-<<<<<<< HEAD
-        m_ClientGUIView: {fileID: 6}
-=======
         m_ClientGUIView: {fileID: 5}
->>>>>>> napoleon/enemy-ai
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -547,11 +211,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
-<<<<<<< HEAD
---- !u!114 &8
-=======
 --- !u!114 &7
->>>>>>> napoleon/enemy-ai
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -560,984 +220,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-<<<<<<< HEAD
-    x: 289.6
-    y: 0
-    width: 880.80005
-    height: 437.6
-=======
-    x: 267
-    y: 0
-    width: 1197
-    height: 595
->>>>>>> napoleon/enemy-ai
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 2}
-  m_Panes:
-<<<<<<< HEAD
-  - {fileID: 9}
-  - {fileID: 2}
-  m_Selected: 1
-  m_LastSelected: 0
---- !u!114 &9
-=======
-  - {fileID: 8}
-  - {fileID: 2}
-  m_Selected: 1
-  m_LastSelected: 0
---- !u!114 &8
->>>>>>> napoleon/enemy-ai
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Scene
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 289.6
-    y: 73.6
-    width: 878.80005
-    height: 416.6
-=======
-    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 267
-    y: 73
-    width: 1195
-    height: 574
->>>>>>> napoleon/enemy-ai
-=======
-    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 289.6
-    y: 73.6
-    width: 878.80005
-    height: 416.6
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData:
-    - dockPosition: 0
-      containerId: overlay-toolbar__top
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: -166, y: -26.399994}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 3
-      id: Tool Settings
-      index: 0
-      layout: 1
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 0
-      containerId: overlay-toolbar__top
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: -141, y: 149}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 1
-      id: unity-grid-and-snap-toolbar
-      index: 1
-      layout: 1
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-toolbar__top
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: 0, y: 25}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: unity-scene-view-toolbar
-      index: 0
-      layout: 1
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-toolbar__top
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 1
-      id: unity-search-toolbar
-      index: 1
-      layout: 1
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 0
-      containerId: overlay-container--left
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: 0, y: 25}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: unity-transform-toolbar
-      index: 0
-      layout: 2
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 0
-      containerId: overlay-container--left
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: 0, y: 197}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: unity-component-tools
-      index: 1
-      layout: 2
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 0
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: 67.5, y: 86}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Orientation
-      index: 0
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Light Settings
-      index: 2
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Camera
-      index: 1
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Cloth Constraints
-      index: 3
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Cloth Collisions
-      index: 4
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Navmesh Display
-      index: 4
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Agent Display
-      index: 5
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Obstacle Display
-      index: 6
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Occlusion Culling
-      index: 5
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Physics Debugger
-      index: 6
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Scene Visibility
-      index: 7
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Particles
-      index: 8
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Tilemap
-      index: 11
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Tilemap Palette Helper
-      index: 12
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: 48, y: 10}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: UnityEditor.SceneViewCameraOverlay
-      index: 11
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 48, y: 48}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/TrailRenderer
-      index: 9
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 48, y: 48}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Open Tile Palette
-      index: 0
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: 48, y: 48}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Tilemap Focus
-      index: 1
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 48, y: 48}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Path
-      index: 10
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    m_OverlaysVisible: 1
-  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
-  m_Gizmos: 1
-  m_OverrideSceneCullingMask: 6917529027641081856
-  m_SceneIsLit: 1
-  m_SceneLighting: 1
-  m_2DMode: 1
-  m_isRotationLocked: 0
-  m_PlayAudio: 0
-  m_AudioPlay: 0
-  m_Position:
-    m_Target: {x: 2.554317, y: 2.6314123, z: 0.040766638}
-    speed: 2
-    m_Value: {x: 2.554317, y: 2.6314123, z: 0.040766638}
-  m_RenderMode: 0
-  m_CameraMode:
-    drawMode: 0
-    name: Shaded
-    section: Shading Mode
-  m_ValidateTrueMetals: 0
-  m_DoValidateTrueMetals: 0
-  m_SceneViewState:
-    m_AlwaysRefresh: 0
-    showFog: 1
-    showSkybox: 1
-    showFlares: 1
-    showImageEffects: 1
-    showParticleSystems: 1
-    showVisualEffectGraphs: 1
-    m_FxEnabled: 1
-  m_Grid:
-    xGrid:
-      m_Fade:
-        m_Target: 0
-        speed: 2
-        m_Value: 0
-      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
-      m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
-    yGrid:
-      m_Fade:
-        m_Target: 0
-        speed: 2
-        m_Value: 0
-      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
-      m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
-    zGrid:
-      m_Fade:
-        m_Target: 0
-        speed: 2
-        m_Value: 0
-      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
-      m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
-    m_ShowGrid: 0
-    m_GridAxis: 1
-    m_gridOpacity: 0.5
-  m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
-    speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
-  m_Size:
-    m_Target: 5.6064944
-    speed: 2
-    m_Value: 5.6064944
-  m_Ortho:
-    m_Target: 1
-    speed: 2
-    m_Value: 1
-  m_CameraSettings:
-    m_Speed: 0.46076992
-    m_SpeedNormalized: 0.22999996
-    m_SpeedMin: 0.001
-    m_SpeedMax: 2
-    m_EasingEnabled: 1
-    m_EasingDuration: 0.4
-    m_AccelerationEnabled: 1
-    m_FieldOfViewHorizontalOrVertical: 60
-    m_NearClip: 0.03
-    m_FarClip: 10000
-    m_DynamicClip: 1
-    m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
-  m_LastSceneViewOrtho: 0
-  m_ReplacementShader: {fileID: 0}
-  m_ReplacementString: 
-  m_SceneVisActive: 1
-  m_LastLockedObject: {fileID: 0}
-  m_ViewIsLockedToObject: 0
---- !u!114 &10
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-========
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-  - {fileID: 11}
-  - {fileID: 15}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 437.6
-    width: 1170.4
-    height: 302.80002
-  m_MinSize: {x: 200, y: 50}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: 3279
---- !u!114 &11
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
-  m_EditorClassIdentifier: 
-  m_Children: []
-========
-  - {fileID: 8}
-  - {fileID: 11}
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-    width: 780
-    height: 302.80002
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 12}
-  m_Panes:
-  - {fileID: 12}
-  - {fileID: 13}
-  - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &12
-========
-    width: 1462
-    height: 987
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 43
---- !u!114 &8
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
-  m_TitleContent:
-    m_Text: Project
-    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 511.2
-    width: 779
-    height: 281.80002
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  m_SearchFilter:
-    m_NameFilter: 
-    m_ClassNames: []
-    m_AssetLabels: []
-    m_AssetBundleNames: []
-    m_ReferencingInstanceIDs: 
-    m_SceneHandles: 
-    m_ShowAllHits: 0
-    m_SkipHidden: 0
-    m_SearchArea: 1
-    m_Folders:
-    - Assets
-    m_Globs: []
-    m_OriginalText: 
-    m_ImportLogFlags: 0
-    m_FilterByTypeIntersection: 0
-  m_ViewMode: 1
-  m_StartGridSize: 64
-  m_LastFolders:
-  - Assets
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\ldluc\coding\martian-defender
-  m_LockTracker:
-    m_IsLocked: 0
-  m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 08670000
-    m_LastClickedID: 26376
-    m_ExpandedIDs: 00000000086700000a67000000ca9a3bffffff7f
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 00000000086700000a67000000ca9a3bffffff7f
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_ListAreaState:
-    m_SelectedInstanceIDs: 3e660000
-    m_LastClickedInstanceID: 26174
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c62300002c670000000000004c6600005a660000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-    m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
-  m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 207
---- !u!114 &13
-========
-  m_Children:
-  - {fileID: 9}
-  - {fileID: 10}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1462
-    height: 583
-  m_MinSize: {x: 200, y: 50}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: 44
---- !u!114 &9
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 362
-    height: 583
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
-  m_Panes:
-  - {fileID: 15}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &10
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Console
-    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
-========
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 362
+    x: 520
     y: 0
-    width: 1100
-    height: 583
+    width: 628
+    height: 341
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 8}
   m_Panes:
-  - {fileID: 16}
-  - {fileID: 17}
+  - {fileID: 8}
+  - {fileID: 9}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &11
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 12}
-  - {fileID: 13}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 583
-    width: 1462
-    height: 404
-  m_MinSize: {x: 200, y: 50}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: 57
---- !u!114 &12
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 975
-    height: 404
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 18}
-  m_Panes:
-  - {fileID: 18}
-  - {fileID: 19}
-  - {fileID: 20}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &13
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GridPaintPaletteWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 975
-    y: 0
-    width: 487
-    height: 404
-  m_MinSize: {x: 242, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 21}
-  m_Panes:
-  - {fileID: 21}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &14
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 1462
-    y: 0
-    width: 458
-    height: 987
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 22}
-  m_Panes:
-  - {fileID: 22}
-  - {fileID: 23}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &15
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Hierarchy
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-    y: 657
-    width: 974
-    height: 382
-========
-    y: 73
-    width: 361
-    height: 562
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
---- !u!114 &14
-========
-  m_SceneHierarchy:
-    m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 14fbffff
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 9}
-      m_SearchString: 
-    m_ExpandedScenes: []
-    m_CurrenRootInstanceID: 0
-    m_LockTracker:
-      m_IsLocked: 0
-    m_CurrentSortingName: TransformSorting
-  m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &16
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1557,11 +258,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 362
-    y: 73
-    width: 1098
-    height: 562
->>>>>>> origin/cameron/player
+    x: 654
+    y: 136
+    width: 626
+    height: 320
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1576,15 +276,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-      snapOffset: {x: -166, y: -26.399994}
-=======
       snapOffset: {x: -166, y: -26}
->>>>>>> napoleon/enemy-ai
-=======
-      snapOffset: {x: -166, y: -26}
->>>>>>> origin/cameron/player
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
@@ -1610,11 +302,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-<<<<<<< HEAD
-      snapOffset: {x: 0, y: 25}
-=======
       snapOffset: {x: 0, y: 0}
->>>>>>> napoleon/enemy-ai
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -1640,11 +328,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-<<<<<<< HEAD
-      snapOffset: {x: 0, y: 25}
-=======
       snapOffset: {x: 0, y: 0}
->>>>>>> napoleon/enemy-ai
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -1856,7 +540,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: UnityEditor.SceneViewCameraOverlay
-      index: 11
+      index: 12
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -1890,11 +574,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-<<<<<<< HEAD
-      displayed: 1
-=======
       displayed: 0
->>>>>>> napoleon/enemy-ai
       snapOffset: {x: 48, y: 48}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -1916,6 +596,19 @@ MonoBehaviour:
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -207, y: -242}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      id: AINavigationOverlay
+      index: 11
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     m_OverlaysVisible: 1
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 1
@@ -1927,21 +620,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Target: {x: 2.554317, y: 2.6314123, z: 0.040766638}
+    m_Target: {x: 2.2025347, y: 0.4667142, z: 0.04523793}
     speed: 2
-    m_Value: {x: 2.554317, y: 2.6314123, z: 0.040766638}
-=======
-    m_Target: {x: -0.123568594, y: 0.93827397, z: 0.0376398}
-    speed: 2
-    m_Value: {x: -0.16771181, y: 0.89999044, z: 0.035499074}
->>>>>>> napoleon/enemy-ai
-=======
-    m_Target: {x: 4.3584194, y: 3.976385, z: -0.24349761}
-    speed: 2
-    m_Value: {x: 4.3584194, y: 3.976385, z: -0.24349761}
->>>>>>> origin/cameron/player
+    m_Value: {x: 2.2678962, y: 0.42057675, z: 0.047121875}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1991,21 +672,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Target: 5.6064944
+    m_Target: 4.37494
     speed: 2
-    m_Value: 5.6064944
-=======
-    m_Target: 4.543145
-    speed: 2
-    m_Value: 4.7572203
->>>>>>> napoleon/enemy-ai
-=======
-    m_Target: 5.3625455
-    speed: 2
-    m_Value: 5.3625455
->>>>>>> origin/cameron/player
+    m_Value: 4.1865454
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -2030,40 +699,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!114 &10
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 11}
-  - {fileID: 15}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 437.6
-    width: 1170.4
-    height: 302.80002
-  m_MinSize: {x: 200, y: 50}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: 3279
---- !u!114 &11
-=======
 --- !u!114 &9
->>>>>>> napoleon/enemy-ai
-=======
---- !u!114 &17
->>>>>>> origin/cameron/player
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2083,42 +719,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 0
-<<<<<<< HEAD
-    y: 0
-    width: 780
-    height: 302.80002
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 12}
-  m_Panes:
-  - {fileID: 12}
-  - {fileID: 13}
-  - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &12
-=======
-    y: 595
-    width: 1464
-    height: 352
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 10}
-  m_Panes:
-  - {fileID: 10}
-  - {fileID: 11}
-  - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 2
---- !u!114 &10
->>>>>>> napoleon/enemy-ai
-=======
-    x: 362
-    y: 73
-    width: 1098
-    height: 562
+    x: 654
+    y: 136
+    width: 626
+    height: 320
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2135,7 +739,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 3840, y: 2160}
+  m_TargetSize: {x: 626, y: 299}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -2144,16 +748,16 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 06000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -1920
-    m_HBaseRangeMax: 1920
-    m_VBaseRangeMin: -1080
-    m_VBaseRangeMax: 1080
+    m_HBaseRangeMin: -313
+    m_HBaseRangeMax: 313
+    m_VBaseRangeMin: -149.5
+    m_VBaseRangeMax: 149.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -2171,30 +775,56 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1098
-      height: 541
-    m_Scale: {x: 0.25046295, y: 0.25046295}
-    m_Translation: {x: 549, y: 270.5}
+      width: 626
+      height: 299
+    m_Scale: {x: 1.0609, y: 1.0609}
+    m_Translation: {x: 305.11346, y: 140.39545}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -2191.941
-      y: -1080
-      width: 4383.882
-      height: 2160
+      x: -287.59872
+      y: -132.33618
+      width: 590.06506
+      height: 281.83618
     m_MinimalGUI: 1
-  m_defaultScale: 0.25046295
-  m_LastWindowPixelSize: {x: 1098, y: 562}
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 626, y: 320}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &18
->>>>>>> origin/cameron/player
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 341
+    width: 1148
+    height: 228
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 11}
+  m_Panes:
+  - {fileID: 11}
+  - {fileID: 12}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2210,34 +840,14 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
-=======
     m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
->>>>>>> napoleon/enemy-ai
-=======
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
->>>>>>> origin/cameron/player
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    y: 511.2
-    width: 779
-    height: 281.80002
-=======
-    y: 668
-    width: 1463
-    height: 331
->>>>>>> napoleon/enemy-ai
-=======
-    y: 656
-    width: 974
-    height: 383
->>>>>>> origin/cameron/player
+    x: 134
+    y: 477
+    width: 1147
+    height: 207
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2259,15 +869,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-<<<<<<< HEAD
-<<<<<<< HEAD
-    - Assets
-=======
-    - Assets/Sprites
->>>>>>> napoleon/enemy-ai
-=======
     - Assets/Prefabs
->>>>>>> origin/cameron/player
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -2275,40 +877,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - Assets
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\ldluc\coding\martian-defender
-=======
-  - Assets/Sprites
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Unity Games\martian-defender
->>>>>>> napoleon/enemy-ai
-=======
   - Assets/Prefabs
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\ldluc\Martian Defender
->>>>>>> origin/cameron/player
+  m_LastProjectPath: D:\Unity Games\martian-defender
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_SelectedIDs: 08670000
-    m_LastClickedID: 26376
-    m_ExpandedIDs: 00000000086700000a67000000ca9a3bffffff7f
-=======
-    m_SelectedIDs: 9c630000
-    m_LastClickedID: 25500
-    m_ExpandedIDs: 00000000846300009c63000000ca9a3b
->>>>>>> napoleon/enemy-ai
-=======
-    m_SelectedIDs: 78670000
-    m_LastClickedID: 26488
-    m_ExpandedIDs: 000000000c6700000e67000000ca9a3b
->>>>>>> origin/cameron/player
+    m_SelectedIDs: b4690000
+    m_LastClickedID: 27060
+    m_ExpandedIDs: 00000000b269000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2324,15 +902,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-      m_ClientGUIView: {fileID: 11}
-=======
-      m_ClientGUIView: {fileID: 9}
->>>>>>> napoleon/enemy-ai
-=======
-      m_ClientGUIView: {fileID: 12}
->>>>>>> origin/cameron/player
+      m_ClientGUIView: {fileID: 10}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -2344,15 +914,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000086700000a67000000ca9a3bffffff7f
-=======
-    m_ExpandedIDs: 0000000084630000
->>>>>>> napoleon/enemy-ai
-=======
-    m_ExpandedIDs: 000000000c6700000e670000
->>>>>>> origin/cameron/player
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2377,23 +939,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_SelectedInstanceIDs: 3e660000
-    m_LastClickedInstanceID: 26174
-    m_HadKeyboardFocusLastEvent: 0
-=======
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: cc680000
+    m_LastClickedInstanceID: 26828
     m_HadKeyboardFocusLastEvent: 1
->>>>>>> origin/cameron/player
-    m_ExpandedInstanceIDs: c62300002c670000000000004c6600005a660000
-=======
-    m_SelectedInstanceIDs: 20630000
-    m_LastClickedInstanceID: 25376
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000000000002c670000aa630000
->>>>>>> napoleon/enemy-ai
+    m_ExpandedInstanceIDs: c6230000000000002c670000aa6300005a6400005c64000050630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2409,15 +958,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-      m_ClientGUIView: {fileID: 11}
-=======
-      m_ClientGUIView: {fileID: 9}
->>>>>>> napoleon/enemy-ai
-=======
-      m_ClientGUIView: {fileID: 12}
->>>>>>> origin/cameron/player
+      m_ClientGUIView: {fileID: 7}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -2429,76 +970,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!114 &13
-=======
---- !u!114 &11
->>>>>>> napoleon/enemy-ai
-=======
---- !u!114 &19
->>>>>>> origin/cameron/player
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Console
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
-=======
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
->>>>>>> napoleon/enemy-ai
-=======
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
->>>>>>> origin/cameron/player
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-<<<<<<< HEAD
-    y: 657
-<<<<<<< HEAD
-    width: 974
-=======
-    width: 1466
->>>>>>> napoleon/enemy-ai
-    height: 382
-=======
-    y: 656
-    width: 974
-    height: 383
->>>>>>> origin/cameron/player
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!114 &14
-=======
 --- !u!114 &12
->>>>>>> napoleon/enemy-ai
-=======
---- !u!114 &20
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
->>>>>>> origin/cameron/player
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2520,11 +992,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 657
-<<<<<<< HEAD
-    width: 1462
-=======
     width: 1466
->>>>>>> napoleon/enemy-ai
     height: 382
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -2537,154 +1005,7 @@ MonoBehaviour:
     m_SaveData: []
     m_OverlaysVisible: 1
   mForceToOpen: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
->>>>>>> origin/cameron/player
---- !u!114 &15
-========
---- !u!114 &21
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GridPaintPaletteWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 780
-    y: 0
-    width: 390.40002
-    height: 302.80002
-  m_MinSize: {x: 242, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 16}
-  m_Panes:
-  - {fileID: 16}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &16
-========
-  m_Script: {fileID: 11500000, guid: 3f683d99f24875748a6656966ca9cea0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 240, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Tile Palette
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 975
-    y: 656
-    width: 485
-    height: 383
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
---- !u!114 &22
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Inspector
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1462
-    y: 73
-    width: 457
-    height: 966
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
-  m_PreviewResizer:
-    m_CachedPref: 160
-    m_ControlHash: -371814159
-    m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
-  m_GlobalObjectId: 
-  m_InspectorMode: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_PreviewWindow: {fileID: 0}
---- !u!114 &23
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f683d99f24875748a6656966ca9cea0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 240, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Tile Palette
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 780
-    y: 511.2
-    width: 388.40002
-    height: 281.80002
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
---- !u!114 &17
-=======
 --- !u!114 &13
->>>>>>> napoleon/enemy-ai
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2699,101 +1020,19 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 1170.4
+    x: 1148
     y: 0
-    width: 365.59998
-    height: 740.4
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 18}
+    width: 355
+    height: 569
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 2}
   m_Panes:
-  - {fileID: 18}
-  - {fileID: 19}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &18
-=======
-    x: 1464
-    y: 0
-    width: 456
-    height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
-  m_Panes:
+  - {fileID: 2}
   - {fileID: 14}
-  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &14
->>>>>>> napoleon/enemy-ai
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Inspector
-<<<<<<< HEAD
-    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1170.4
-    y: 73.6
-    width: 364.59998
-    height: 719.4
-=======
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1464
-    y: 73
-    width: 455
-    height: 926
->>>>>>> napoleon/enemy-ai
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
-  m_PreviewResizer:
-    m_CachedPref: 160
-    m_ControlHash: -371814159
-    m_PrefName: Preview_InspectorPreview
-<<<<<<< HEAD
-  m_LastInspectedObjectInstanceID: 26174
-=======
-  m_LastInspectedObjectInstanceID: -1
->>>>>>> napoleon/enemy-ai
-  m_LastVerticalScrollValue: 0
-  m_GlobalObjectId: 
-  m_InspectorMode: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_PreviewWindow: {fileID: 0}
-<<<<<<< HEAD
---- !u!114 &19
-=======
---- !u!114 &15
->>>>>>> napoleon/enemy-ai
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2813,21 +1052,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 1463
-=======
-    x: 1462
->>>>>>> origin/cameron/player
+    x: 1464
     y: 73
-    width: 457
-    height: 966
-=======
-    x: 1608
-    y: 81
-    width: 310
-    height: 917
->>>>>>> napoleon/enemy-ai
+    width: 455
+    height: 926
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2838,27 +1066,16 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-<<<<<<< HEAD
   progressMessageClearTime: -1
-=======
-  progressMessageClearTime: 5940.0409245
->>>>>>> napoleon/enemy-ai
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
-<<<<<<< HEAD
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 1
-  changeTab: 3
-  activeTab: 3
-=======
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
   changeTab: 4
   activeTab: 4
->>>>>>> napoleon/enemy-ai
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
@@ -2871,10 +1088,6 @@ MonoBehaviour:
       folders:
         keys:
         - Local branches
-<<<<<<< HEAD
-        - luke
-=======
->>>>>>> napoleon/enemy-ai
         values:
         - path: Local branches
           label: Local branches
@@ -2886,19 +1099,6 @@ MonoBehaviour:
           isActive: 0
           treeIsCheckable: 0
           checkState: 0
-<<<<<<< HEAD
-        - path: luke
-          label: luke
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-=======
->>>>>>> napoleon/enemy-ai
       checkedFileNodes:
         keys: []
         values: []
@@ -2918,25 +1118,9 @@ MonoBehaviour:
         isActive: 0
         treeIsCheckable: 0
         checkState: 0
-<<<<<<< HEAD
-      - path: luke
-        label: luke
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-      - path: luke/tower-ai
-        label: tower-ai
-        level: 2
-=======
       - path: enemy-ai
         label: enemy-ai
         level: 1
->>>>>>> napoleon/enemy-ai
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -2955,24 +1139,14 @@ MonoBehaviour:
         treeIsCheckable: 0
         checkState: 0
       selectedNode:
-<<<<<<< HEAD
-        path: 
-        label: 
-        level: 0
-=======
         path: enemy-ai
         label: enemy-ai
         level: 1
->>>>>>> napoleon/enemy-ai
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
-<<<<<<< HEAD
-        isActive: 0
-=======
         isActive: 1
->>>>>>> napoleon/enemy-ai
         treeIsCheckable: 0
         checkState: 0
     treeRemotes:
@@ -2981,10 +1155,6 @@ MonoBehaviour:
         keys:
         - Remote branches
         - origin
-<<<<<<< HEAD
-        - origin/luke
-=======
->>>>>>> napoleon/enemy-ai
         values:
         - path: Remote branches
           label: Remote branches
@@ -3001,21 +1171,7 @@ MonoBehaviour:
           level: 1
           isFolder: 1
           isContainer: 0
-<<<<<<< HEAD
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-        - path: origin/luke
-          label: luke
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-=======
           isCollapsed: 1
->>>>>>> napoleon/enemy-ai
           isHidden: 0
           isActive: 0
           treeIsCheckable: 0
@@ -3044,39 +1200,11 @@ MonoBehaviour:
         level: 1
         isFolder: 1
         isContainer: 0
-<<<<<<< HEAD
-        isCollapsed: 0
-=======
         isCollapsed: 1
->>>>>>> napoleon/enemy-ai
         isHidden: 0
         isActive: 0
         treeIsCheckable: 0
         checkState: 0
-<<<<<<< HEAD
-      - path: origin/luke
-        label: luke
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-      - path: origin/luke/tower-ai
-        label: tower-ai
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-      - path: origin/main
-        label: main
-=======
       - path: origin/enemy-ai
         label: enemy-ai
         level: 2
@@ -3089,29 +1217,18 @@ MonoBehaviour:
         checkState: 0
       - path: origin/HEAD
         label: HEAD
->>>>>>> napoleon/enemy-ai
         level: 2
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
-<<<<<<< HEAD
-        isHidden: 0
-=======
         isHidden: 1
->>>>>>> napoleon/enemy-ai
         isActive: 0
         treeIsCheckable: 0
         checkState: 0
       selectedNode:
-<<<<<<< HEAD
-        path: origin/luke/tower-ai
-        label: tower-ai
-        level: 3
-=======
         path: 
         label: 
         level: 0
->>>>>>> napoleon/enemy-ai
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -3123,29 +1240,16 @@ MonoBehaviour:
     newBranchName: 
     scroll: {x: 0, y: 0}
     disableDelete: 1
-<<<<<<< HEAD
-    disableCreate: 1
-    lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2023-09-28T15:56:16.617-07:00
-      cacheType: 2
-    lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2023-09-28T15:56:30.103-07:00
-      cacheType: 1
-    currentBranch:
-      name: luke/tower-ai
-      tracking: origin/luke/tower-ai
-=======
     disableCreate: 0
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2023-10-18T14:27:02.038-07:00
+      updatedTimeString: 2023-11-04T19:09:16.088-07:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2023-10-18T14:27:00.631-07:00
+      updatedTimeString: 2023-11-04T19:09:16.077-07:00
       cacheType: 1
     currentBranch:
       name: enemy-ai
       tracking: origin/enemy-ai
->>>>>>> napoleon/enemy-ai
     currentRemote:
       name: origin
       url: https://github.com/lxkedinh/martian-defender.git
@@ -3155,557 +1259,6 @@ MonoBehaviour:
       function: 0
       token: 
     localBranches:
-<<<<<<< HEAD
-    - name: luke/tower-ai
-      tracking: origin/luke/tower-ai
-    - name: main
-      tracking: origin/main
-    remoteBranches:
-    - name: origin/luke/tower-ai
-      tracking: '[None]'
-    - name: origin/main
-      tracking: '[None]'
-  changesView:
-    currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 1
-    currentLocksHasUpdate: 1
-    commitBody: 
-    commitMessage: 
-    currentBranch: luke/tower-ai
-    treeScroll: {x: 0, y: 0}
-    treeChanges:
-      assets:
-        keys:
-        - 00000000000000001000000000000000
-        - a21456362c7ba4445ab522be1fcfc958
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-        - 2c7f3f8c888a3704cbc002de804a4210
-========
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
-        - 10260b8a830428243b8441b231bf326a
-        - 631654073d5532f42ab7904d65da19fa
-        - 8ed826d334a38d741abc978badad276b
-        - 13b3e73534a146e4c979b3e8bceb04f2
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-        - 1a4e11b3afa661c42808a553bac078a6
-        - 886573ea152c3b045973b4b4f735700c
-        - 5cb51927033b0a3469d68edf25a48cb5
-        - d5033a16e30008347a062bdf2e3378d9
-        - b569db6d841cfd44a9170efd49acbbdb
-        - 9a1594a9082132a489fa4e428c6b8302
-        - f6056829c5d32a340a2adfb0d4328721
-        - 673671ef8fa7bc145beb0d6678451e6a
-        - 53fd6845a17d19c4a99b25f391c142d3
-        - db740ea4eb6779e4c9e80c33d745729a
-========
-        - f6056829c5d32a340a2adfb0d4328721
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Prefabs
-          label: Prefabs
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-        - path: Assets\Prefabs\OverlayTile.prefab
-          label: OverlayTile.prefab
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Prefabs\OverlayTile.prefab
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\OverlayTile.prefab
-            projectPath: Assets\Prefabs\OverlayTile.prefab
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-========
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
-        - path: Assets\Prefabs\Tower.prefab
-          label: Tower.prefab
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Prefabs\Tower.prefab
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\Tower.prefab
-            projectPath: Assets\Prefabs\Tower.prefab
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes\TowerScene.unity
-          label: TowerScene.unity
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scenes\TowerScene.unity
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity
-            projectPath: Assets\Scenes\TowerScene.unity
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-        - path: Assets\Scripts\Components
-          label: Components
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scripts\Components\Attack.cs
-          label: Attack.cs
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Components\Attack.cs
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Attack.cs
-            projectPath: Assets\Scripts\Components\Attack.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Scripts\Components\Health.cs
-          label: Health.cs
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Components\Health.cs
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Health.cs
-            projectPath: Assets\Scripts\Components\Health.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Scripts\Components\Hitbox.cs
-          label: Hitbox.cs
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Components\Hitbox.cs
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Hitbox.cs
-            projectPath: Assets\Scripts\Components\Hitbox.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Scripts\IMouseable.cs
-          label: IMouseable.cs
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\IMouseable.cs
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\IMouseable.cs
-            projectPath: Assets\Scripts\IMouseable.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Scripts\MapController.cs
-          label: MapController.cs
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\MapController.cs
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\MapController.cs
-            projectPath: Assets\Scripts\MapController.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scripts\MouseController.cs
-          label: MouseController.cs
-          level: 2
-          isFolder: 0
-========
-        - path: Assets\Scripts\MouseController.cs
-          label: MouseController.cs
-          level: 2
-          isFolder: 0
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\MouseController.cs
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\MouseController.cs
-            projectPath: Assets\Scripts\MouseController.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-        - path: Assets\Scripts\Tower.cs
-          label: Tower.cs
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Tower.cs
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Tower.cs
-            projectPath: Assets\Scripts\Tower.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Sprites
-          label: Sprites
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Sprites\tower_outline.png
-          label: tower_outline.png
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprites\tower_outline.png
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\tower_outline.png
-            projectPath: Assets\Sprites\tower_outline.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-      folders:
-        keys:
-        - .vscode
-========
-      folders:
-        keys:
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
-        - Assets
-        - Assets\Prefabs
-        - Assets\Scenes
-        - Assets\Scripts
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-        - Assets\Scripts\Components
-        - Assets\Sprites
-        - UserSettings
-        - UserSettings\Layouts
-        values:
-        - path: .vscode
-          label: .vscode
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-========
-        - UserSettings
-        - UserSettings\Layouts
-        values:
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Prefabs
-          label: Prefabs
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-        - path: Assets\Scripts\Components
-          label: Components
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Sprites
-          label: Sprites
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-========
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
-        - path: UserSettings
-          label: UserSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings\Layouts
-          label: Layouts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-=======
     - name: enemy-ai
       tracking: origin/enemy-ai
     - name: main
@@ -3730,7 +1283,6 @@ MonoBehaviour:
       folders:
         keys: []
         values: []
->>>>>>> napoleon/enemy-ai
       checkedFileNodes:
         keys: []
         values: []
@@ -3757,738 +1309,6 @@ MonoBehaviour:
           fullPath: 
           projectPath: 
           originalPath: 
-<<<<<<< HEAD
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .vscode
-        label: .vscode
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .vscode\settings.json
-        label: settings.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .vscode\settings.json
-          fullPath: C:\Users\ldluc\Martian Defender\.vscode\settings.json
-          projectPath: .vscode\settings.json
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets
-        label: Assets
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Prefabs
-        label: Prefabs
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-      - path: Assets\Prefabs\OverlayTile.prefab
-        label: OverlayTile.prefab
-========
-      - path: Assets\Prefabs\Tower.prefab
-        label: Tower.prefab
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-          path: Assets\Prefabs\OverlayTile.prefab
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\OverlayTile.prefab
-          projectPath: Assets\Prefabs\OverlayTile.prefab
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Prefabs\Tower.prefab
-        label: Tower.prefab
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\Tower.prefab
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\Tower.prefab
-          projectPath: Assets\Prefabs\Tower.prefab
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-========
-          path: Assets\Prefabs\Tower.prefab
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\Tower.prefab
-          projectPath: Assets\Prefabs\Tower.prefab
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
-      - path: Assets\Scenes
-        label: Scenes
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scenes\TowerScene.unity
-        label: TowerScene.unity
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\TowerScene.unity
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity
-          projectPath: Assets\Scenes\TowerScene.unity
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scripts
-        label: Scripts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-      - path: Assets\Scripts\Components.meta
-        label: Components.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Components.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components.meta
-          projectPath: Assets\Scripts\Components.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\Components
-        label: Components
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scripts\Components\Attack.cs
-        label: Attack.cs
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Components\Attack.cs
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Attack.cs
-          projectPath: Assets\Scripts\Components\Attack.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\Components\Attack.cs.meta
-        label: Attack.cs.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Components\Attack.cs.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Attack.cs.meta
-          projectPath: Assets\Scripts\Components\Attack.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\Components\Health.cs
-        label: Health.cs
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Components\Health.cs
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Health.cs
-          projectPath: Assets\Scripts\Components\Health.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\Components\Health.cs.meta
-        label: Health.cs.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Components\Health.cs.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Health.cs.meta
-          projectPath: Assets\Scripts\Components\Health.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\Components\Hitbox.cs
-        label: Hitbox.cs
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Components\Hitbox.cs
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Hitbox.cs
-          projectPath: Assets\Scripts\Components\Hitbox.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\Components\Hitbox.cs.meta
-        label: Hitbox.cs.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Components\Hitbox.cs.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Hitbox.cs.meta
-          projectPath: Assets\Scripts\Components\Hitbox.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\IMouseable.cs
-        label: IMouseable.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\IMouseable.cs
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\IMouseable.cs
-          projectPath: Assets\Scripts\IMouseable.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\IMouseable.cs.meta
-        label: IMouseable.cs.meta
-        level: 3
-        isFolder: 0
-========
-      - path: Assets\Scripts\MouseController.cs
-        label: MouseController.cs
-        level: 2
-        isFolder: 0
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-          path: Assets\Scripts\IMouseable.cs.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\IMouseable.cs.meta
-          projectPath: Assets\Scripts\IMouseable.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\MapController.cs
-        label: MapController.cs
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\MapController.cs
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\MapController.cs
-          projectPath: Assets\Scripts\MapController.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scripts\MouseController.cs
-        label: MouseController.cs
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-========
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
-          path: Assets\Scripts\MouseController.cs
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\MouseController.cs
-          projectPath: Assets\Scripts\MouseController.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-      - path: Assets\Scripts\Tower.cs
-        label: Tower.cs
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Tower.cs
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Tower.cs
-          projectPath: Assets\Scripts\Tower.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Sprites
-        label: Sprites
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Sprites\tower_outline.png
-        label: tower_outline.png
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\tower_outline.png
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\tower_outline.png
-          projectPath: Assets\Sprites\tower_outline.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\tower_outline.png.meta
-        label: tower_outline.png.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\tower_outline.png.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\tower_outline.png.meta
-          projectPath: Assets\Sprites\tower_outline.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-========
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
-      - path: UserSettings
-        label: UserSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts
-        label: Layouts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-        label: CurrentMaximizeLayout.dwlt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-          fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-          projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: UserSettings\Layouts\default-2022.dwlt
-        label: default-2022.dwlt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Layouts\default-2022.dwlt
-          fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Layouts\default-2022.dwlt
-          projectPath: UserSettings\Layouts\default-2022.dwlt
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-    gitStatusEntries:
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-    - path: .vscode\settings.json
-      fullPath: C:\Users\ldluc\Martian Defender\.vscode\settings.json
-      projectPath: .vscode\settings.json
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Prefabs\OverlayTile.prefab
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\OverlayTile.prefab
-      projectPath: Assets\Prefabs\OverlayTile.prefab
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Prefabs\Tower.prefab
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\Tower.prefab
-      projectPath: Assets\Prefabs\Tower.prefab
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-========
-    - path: Assets\Prefabs\Tower.prefab
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\Tower.prefab
-      projectPath: Assets\Prefabs\Tower.prefab
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
-    - path: Assets\Scenes\TowerScene.unity
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity
-      projectPath: Assets\Scenes\TowerScene.unity
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-    - path: Assets\Scripts\Components.meta
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components.meta
-      projectPath: Assets\Scripts\Components.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Components\Attack.cs
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Attack.cs
-      projectPath: Assets\Scripts\Components\Attack.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Components\Attack.cs.meta
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Attack.cs.meta
-      projectPath: Assets\Scripts\Components\Attack.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Components\Health.cs
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Health.cs
-      projectPath: Assets\Scripts\Components\Health.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Components\Health.cs.meta
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Health.cs.meta
-      projectPath: Assets\Scripts\Components\Health.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Components\Hitbox.cs
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Hitbox.cs
-      projectPath: Assets\Scripts\Components\Hitbox.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Components\Hitbox.cs.meta
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Hitbox.cs.meta
-      projectPath: Assets\Scripts\Components\Hitbox.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\IMouseable.cs
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\IMouseable.cs
-      projectPath: Assets\Scripts\IMouseable.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\IMouseable.cs.meta
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\IMouseable.cs.meta
-      projectPath: Assets\Scripts\IMouseable.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\MapController.cs
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\MapController.cs
-      projectPath: Assets\Scripts\MapController.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\MouseController.cs
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\MouseController.cs
-      projectPath: Assets\Scripts\MouseController.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\Tower.cs
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Tower.cs
-      projectPath: Assets\Scripts\Tower.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Sprites\tower_outline.png
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\tower_outline.png
-      projectPath: Assets\Sprites\tower_outline.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\tower_outline.png.meta
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\tower_outline.png.meta
-      projectPath: Assets\Sprites\tower_outline.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-      fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-      projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-========
-    - path: Assets\Scripts\MouseController.cs
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\MouseController.cs
-      projectPath: Assets\Scripts\MouseController.cs
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\Layouts\default-2022.dwlt
-      fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Layouts\default-2022.dwlt
-      projectPath: UserSettings\Layouts\default-2022.dwlt
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-<<<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
-    changedFilesText: 20 changed files
-    lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-10-31T23:09:47.517-07:00
-      cacheType: 1
-    lastStatusEntriesChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
-========
-    changedFilesText: 4 changed files
-    lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-11-03T13:58:56.362-07:00
-      cacheType: 1
-    lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-11-03T15:04:22.666-07:00
->>>>>>>> luke/tower-ai:UserSettings/Layouts/default-2022.dwlt
-      cacheType: 6
-    lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
-      cacheType: 7
-  historyView:
-    currentLogHasUpdate: 0
-    currentTrackingStatusHasUpdate: 0
-    logEntries:
-    - commitID: d36cb9498942bc07cc5ff5564cd2100d41786dc5
-=======
           indexStatus: 0
           workTreeStatus: 0
       selectedNode:
@@ -5561,23 +2381,12 @@ MonoBehaviour:
       selectedIndex: 0
     selectedEntry:
       commitID: 7aa9c5b8676388337cc1077d24f65d9463edeed0
->>>>>>> napoleon/enemy-ai
       mergeA: 
       mergeB: 
       authorName: Luke Dinh
       authorEmail: lukexdinh@gmail.com
       commitEmail: lukexdinh@gmail.com
       commitName: Luke Dinh
-<<<<<<< HEAD
-      summary: 'feat: added scenes and project setup'
-      description: 
-      timeString: 2023-09-22T13:32:46.000-07:00
-      commitTimeString: 2023-09-22T13:32:46.000-07:00
-      changes:
-      - path: Assets\Scenes.meta
-        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes.meta
-        projectPath: Assets\Scenes.meta
-=======
       summary: 'feat: created isometric tilemap and tile palette with barebones tile
         sprites'
       description: 
@@ -5617,588 +2426,10 @@ MonoBehaviour:
       - path: Assets\Materials\Circle.mat.meta
         fullPath: D:\Unity Games\martian-defender\Assets\Materials\Circle.mat.meta
         projectPath: Assets\Materials\Circle.mat.meta
->>>>>>> napoleon/enemy-ai
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes\EnemyScene.unity
-<<<<<<< HEAD
-        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\EnemyScene.unity
-        projectPath: Assets\Scenes\EnemyScene.unity
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\EnemyScene.unity.meta
-        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\EnemyScene.unity.meta
-        projectPath: Assets\Scenes\EnemyScene.unity.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\LevelScene.unity
-        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\LevelScene.unity
-        projectPath: Assets\Scenes\LevelScene.unity
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\LevelScene.unity.meta
-        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\LevelScene.unity.meta
-        projectPath: Assets\Scenes\LevelScene.unity.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\MainScene.unity
-        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\MainScene.unity
-        projectPath: Assets\Scenes\MainScene.unity
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\MainScene.unity.meta
-        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\MainScene.unity.meta
-        projectPath: Assets\Scenes\MainScene.unity.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\TowerScene.unity
-        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity
-        projectPath: Assets\Scenes\TowerScene.unity
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\TowerScene.unity.meta
-        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity.meta
-        projectPath: Assets\Scenes\TowerScene.unity.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\UIScene.unity
-        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\UIScene.unity
-        projectPath: Assets\Scenes\UIScene.unity
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\UIScene.unity.meta
-        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\UIScene.unity.meta
-        projectPath: Assets\Scenes\UIScene.unity.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Packages\manifest.json
-        fullPath: C:\Users\ldluc\Martian Defender\Packages\manifest.json
-        projectPath: Packages\manifest.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Packages\packages-lock.json
-        fullPath: C:\Users\ldluc\Martian Defender\Packages\packages-lock.json
-        projectPath: Packages\packages-lock.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\AudioManager.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\AudioManager.asset
-        projectPath: ProjectSettings\AudioManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\ClusterInputManager.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\ClusterInputManager.asset
-        projectPath: ProjectSettings\ClusterInputManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\DynamicsManager.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\DynamicsManager.asset
-        projectPath: ProjectSettings\DynamicsManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\EditorBuildSettings.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\EditorBuildSettings.asset
-        projectPath: ProjectSettings\EditorBuildSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\EditorSettings.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\EditorSettings.asset
-        projectPath: ProjectSettings\EditorSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\GraphicsSettings.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\GraphicsSettings.asset
-        projectPath: ProjectSettings\GraphicsSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\InputManager.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\InputManager.asset
-        projectPath: ProjectSettings\InputManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\MemorySettings.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\MemorySettings.asset
-        projectPath: ProjectSettings\MemorySettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\NavMeshAreas.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\NavMeshAreas.asset
-        projectPath: ProjectSettings\NavMeshAreas.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\NetworkManager.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\NetworkManager.asset
-        projectPath: ProjectSettings\NetworkManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\PackageManagerSettings.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\PackageManagerSettings.asset
-        projectPath: ProjectSettings\PackageManagerSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\Physics2DSettings.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\Physics2DSettings.asset
-        projectPath: ProjectSettings\Physics2DSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\PresetManager.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\PresetManager.asset
-        projectPath: ProjectSettings\PresetManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\ProjectSettings.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\ProjectSettings.asset
-        projectPath: ProjectSettings\ProjectSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\ProjectVersion.txt
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\ProjectVersion.txt
-        projectPath: ProjectSettings\ProjectVersion.txt
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\QualitySettings.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\QualitySettings.asset
-        projectPath: ProjectSettings\QualitySettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\TagManager.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\TagManager.asset
-        projectPath: ProjectSettings\TagManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\TimeManager.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\TimeManager.asset
-        projectPath: ProjectSettings\TimeManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\UnityConnectSettings.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\UnityConnectSettings.asset
-        projectPath: ProjectSettings\UnityConnectSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\VFXManager.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\VFXManager.asset
-        projectPath: ProjectSettings\VFXManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\VersionControlSettings.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\VersionControlSettings.asset
-        projectPath: ProjectSettings\VersionControlSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\XRSettings.asset
-        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\XRSettings.asset
-        projectPath: ProjectSettings\XRSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\EditorUserSettings.asset
-        fullPath: C:\Users\ldluc\Martian Defender\UserSettings\EditorUserSettings.asset
-        projectPath: UserSettings\EditorUserSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2022.dwlt
-        fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Layouts\default-2022.dwlt
-        projectPath: UserSettings\Layouts\default-2022.dwlt
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\Search.index
-        fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Search.index
-        projectPath: UserSettings\Search.index
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\Search.settings
-        fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Search.settings
-        projectPath: UserSettings\Search.settings
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-    - commitID: a9db2ddde2cc4995ca1a9808892e2cdf8f18ece2
-      mergeA: 
-      mergeB: 
-      authorName: Luke Dinh
-      authorEmail: lukexdinh@gmail.com
-      commitEmail: lukexdinh@gmail.com
-      commitName: Luke Dinh
-      summary: Initial commit
-      description: 
-      timeString: 2023-09-22T13:29:03.000-07:00
-      commitTimeString: 2023-09-22T13:29:03.000-07:00
-      changes:
-      - path: .gitattributes
-        fullPath: C:\Users\ldluc\Martian Defender\.gitattributes
-        projectPath: .gitattributes
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: .gitignore
-        fullPath: C:\Users\ldluc\Martian Defender\.gitignore
-        projectPath: .gitignore
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\.gitignore
-        fullPath: C:\Users\ldluc\Martian Defender\Assets\.gitignore
-        projectPath: Assets\.gitignore
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-    statusAhead: 0
-    lastLogChangedEvent:
-      updatedTimeString: 2023-09-28T15:56:35.072-07:00
-      cacheType: 3
-    lastTrackingStatusChangedEvent:
-      updatedTimeString: 2023-09-28T15:56:35.330-07:00
-      cacheType: 5
-    historyControl:
-      scroll: {x: 0, y: 0}
-      entries:
-      - commitID: d36cb9498942bc07cc5ff5564cd2100d41786dc5
-        mergeA: 
-        mergeB: 
-        authorName: Luke Dinh
-        authorEmail: lukexdinh@gmail.com
-        commitEmail: lukexdinh@gmail.com
-        commitName: Luke Dinh
-        summary: 'feat: added scenes and project setup'
-        description: 
-        timeString: 2023-09-22T13:32:46.000-07:00
-        commitTimeString: 2023-09-22T13:32:46.000-07:00
-        changes:
-        - path: Assets\Scenes.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes.meta
-          projectPath: Assets\Scenes.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\EnemyScene.unity
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\EnemyScene.unity
-          projectPath: Assets\Scenes\EnemyScene.unity
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\EnemyScene.unity.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\EnemyScene.unity.meta
-          projectPath: Assets\Scenes\EnemyScene.unity.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\LevelScene.unity
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\LevelScene.unity
-          projectPath: Assets\Scenes\LevelScene.unity
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\LevelScene.unity.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\LevelScene.unity.meta
-          projectPath: Assets\Scenes\LevelScene.unity.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\MainScene.unity
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\MainScene.unity
-          projectPath: Assets\Scenes\MainScene.unity
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\MainScene.unity.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\MainScene.unity.meta
-          projectPath: Assets\Scenes\MainScene.unity.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\TowerScene.unity
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity
-          projectPath: Assets\Scenes\TowerScene.unity
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\TowerScene.unity.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity.meta
-          projectPath: Assets\Scenes\TowerScene.unity.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\UIScene.unity
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\UIScene.unity
-          projectPath: Assets\Scenes\UIScene.unity
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\UIScene.unity.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\UIScene.unity.meta
-          projectPath: Assets\Scenes\UIScene.unity.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Packages\manifest.json
-          fullPath: C:\Users\ldluc\Martian Defender\Packages\manifest.json
-          projectPath: Packages\manifest.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Packages\packages-lock.json
-          fullPath: C:\Users\ldluc\Martian Defender\Packages\packages-lock.json
-          projectPath: Packages\packages-lock.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\AudioManager.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\AudioManager.asset
-          projectPath: ProjectSettings\AudioManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\ClusterInputManager.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\ClusterInputManager.asset
-          projectPath: ProjectSettings\ClusterInputManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\DynamicsManager.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\DynamicsManager.asset
-          projectPath: ProjectSettings\DynamicsManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\EditorBuildSettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\EditorBuildSettings.asset
-          projectPath: ProjectSettings\EditorBuildSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\EditorSettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\EditorSettings.asset
-          projectPath: ProjectSettings\EditorSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\GraphicsSettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\GraphicsSettings.asset
-          projectPath: ProjectSettings\GraphicsSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\InputManager.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\InputManager.asset
-          projectPath: ProjectSettings\InputManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\MemorySettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\MemorySettings.asset
-          projectPath: ProjectSettings\MemorySettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\NavMeshAreas.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\NavMeshAreas.asset
-          projectPath: ProjectSettings\NavMeshAreas.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\NetworkManager.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\NetworkManager.asset
-          projectPath: ProjectSettings\NetworkManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\PackageManagerSettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\PackageManagerSettings.asset
-          projectPath: ProjectSettings\PackageManagerSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\Physics2DSettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\Physics2DSettings.asset
-          projectPath: ProjectSettings\Physics2DSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\PresetManager.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\PresetManager.asset
-          projectPath: ProjectSettings\PresetManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\ProjectSettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\ProjectSettings.asset
-          projectPath: ProjectSettings\ProjectSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\ProjectVersion.txt
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\ProjectVersion.txt
-          projectPath: ProjectSettings\ProjectVersion.txt
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\QualitySettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\QualitySettings.asset
-          projectPath: ProjectSettings\QualitySettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\TagManager.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\TagManager.asset
-          projectPath: ProjectSettings\TagManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\TimeManager.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\TimeManager.asset
-          projectPath: ProjectSettings\TimeManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\UnityConnectSettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\UnityConnectSettings.asset
-          projectPath: ProjectSettings\UnityConnectSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\VFXManager.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\VFXManager.asset
-          projectPath: ProjectSettings\VFXManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\VersionControlSettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\VersionControlSettings.asset
-          projectPath: ProjectSettings\VersionControlSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\XRSettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\XRSettings.asset
-          projectPath: ProjectSettings\XRSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: UserSettings\EditorUserSettings.asset
-          fullPath: C:\Users\ldluc\Martian Defender\UserSettings\EditorUserSettings.asset
-          projectPath: UserSettings\EditorUserSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: UserSettings\Layouts\default-2022.dwlt
-          fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Layouts\default-2022.dwlt
-          projectPath: UserSettings\Layouts\default-2022.dwlt
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: UserSettings\Search.index
-          fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Search.index
-          projectPath: UserSettings\Search.index
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: UserSettings\Search.settings
-          fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Search.settings
-          projectPath: UserSettings\Search.settings
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - commitID: a9db2ddde2cc4995ca1a9808892e2cdf8f18ece2
-        mergeA: 
-        mergeB: 
-        authorName: Luke Dinh
-        authorEmail: lukexdinh@gmail.com
-        commitEmail: lukexdinh@gmail.com
-        commitName: Luke Dinh
-        summary: Initial commit
-        description: 
-        timeString: 2023-09-22T13:29:03.000-07:00
-        commitTimeString: 2023-09-22T13:29:03.000-07:00
-        changes:
-        - path: .gitattributes
-          fullPath: C:\Users\ldluc\Martian Defender\.gitattributes
-          projectPath: .gitattributes
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: .gitignore
-          fullPath: C:\Users\ldluc\Martian Defender\.gitignore
-          projectPath: .gitignore
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\.gitignore
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\.gitignore
-          projectPath: Assets\.gitignore
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      statusAhead: 0
-      selectedIndex: -1
-    selectedEntry:
-      commitID: 
-      mergeA: 
-      mergeB: 
-      authorName: 
-      authorEmail: 
-      commitEmail: 
-      commitName: 
-      summary: 
-      description: 
-      timeString: 0001-01-01T00:00:00.000+00:00
-      commitTimeString: 0001-01-01T00:00:00.000+00:00
-      changes: []
-    treeChanges:
-      assets:
-        keys: []
-        values: []
-      folders:
-        keys: []
-        values: []
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: 
-      pathSeparator: /
-      displayRootNode: 0
-      isSelectable: 1
-      isCheckable: 0
-      isUsingGlobalSelection: 0
-      nodes: []
-=======
         fullPath: D:\Unity Games\martian-defender\Assets\Scenes\EnemyScene.unity
         projectPath: Assets\Scenes\EnemyScene.unity
         originalPath: 
@@ -7455,7 +3686,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 3
           workTreeStatus: 0
->>>>>>> napoleon/enemy-ai
       selectedNode:
         path: 
         label: 
@@ -7475,45 +3705,24 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-<<<<<<< HEAD
-    detailsScroll: {x: 0, y: 0}
-  settingsView:
-    gitPathView:
-      gitPath: C:\Program Files\Git\cmd\git.exe
-      gitLfsPath: C:\Program Files\Git\cmd\git-lfs.exe
-=======
     detailsScroll: {x: 0, y: 762}
   settingsView:
     gitPathView:
       gitPath: C:\Users\piolo\AppData\Local\GitForUnity\git\cmd\git.exe
       gitLfsPath: C:\Users\piolo\AppData\Local\GitForUnity\git\mingw64\libexec\git-core\git-lfs.exe
->>>>>>> napoleon/enemy-ai
       errorMessage: 
       resetToBundled: 0
       resetToSystem: 0
       changingManually: 0
     hasRemote: 1
     lastCurrentRemoteChangedEvent:
-<<<<<<< HEAD
-      updatedTimeString: 2023-10-01T23:30:25.961-07:00
-=======
       updatedTimeString: 2023-09-29T19:09:41.807-07:00
->>>>>>> napoleon/enemy-ai
       cacheType: 1
     newRepositoryRemoteUrl: https://github.com/lxkedinh/martian-defender.git
     repositoryRemoteName: origin
     repositoryRemoteUrl: https://github.com/lxkedinh/martian-defender.git
     scroll: {x: 0, y: 0}
     userSettingsView:
-<<<<<<< HEAD
-      gitName: Luke Dinh
-      gitEmail: lukexdinh@gmail.com
-      newGitName: Luke Dinh
-      newGitEmail: lukexdinh@gmail.com
-      needsSaving: 0
-      lastCheckUserChangedEvent:
-        updatedTimeString: 2023-10-01T23:12:06.764-07:00
-=======
       gitName: nipplelion
       gitEmail: piolotorrico@yahoo.com
       newGitName: nipplelion
@@ -7521,7 +3730,6 @@ MonoBehaviour:
       needsSaving: 0
       lastCheckUserChangedEvent:
         updatedTimeString: 2023-09-29T19:09:43.090-07:00
->>>>>>> napoleon/enemy-ai
         cacheType: 8
     webTimeout: 100000
     gitTimeout: 5000
@@ -7550,66 +3758,6 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 1 Jan 0001, 00:00
     lastCurrentRemoteChangedEvent:
-<<<<<<< HEAD
-      updatedTimeString: 2023-10-05T22:51:13.154-07:00
-      cacheType: 1
-    lastLocksChangedEvent:
-      updatedTimeString: 2023-10-05T22:51:14.682-07:00
-      cacheType: 7
-    lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-10-05T22:51:14.353-07:00
-      cacheType: 6
-    lockedFiles: []
-    gitStatusEntries:
-    - path: Assets\Prefabs\OverlayTile.prefab
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\OverlayTile.prefab
-      projectPath: Assets\Prefabs\OverlayTile.prefab
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Prefabs\Tower.prefab
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\Tower.prefab
-      projectPath: Assets\Prefabs\Tower.prefab
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scenes\TowerScene.unity
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity
-      projectPath: Assets\Scenes\TowerScene.unity
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\MapController.cs
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\MapController.cs
-      projectPath: Assets\Scripts\MapController.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\MouseController.cs
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\MouseController.cs
-      projectPath: Assets\Scripts\MouseController.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\PlayerController.cs
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\PlayerController.cs
-      projectPath: Assets\Scripts\PlayerController.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\Tower.cs
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Tower.cs
-      projectPath: Assets\Scripts\Tower.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: UserSettings\Layouts\default-2022.dwlt
-      fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Layouts\default-2022.dwlt
-      projectPath: UserSettings\Layouts\default-2022.dwlt
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-=======
       updatedTimeString: 2023-09-29T19:09:41.807-07:00
       cacheType: 1
     lastLocksChangedEvent:
@@ -7620,7 +3768,6 @@ MonoBehaviour:
       cacheType: 6
     lockedFiles: []
     gitStatusEntries: []
->>>>>>> napoleon/enemy-ai
     currentUsername: 
     unlockFileMenuContent:
       m_Text: Release Lock
@@ -7632,22 +3779,14 @@ MonoBehaviour:
       m_Tooltip: 
   hasRemote: 1
   currentRemoteName: origin
-<<<<<<< HEAD
-  currentBranch: luke/tower-ai
-=======
   currentBranch: enemy-ai
->>>>>>> napoleon/enemy-ai
   currentRemoteUrl: https://github.com/lxkedinh/martian-defender.git
   statusAhead: 0
   statusBehind: 0
   hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
   currentBranchContent:
-<<<<<<< HEAD
-    m_Text: luke/tower-ai
-=======
     m_Text: enemy-ai
->>>>>>> napoleon/enemy-ai
     m_Image: {fileID: 0}
     m_Tooltip: Active branch
   currentRemoteUrlContent:
@@ -7655,23 +3794,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-<<<<<<< HEAD
-    updatedTimeString: 2023-10-06T18:01:58.309-07:00
-    cacheType: 1
-  lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-10-06T18:02:15.671-07:00
-    cacheType: 5
-  lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-10-06T18:44:15.528-07:00
-=======
     updatedTimeString: 2023-09-29T19:10:40.570-07:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
     updatedTimeString: 2023-09-29T19:28:16.993-07:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-09-29T19:28:16.979-07:00
->>>>>>> napoleon/enemy-ai
+    updatedTimeString: 2023-11-04T13:03:37.660-07:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -7689,11 +3818,7 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-<<<<<<< HEAD
   repositoryProgressValue: 0
-=======
-  repositoryProgressValue: 0.97959185
->>>>>>> napoleon/enemy-ai
   repositoryProgressMessage: 
   appManagerProgressValue: 1
   appManagerProgressMessage: 

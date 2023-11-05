@@ -1,11 +1,14 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
     public GameObject enemyPrefab;
+
+    public Transform target;
 
     public Vector2 spawnRange = new Vector2(3f, 3f);
 
@@ -33,6 +36,17 @@ public class EnemySpawner : MonoBehaviour
 
             Vector3 randomPos = new Vector3(spawnerPos.x + offsetX, spawnerPos.y + offsetY, spawnerPos.z);
             GameObject newEnemy = Instantiate(enemyPrefab, randomPos, Quaternion.identity);
+
+            Enemy newEnemyScript = newEnemy.GetComponent<Enemy>();
+
+            if (newEnemyScript != null )
+            {
+                newEnemyScript.target = target;
+            } else
+            {
+                UnityEngine.Debug.Log("No enemy script found.");
+            }
+
         }
     }
 

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using NavMeshPlus.Components;
 using UnityEngine.Tilemaps;
 
 public class MapController : MonoBehaviour
@@ -10,6 +11,8 @@ public class MapController : MonoBehaviour
     public HashSet<Tower> towersPlaced = new();
     public Wall wallPrefab;
     public HashSet<Wall> wallsPlaced = new();
+
+    public NavMeshSurface Surface2D;
 
     public ObjectPlacementType objectPlacementType = ObjectPlacementType.Tower;
 
@@ -47,6 +50,8 @@ public class MapController : MonoBehaviour
         Wall wall = Instantiate(wallPrefab);
         wall.transform.position = new Vector3(pos.x, pos.y, pos.z + 1);
         Instance.wallsPlaced.Add(wall);
+
+        Surface2D.UpdateNavMesh(Surface2D.navMeshData);
     }
 
     public void PlaceObject(Vector3 pos)
