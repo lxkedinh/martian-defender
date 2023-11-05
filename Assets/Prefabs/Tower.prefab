@@ -529,7 +529,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5814182504533383940}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 673671ef8fa7bc145beb0d6678451e6a, type: 3}
+  m_Script: {fileID: 11500000, guid: d3dfb0b854e8a034f8494f861c6d0bd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rangeRadius: 4
@@ -537,5 +537,5 @@ MonoBehaviour:
   rangeIndicator: {fileID: 2850841656061583421}
   firePoint: {fileID: 3638108297183621161}
   projectilePrefab: {fileID: 7401622448639956225, guid: 39afe696854b1344bbeeebba22d7eb5c, type: 3}
-  attackCooldown: 1
+  attackCooldown: 1.5
   targetController: {fileID: 6006898086933840357}
