@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+[RequireComponent(typeof(Attack))]
+[RequireComponent(typeof(Health))]
+[RequireComponent(typeof(Hitbox))]
 public class Enemy : MonoBehaviour
 {
     public Rigidbody2D rbody;
@@ -16,6 +19,11 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Ship").transform;
+        if (target == null)
+        {
+            Destroy(gameObject);
+            return;
+        }
 
         // Keeps NavMesh from rotating Enemy
         agent = GetComponent<NavMeshAgent>();
@@ -26,6 +34,12 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (target == null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         NavMeshPath path = new NavMeshPath();
         agent.CalculatePath(target.position, path);
 
@@ -39,6 +53,14 @@ public class Enemy : MonoBehaviour
             Vector2 direction = target.position - transform.position;
 
             transform.position = Vector2.MoveTowards(this.transform.position, target.position, moveSpeed * Time.deltaTime);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.transform == target)
+        {
+            Destroy(gameObject);
         }
     }
 }

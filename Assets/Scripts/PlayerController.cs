@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -9,14 +10,25 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    public static PlayerController Instance { get; private set; }
     public float moveSpeed = 1f;
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
+    public PlayMode playMode = PlayMode.Normal;
 
     private Vector2 moveInput;
     private List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
     private Rigidbody2D rb;
-    public EnemySpawner enemySpawner;
+
+    public void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+        }
+
+        Instance = this;
+    }
 
     public void Start()
     {
@@ -82,19 +94,25 @@ public class PlayerController : MonoBehaviour
         moveInput = value.Get<Vector2>();
     }
 
-    public void OnFire()
+    public void OnChangeBuildObject()
     {
-        print("Shots fired");
-    }
-
-    public void OnBuildMode()
-    {
-        print("Build mode");
         MapController.Instance.ChangeObjectPlacementType();
     }
 
-    public void OnSpawnEnemies()
+    public void OnPlayerMode()
     {
-        enemySpawner.spawnEnemies(10);
+        if (playMode == PlayMode.Normal)
+        {
+            playMode = PlayMode.Build;
+            return;
+        }
+
+        playMode = PlayMode.Normal;
     }
+}
+
+public enum PlayMode
+{
+    Normal,
+    Build
 }

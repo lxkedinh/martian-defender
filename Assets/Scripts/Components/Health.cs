@@ -6,11 +6,6 @@ public class Health : MonoBehaviour
 {
     public int health;
 
-    void Start()
-    {
-
-    }
-
     public void TakeDamage(Attack attack)
     {
         health -= attack.attackDamage;

@@ -43,6 +43,8 @@ public class MapController : MonoBehaviour
         tower.transform.position = new Vector3(pos.x, pos.y, pos.z + 1);
         Instance.towersPlaced.Add(tower);
         Instance.SelectTower(tower);
+
+        Surface2D.BuildNavMesh();
     }
 
     public void PlaceWall(Vector3 pos)

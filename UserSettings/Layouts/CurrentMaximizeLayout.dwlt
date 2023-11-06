@@ -8,23 +8,22 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 3}
-  - {fileID: 13}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1503
-    height: 569
+    width: 1920
+    height: 987
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
-  vertical: 0
-  controlID: 98
+  vertical: 1
+  controlID: 8895
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -34,21 +33,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 275, y: 50}
+  m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Inspector
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1282
-    y: 136
-    width: 354
-    height: 548
+    x: 362
+    y: 73
+    width: 1098
+    height: 562
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -59,19 +58,70 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
-  m_PreviewResizer:
-    m_CachedPref: 160
-    m_ControlHash: -371814159
-    m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
-  m_GlobalObjectId: 
-  m_InspectorMode: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_PreviewWindow: {fileID: 0}
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 2560, y: 1440}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 1
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -1280
+    m_HBaseRangeMax: 1280
+    m_VBaseRangeMin: -720
+    m_VBaseRangeMax: 720
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 1098
+      height: 541
+    m_Scale: {x: 0.37569445, y: 0.37569445}
+    m_Translation: {x: 549, y: 270.5}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -1461.2938
+      y: -720
+      width: 2922.5876
+      height: 1440
+    m_MinimalGUI: 1
+  m_defaultScale: 0.37569445
+  m_LastWindowPixelSize: {x: 1098, y: 562}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -86,17 +136,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 4}
-  - {fileID: 10}
+  - {fileID: 17}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1148
-    height: 569
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 41
+    width: 1920
+    height: 987
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 8896
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -111,18 +161,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 5}
-  - {fileID: 7}
+  - {fileID: 10}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1148
-    height: 341
+    width: 1462
+    height: 987
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 8888
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 6}
+  - {fileID: 8}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1462
+    height: 583
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 42
---- !u!114 &5
+  controlID: 8816
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,16 +214,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 520
-    height: 341
+    width: 362
+    height: 583
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 6}
+  m_ActualView: {fileID: 7}
   m_Panes:
-  - {fileID: 6}
+  - {fileID: 7}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &6
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,10 +243,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 134
-    y: 136
-    width: 519
-    height: 320
+    x: 0
+    y: 73
+    width: 361
+    height: 562
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -185,9 +260,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: cc680000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 16fbffff
+      m_ExpandedIDs: 02fbffffac680000c668000022690000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -203,7 +278,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 5}
+        m_ClientGUIView: {fileID: 6}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -211,7 +286,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &7
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -221,24 +296,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 520
+    x: 362
     y: 0
-    width: 628
-    height: 341
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 8}
+    width: 1100
+    height: 583
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 2}
   m_Panes:
-  - {fileID: 8}
   - {fileID: 9}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &8
+  - {fileID: 2}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -258,10 +333,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 654
-    y: 136
-    width: 626
-    height: 320
+    x: 362
+    y: 73
+    width: 1098
+    height: 562
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -302,7 +377,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -328,7 +403,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -574,7 +649,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 0
+      displayed: 1
       snapOffset: {x: 48, y: 48}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -601,7 +676,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -207, y: -242}
+      snapOffset: {x: -216, y: -285}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: AINavigationOverlay
@@ -620,9 +695,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.2025347, y: 0.4667142, z: 0.04523793}
+    m_Target: {x: 67.5841, y: 598.39996, z: -17.382273}
     speed: 2
-    m_Value: {x: 2.2678962, y: 0.42057675, z: 0.047121875}
+    m_Value: {x: 67.5841, y: 598.39996, z: -17.382273}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -672,9 +747,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 4.37494
+    m_Target: 571.7951
     speed: 2
-    m_Value: 4.1865454
+    m_Value: 571.7951
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -699,7 +774,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &9
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -707,97 +782,24 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
+  m_Children:
+  - {fileID: 11}
+  - {fileID: 15}
+  m_Position:
     serializedVersion: 2
-    x: 654
-    y: 136
-    width: 626
-    height: 320
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
-  m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
-  m_TargetDisplay: 0
-  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 626, y: 299}
-  m_TextureFilterMode: 0
-  m_TextureHideFlags: 61
-  m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 0
-  m_UseMipMap: 0
-  m_VSyncEnabled: 0
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -313
-    m_HBaseRangeMax: 313
-    m_VBaseRangeMin: -149.5
-    m_VBaseRangeMax: 149.5
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 21
-      width: 626
-      height: 299
-    m_Scale: {x: 1.0609, y: 1.0609}
-    m_Translation: {x: 305.11346, y: 140.39545}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -287.59872
-      y: -132.33618
-      width: 590.06506
-      height: 281.83618
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 626, y: 320}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000000000000
-  m_XRRenderMode: 0
-  m_RenderTexture: {fileID: 0}
---- !u!114 &10
+    x: 0
+    y: 583
+    width: 1462
+    height: 404
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 8889
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -813,18 +815,19 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 341
-    width: 1148
-    height: 228
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 11}
+    y: 0
+    width: 972
+    height: 404
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_ActualView: {fileID: 12}
   m_Panes:
-  - {fileID: 11}
   - {fileID: 12}
+  - {fileID: 13}
+  - {fileID: 14}
   m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &11
+  m_LastSelected: 1
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -844,10 +847,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 134
-    y: 477
-    width: 1147
-    height: 207
+    x: 0
+    y: 656
+    width: 971
+    height: 383
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -879,14 +882,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Prefabs
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Unity Games\martian-defender
+  m_LastProjectPath: C:\Users\ldluc\Martian Defender
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b4690000
-    m_LastClickedID: 27060
-    m_ExpandedIDs: 00000000b269000000ca9a3bffffff7f
+    m_SelectedIDs: 926b0000
+    m_LastClickedID: 27538
+    m_ExpandedIDs: 00000000386a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -902,7 +905,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 11}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -914,7 +917,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000386a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -939,10 +942,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: cc680000
-    m_LastClickedInstanceID: 26828
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000000000002c670000aa6300005a6400005c64000050630000
+    m_SelectedInstanceIDs: ce680000
+    m_LastClickedInstanceID: 26830
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c62300002c670000000000004c6600005a660000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -958,7 +961,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 7}
+      m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -970,7 +973,41 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &12
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 656
+    width: 971
+    height: 383
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -992,7 +1029,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 657
-    width: 1466
+    width: 1462
     height: 382
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1005,7 +1042,67 @@ MonoBehaviour:
     m_SaveData: []
     m_OverlaysVisible: 1
   mForceToOpen: 0
---- !u!114 &13
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GridPaintPaletteWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 972
+    y: 0
+    width: 490
+    height: 404
+  m_MinSize: {x: 240, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f683d99f24875748a6656966ca9cea0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 240, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Tile Palette
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 972
+    y: 656
+    width: 488
+    height: 383
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1020,19 +1117,66 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1148
+    x: 1462
     y: 0
-    width: 355
-    height: 569
+    width: 458
+    height: 987
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 2}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 2}
-  - {fileID: 14}
+  - {fileID: 18}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &14
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1462
+    y: 73
+    width: 457
+    height: 966
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: 160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: 26830
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1052,10 +1196,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1464
+    x: 1463
     y: 73
-    width: 455
-    height: 926
+    width: 456
+    height: 966
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1072,10 +1216,10 @@ MonoBehaviour:
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 1
+  repositoryProgressHasUpdate: 0
   appManagerProgressHasUpdate: 1
-  changeTab: 4
-  activeTab: 4
+  changeTab: 3
+  activeTab: 3
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
@@ -1088,10 +1232,21 @@ MonoBehaviour:
       folders:
         keys:
         - Local branches
+        - luke
         values:
         - path: Local branches
           label: Local branches
           level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+        - path: luke
+          label: luke
+          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1118,9 +1273,19 @@ MonoBehaviour:
         isActive: 0
         treeIsCheckable: 0
         checkState: 0
-      - path: enemy-ai
-        label: enemy-ai
+      - path: luke
+        label: luke
         level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: luke/tower-ai
+        label: tower-ai
+        level: 2
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -1139,14 +1304,14 @@ MonoBehaviour:
         treeIsCheckable: 0
         checkState: 0
       selectedNode:
-        path: enemy-ai
-        label: enemy-ai
-        level: 1
+        path: 
+        label: 
+        level: 0
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
-        isActive: 1
+        isActive: 0
         treeIsCheckable: 0
         checkState: 0
     treeRemotes:
@@ -1155,6 +1320,7 @@ MonoBehaviour:
         keys:
         - Remote branches
         - origin
+        - origin/luke
         values:
         - path: Remote branches
           label: Remote branches
@@ -1171,7 +1337,17 @@ MonoBehaviour:
           level: 1
           isFolder: 1
           isContainer: 0
-          isCollapsed: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+        - path: origin/luke
+          label: luke
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
           isHidden: 0
           isActive: 0
           treeIsCheckable: 0
@@ -1200,35 +1376,45 @@ MonoBehaviour:
         level: 1
         isFolder: 1
         isContainer: 0
-        isCollapsed: 1
+        isCollapsed: 0
         isHidden: 0
         isActive: 0
         treeIsCheckable: 0
         checkState: 0
-      - path: origin/enemy-ai
-        label: enemy-ai
+      - path: origin/luke
+        label: luke
         level: 2
-        isFolder: 0
+        isFolder: 1
         isContainer: 0
         isCollapsed: 0
-        isHidden: 1
+        isHidden: 0
         isActive: 0
         treeIsCheckable: 0
         checkState: 0
-      - path: origin/HEAD
-        label: HEAD
+      - path: origin/luke/tower-ai
+        label: tower-ai
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin/main
+        label: main
         level: 2
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
-        isHidden: 1
+        isHidden: 0
         isActive: 0
         treeIsCheckable: 0
         checkState: 0
       selectedNode:
-        path: 
-        label: 
-        level: 0
+        path: origin/luke/tower-ai
+        label: tower-ai
+        level: 3
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -1240,16 +1426,16 @@ MonoBehaviour:
     newBranchName: 
     scroll: {x: 0, y: 0}
     disableDelete: 1
-    disableCreate: 0
+    disableCreate: 1
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2023-11-04T19:09:16.088-07:00
+      updatedTimeString: 2023-09-28T15:56:16.617-07:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2023-11-04T19:09:16.077-07:00
+      updatedTimeString: 2023-09-28T15:56:30.103-07:00
       cacheType: 1
     currentBranch:
-      name: enemy-ai
-      tracking: origin/enemy-ai
+      name: luke/tower-ai
+      tracking: origin/luke/tower-ai
     currentRemote:
       name: origin
       url: https://github.com/lxkedinh/martian-defender.git
@@ -1259,30 +1445,524 @@ MonoBehaviour:
       function: 0
       token: 
     localBranches:
-    - name: enemy-ai
-      tracking: origin/enemy-ai
+    - name: luke/tower-ai
+      tracking: origin/luke/tower-ai
     - name: main
       tracking: origin/main
     remoteBranches:
-    - name: origin/enemy-ai
+    - name: origin/luke/tower-ai
       tracking: '[None]'
-    - name: origin/HEAD
+    - name: origin/main
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
+    currentBranchHasUpdate: 1
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: 
-    currentBranch: main
+    currentBranch: luke/tower-ai
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys: []
-        values: []
+        keys:
+        - 00000000000000001000000000000000
+        - a21456362c7ba4445ab522be1fcfc958
+        - 2c7f3f8c888a3704cbc002de804a4210
+        - 10260b8a830428243b8441b231bf326a
+        - 631654073d5532f42ab7904d65da19fa
+        - 8ed826d334a38d741abc978badad276b
+        - 13b3e73534a146e4c979b3e8bceb04f2
+        - 1a4e11b3afa661c42808a553bac078a6
+        - 886573ea152c3b045973b4b4f735700c
+        - 5cb51927033b0a3469d68edf25a48cb5
+        - d5033a16e30008347a062bdf2e3378d9
+        - b569db6d841cfd44a9170efd49acbbdb
+        - 9a1594a9082132a489fa4e428c6b8302
+        - f6056829c5d32a340a2adfb0d4328721
+        - 673671ef8fa7bc145beb0d6678451e6a
+        - 53fd6845a17d19c4a99b25f391c142d3
+        - db740ea4eb6779e4c9e80c33d745729a
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Prefabs
+          label: Prefabs
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Prefabs\OverlayTile.prefab
+          label: OverlayTile.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\OverlayTile.prefab
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\OverlayTile.prefab
+            projectPath: Assets\Prefabs\OverlayTile.prefab
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Prefabs\Tower.prefab
+          label: Tower.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Tower.prefab
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\Tower.prefab
+            projectPath: Assets\Prefabs\Tower.prefab
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes\TowerScene.unity
+          label: TowerScene.unity
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scenes\TowerScene.unity
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity
+            projectPath: Assets\Scenes\TowerScene.unity
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scripts\Components
+          label: Components
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scripts\Components\Attack.cs
+          label: Attack.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\Components\Attack.cs
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Attack.cs
+            projectPath: Assets\Scripts\Components\Attack.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Scripts\Components\Health.cs
+          label: Health.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\Components\Health.cs
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Health.cs
+            projectPath: Assets\Scripts\Components\Health.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Scripts\Components\Hitbox.cs
+          label: Hitbox.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\Components\Hitbox.cs
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Hitbox.cs
+            projectPath: Assets\Scripts\Components\Hitbox.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Scripts\IMouseable.cs
+          label: IMouseable.cs
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\IMouseable.cs
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\IMouseable.cs
+            projectPath: Assets\Scripts\IMouseable.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Scripts\MapController.cs
+          label: MapController.cs
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\MapController.cs
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\MapController.cs
+            projectPath: Assets\Scripts\MapController.cs
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Scripts\MouseController.cs
+          label: MouseController.cs
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\MouseController.cs
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\MouseController.cs
+            projectPath: Assets\Scripts\MouseController.cs
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Scripts\Tower.cs
+          label: Tower.cs
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\Tower.cs
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Tower.cs
+            projectPath: Assets\Scripts\Tower.cs
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Sprites
+          label: Sprites
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Sprites\tower_outline.png
+          label: tower_outline.png
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Sprites\tower_outline.png
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\tower_outline.png
+            projectPath: Assets\Sprites\tower_outline.png
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
       folders:
-        keys: []
-        values: []
+        keys:
+        - .vscode
+        - Assets
+        - Assets\Prefabs
+        - Assets\Scenes
+        - Assets\Scripts
+        - Assets\Scripts\Components
+        - Assets\Sprites
+        - UserSettings
+        - UserSettings\Layouts
+        values:
+        - path: .vscode
+          label: .vscode
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Prefabs
+          label: Prefabs
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scripts\Components
+          label: Components
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Sprites
+          label: Sprites
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings
+          label: UserSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings\Layouts
+          label: Layouts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -1311,6 +1991,528 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: .vscode
+        label: .vscode
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: .vscode\settings.json
+        label: settings.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .vscode\settings.json
+          fullPath: C:\Users\ldluc\Martian Defender\.vscode\settings.json
+          projectPath: .vscode\settings.json
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Prefabs
+        label: Prefabs
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Prefabs\OverlayTile.prefab
+        label: OverlayTile.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\OverlayTile.prefab
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\OverlayTile.prefab
+          projectPath: Assets\Prefabs\OverlayTile.prefab
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Prefabs\Tower.prefab
+        label: Tower.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Tower.prefab
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\Tower.prefab
+          projectPath: Assets\Prefabs\Tower.prefab
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Scenes
+        label: Scenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scenes\TowerScene.unity
+        label: TowerScene.unity
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\TowerScene.unity
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity
+          projectPath: Assets\Scenes\TowerScene.unity
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Scripts
+        label: Scripts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scripts\Components.meta
+        label: Components.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\Components.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components.meta
+          projectPath: Assets\Scripts\Components.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scripts\Components
+        label: Components
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scripts\Components\Attack.cs
+        label: Attack.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\Components\Attack.cs
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Attack.cs
+          projectPath: Assets\Scripts\Components\Attack.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scripts\Components\Attack.cs.meta
+        label: Attack.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\Components\Attack.cs.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Attack.cs.meta
+          projectPath: Assets\Scripts\Components\Attack.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scripts\Components\Health.cs
+        label: Health.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\Components\Health.cs
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Health.cs
+          projectPath: Assets\Scripts\Components\Health.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scripts\Components\Health.cs.meta
+        label: Health.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\Components\Health.cs.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Health.cs.meta
+          projectPath: Assets\Scripts\Components\Health.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scripts\Components\Hitbox.cs
+        label: Hitbox.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\Components\Hitbox.cs
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Hitbox.cs
+          projectPath: Assets\Scripts\Components\Hitbox.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scripts\Components\Hitbox.cs.meta
+        label: Hitbox.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\Components\Hitbox.cs.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Hitbox.cs.meta
+          projectPath: Assets\Scripts\Components\Hitbox.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scripts\IMouseable.cs
+        label: IMouseable.cs
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\IMouseable.cs
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\IMouseable.cs
+          projectPath: Assets\Scripts\IMouseable.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scripts\IMouseable.cs.meta
+        label: IMouseable.cs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\IMouseable.cs.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\IMouseable.cs.meta
+          projectPath: Assets\Scripts\IMouseable.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scripts\MapController.cs
+        label: MapController.cs
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\MapController.cs
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\MapController.cs
+          projectPath: Assets\Scripts\MapController.cs
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Scripts\MouseController.cs
+        label: MouseController.cs
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\MouseController.cs
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\MouseController.cs
+          projectPath: Assets\Scripts\MouseController.cs
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Scripts\Tower.cs
+        label: Tower.cs
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\Tower.cs
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Tower.cs
+          projectPath: Assets\Scripts\Tower.cs
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Sprites
+        label: Sprites
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Sprites\tower_outline.png
+        label: tower_outline.png
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Sprites\tower_outline.png
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\tower_outline.png
+          projectPath: Assets\Sprites\tower_outline.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Sprites\tower_outline.png.meta
+        label: tower_outline.png.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Sprites\tower_outline.png.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\tower_outline.png.meta
+          projectPath: Assets\Sprites\tower_outline.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UserSettings
+        label: UserSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts
+        label: Layouts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+        label: CurrentMaximizeLayout.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UserSettings\Layouts\default-2022.dwlt
+        label: default-2022.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -1330,256 +2532,141 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries: []
-    changedFilesText: No changed files
+    gitStatusEntries:
+    - path: .vscode\settings.json
+      fullPath: C:\Users\ldluc\Martian Defender\.vscode\settings.json
+      projectPath: .vscode\settings.json
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Prefabs\OverlayTile.prefab
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\OverlayTile.prefab
+      projectPath: Assets\Prefabs\OverlayTile.prefab
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Prefabs\Tower.prefab
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\Tower.prefab
+      projectPath: Assets\Prefabs\Tower.prefab
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scenes\TowerScene.unity
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity
+      projectPath: Assets\Scenes\TowerScene.unity
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scripts\Components.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components.meta
+      projectPath: Assets\Scripts\Components.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts\Components\Attack.cs
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Attack.cs
+      projectPath: Assets\Scripts\Components\Attack.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts\Components\Attack.cs.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Attack.cs.meta
+      projectPath: Assets\Scripts\Components\Attack.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts\Components\Health.cs
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Health.cs
+      projectPath: Assets\Scripts\Components\Health.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts\Components\Health.cs.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Health.cs.meta
+      projectPath: Assets\Scripts\Components\Health.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts\Components\Hitbox.cs
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Hitbox.cs
+      projectPath: Assets\Scripts\Components\Hitbox.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts\Components\Hitbox.cs.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Hitbox.cs.meta
+      projectPath: Assets\Scripts\Components\Hitbox.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts\IMouseable.cs
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\IMouseable.cs
+      projectPath: Assets\Scripts\IMouseable.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts\IMouseable.cs.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\IMouseable.cs.meta
+      projectPath: Assets\Scripts\IMouseable.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts\MapController.cs
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\MapController.cs
+      projectPath: Assets\Scripts\MapController.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scripts\MouseController.cs
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\MouseController.cs
+      projectPath: Assets\Scripts\MouseController.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scripts\Tower.cs
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Tower.cs
+      projectPath: Assets\Scripts\Tower.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Sprites\tower_outline.png
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\tower_outline.png
+      projectPath: Assets\Sprites\tower_outline.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Sprites\tower_outline.png.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\tower_outline.png.meta
+      projectPath: Assets\Sprites\tower_outline.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+      fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+      projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\Layouts\default-2022.dwlt
+      fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Layouts\default-2022.dwlt
+      projectPath: UserSettings\Layouts\default-2022.dwlt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 20 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-09-29T19:09:41.807-07:00
+      updatedTimeString: 2023-11-05T21:52:09.994-08:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-11-05T22:04:52.584-08:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-09-29T19:09:43.085-07:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
-    - commitID: 7aa9c5b8676388337cc1077d24f65d9463edeed0
-      mergeA: 
-      mergeB: 
-      authorName: Luke Dinh
-      authorEmail: lukexdinh@gmail.com
-      commitEmail: lukexdinh@gmail.com
-      commitName: Luke Dinh
-      summary: 'feat: created isometric tilemap and tile palette with barebones tile
-        sprites'
-      description: 
-      timeString: 2023-09-28T15:56:05.000-07:00
-      commitTimeString: 2023-09-28T15:56:05.000-07:00
-      changes:
-      - path: .vscode\extensions.json
-        fullPath: D:\Unity Games\martian-defender\.vscode\extensions.json
-        projectPath: .vscode\extensions.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: .vscode\launch.json
-        fullPath: D:\Unity Games\martian-defender\.vscode\launch.json
-        projectPath: .vscode\launch.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: .vscode\settings.json
-        fullPath: D:\Unity Games\martian-defender\.vscode\settings.json
-        projectPath: .vscode\settings.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Materials.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Materials.meta
-        projectPath: Assets\Materials.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Materials\Circle.mat
-        fullPath: D:\Unity Games\martian-defender\Assets\Materials\Circle.mat
-        projectPath: Assets\Materials\Circle.mat
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Materials\Circle.mat.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Materials\Circle.mat.meta
-        projectPath: Assets\Materials\Circle.mat.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\EnemyScene.unity
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\EnemyScene.unity
-        projectPath: Assets\Scenes\EnemyScene.unity
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: Assets\Scenes\EnemyScene.unity.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\EnemyScene.unity.meta
-        projectPath: Assets\Scenes\EnemyScene.unity.meta
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: Assets\Scenes\LevelScene.unity
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\LevelScene.unity
-        projectPath: Assets\Scenes\LevelScene.unity
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: Assets\Scenes\LevelScene.unity.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\LevelScene.unity.meta
-        projectPath: Assets\Scenes\LevelScene.unity.meta
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: Assets\Scenes\MainScene.unity
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\MainScene.unity
-        projectPath: Assets\Scenes\MainScene.unity
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: Assets\Scenes\MainScene.unity.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\MainScene.unity.meta
-        projectPath: Assets\Scenes\MainScene.unity.meta
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: Assets\Scenes\TowerScene.unity
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\TowerScene.unity
-        projectPath: Assets\Scenes\TowerScene.unity
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: Assets\Scenes\UIScene.unity
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\UIScene.unity
-        projectPath: Assets\Scenes\UIScene.unity
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: Assets\Scenes\UIScene.unity.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\UIScene.unity.meta
-        projectPath: Assets\Scenes\UIScene.unity.meta
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: Assets\Scripts.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Scripts.meta
-        projectPath: Assets\Scripts.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scripts\TowerController.cs
-        fullPath: D:\Unity Games\martian-defender\Assets\Scripts\TowerController.cs
-        projectPath: Assets\Scripts\TowerController.cs
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scripts\TowerController.cs.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Scripts\TowerController.cs.meta
-        projectPath: Assets\Scripts\TowerController.cs.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Sprites.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Sprites.meta
-        projectPath: Assets\Sprites.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Sprites\GrassTile.png
-        fullPath: D:\Unity Games\martian-defender\Assets\Sprites\GrassTile.png
-        projectPath: Assets\Sprites\GrassTile.png
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Sprites\GrassTile.png.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Sprites\GrassTile.png.meta
-        projectPath: Assets\Sprites\GrassTile.png.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Sprites\Isometric Diamond.asset
-        fullPath: D:\Unity Games\martian-defender\Assets\Sprites\Isometric Diamond.asset
-        projectPath: Assets\Sprites\Isometric Diamond.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Sprites\Isometric Diamond.asset.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Sprites\Isometric Diamond.asset.meta
-        projectPath: Assets\Sprites\Isometric Diamond.asset.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Sprites\IsometricDiamond.png
-        fullPath: D:\Unity Games\martian-defender\Assets\Sprites\IsometricDiamond.png
-        projectPath: Assets\Sprites\IsometricDiamond.png
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Sprites\IsometricDiamond.png.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Sprites\IsometricDiamond.png.meta
-        projectPath: Assets\Sprites\IsometricDiamond.png.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Sprites\Tower.asset
-        fullPath: D:\Unity Games\martian-defender\Assets\Sprites\Tower.asset
-        projectPath: Assets\Sprites\Tower.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Sprites\Tower.asset.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Sprites\Tower.asset.meta
-        projectPath: Assets\Sprites\Tower.asset.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\iso palette.prefab
-        fullPath: D:\Unity Games\martian-defender\Assets\iso palette.prefab
-        projectPath: Assets\iso palette.prefab
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\iso palette.prefab.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\iso palette.prefab.meta
-        projectPath: Assets\iso palette.prefab.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\isometric-sandbox-sheet.png
-        fullPath: D:\Unity Games\martian-defender\Assets\isometric-sandbox-sheet.png
-        projectPath: Assets\isometric-sandbox-sheet.png
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\isometric-sandbox-sheet.png.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\isometric-sandbox-sheet.png.meta
-        projectPath: Assets\isometric-sandbox-sheet.png.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Packages\manifest.json
-        fullPath: D:\Unity Games\martian-defender\Packages\manifest.json
-        projectPath: Packages\manifest.json
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: Packages\packages-lock.json
-        fullPath: D:\Unity Games\martian-defender\Packages\packages-lock.json
-        projectPath: Packages\packages-lock.json
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: ProjectSettings\GraphicsSettings.asset
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\GraphicsSettings.asset
-        projectPath: ProjectSettings\GraphicsSettings.asset
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: ProjectSettings\SceneTemplateSettings.json
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\SceneTemplateSettings.json
-        projectPath: ProjectSettings\SceneTemplateSettings.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\EditorUserSettings.asset
-        fullPath: D:\Unity Games\martian-defender\UserSettings\EditorUserSettings.asset
-        projectPath: UserSettings\EditorUserSettings.asset
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2022.dwlt
-        fullPath: D:\Unity Games\martian-defender\UserSettings\Layouts\default-2022.dwlt
-        projectPath: UserSettings\Layouts\default-2022.dwlt
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
     - commitID: d36cb9498942bc07cc5ff5564cd2100d41786dc5
       mergeA: 
       mergeB: 
@@ -1593,235 +2680,235 @@ MonoBehaviour:
       commitTimeString: 2023-09-22T13:32:46.000-07:00
       changes:
       - path: Assets\Scenes.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes.meta
+        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes.meta
         projectPath: Assets\Scenes.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes\EnemyScene.unity
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\EnemyScene.unity
+        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\EnemyScene.unity
         projectPath: Assets\Scenes\EnemyScene.unity
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes\EnemyScene.unity.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\EnemyScene.unity.meta
+        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\EnemyScene.unity.meta
         projectPath: Assets\Scenes\EnemyScene.unity.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes\LevelScene.unity
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\LevelScene.unity
+        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\LevelScene.unity
         projectPath: Assets\Scenes\LevelScene.unity
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes\LevelScene.unity.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\LevelScene.unity.meta
+        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\LevelScene.unity.meta
         projectPath: Assets\Scenes\LevelScene.unity.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes\MainScene.unity
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\MainScene.unity
+        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\MainScene.unity
         projectPath: Assets\Scenes\MainScene.unity
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes\MainScene.unity.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\MainScene.unity.meta
+        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\MainScene.unity.meta
         projectPath: Assets\Scenes\MainScene.unity.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes\TowerScene.unity
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\TowerScene.unity
+        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity
         projectPath: Assets\Scenes\TowerScene.unity
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes\TowerScene.unity.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\TowerScene.unity.meta
+        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity.meta
         projectPath: Assets\Scenes\TowerScene.unity.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes\UIScene.unity
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\UIScene.unity
+        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\UIScene.unity
         projectPath: Assets\Scenes\UIScene.unity
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes\UIScene.unity.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\UIScene.unity.meta
+        fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\UIScene.unity.meta
         projectPath: Assets\Scenes\UIScene.unity.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Packages\manifest.json
-        fullPath: D:\Unity Games\martian-defender\Packages\manifest.json
+        fullPath: C:\Users\ldluc\Martian Defender\Packages\manifest.json
         projectPath: Packages\manifest.json
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Packages\packages-lock.json
-        fullPath: D:\Unity Games\martian-defender\Packages\packages-lock.json
+        fullPath: C:\Users\ldluc\Martian Defender\Packages\packages-lock.json
         projectPath: Packages\packages-lock.json
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\AudioManager.asset
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\AudioManager.asset
+        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\AudioManager.asset
         projectPath: ProjectSettings\AudioManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\ClusterInputManager.asset
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\ClusterInputManager.asset
+        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\ClusterInputManager.asset
         projectPath: ProjectSettings\ClusterInputManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\DynamicsManager.asset
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\DynamicsManager.asset
+        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\DynamicsManager.asset
         projectPath: ProjectSettings\DynamicsManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\EditorBuildSettings.asset
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\EditorBuildSettings.asset
+        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\EditorBuildSettings.asset
         projectPath: ProjectSettings\EditorBuildSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\EditorSettings.asset
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\EditorSettings.asset
+        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\EditorSettings.asset
         projectPath: ProjectSettings\EditorSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\GraphicsSettings.asset
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\GraphicsSettings.asset
+        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\GraphicsSettings.asset
         projectPath: ProjectSettings\GraphicsSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\InputManager.asset
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\InputManager.asset
+        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\InputManager.asset
         projectPath: ProjectSettings\InputManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\MemorySettings.asset
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\MemorySettings.asset
+        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\MemorySettings.asset
         projectPath: ProjectSettings\MemorySettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\NavMeshAreas.asset
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\NavMeshAreas.asset
+        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\NavMeshAreas.asset
         projectPath: ProjectSettings\NavMeshAreas.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\NetworkManager.asset
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\NetworkManager.asset
+        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\NetworkManager.asset
         projectPath: ProjectSettings\NetworkManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\PackageManagerSettings.asset
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\PackageManagerSettings.asset
+        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\PackageManagerSettings.asset
         projectPath: ProjectSettings\PackageManagerSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\Physics2DSettings.asset
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\Physics2DSettings.asset
+        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\Physics2DSettings.asset
         projectPath: ProjectSettings\Physics2DSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\PresetManager.asset
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\PresetManager.asset
+        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\PresetManager.asset
         projectPath: ProjectSettings\PresetManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\ProjectSettings.asset
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\ProjectSettings.asset
+        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\ProjectSettings.asset
         projectPath: ProjectSettings\ProjectSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\ProjectVersion.txt
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\ProjectVersion.txt
+        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\ProjectVersion.txt
         projectPath: ProjectSettings\ProjectVersion.txt
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\QualitySettings.asset
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\QualitySettings.asset
+        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\QualitySettings.asset
         projectPath: ProjectSettings\QualitySettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\TagManager.asset
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\TagManager.asset
+        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\TagManager.asset
         projectPath: ProjectSettings\TagManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\TimeManager.asset
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\TimeManager.asset
+        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\TimeManager.asset
         projectPath: ProjectSettings\TimeManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\UnityConnectSettings.asset
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\UnityConnectSettings.asset
+        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\UnityConnectSettings.asset
         projectPath: ProjectSettings\UnityConnectSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\VFXManager.asset
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\VFXManager.asset
+        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\VFXManager.asset
         projectPath: ProjectSettings\VFXManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\VersionControlSettings.asset
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\VersionControlSettings.asset
+        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\VersionControlSettings.asset
         projectPath: ProjectSettings\VersionControlSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\XRSettings.asset
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\XRSettings.asset
+        fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\XRSettings.asset
         projectPath: ProjectSettings\XRSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: UserSettings\EditorUserSettings.asset
-        fullPath: D:\Unity Games\martian-defender\UserSettings\EditorUserSettings.asset
+        fullPath: C:\Users\ldluc\Martian Defender\UserSettings\EditorUserSettings.asset
         projectPath: UserSettings\EditorUserSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: UserSettings\Layouts\default-2022.dwlt
-        fullPath: D:\Unity Games\martian-defender\UserSettings\Layouts\default-2022.dwlt
+        fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Layouts\default-2022.dwlt
         projectPath: UserSettings\Layouts\default-2022.dwlt
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: UserSettings\Search.index
-        fullPath: D:\Unity Games\martian-defender\UserSettings\Search.index
+        fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Search.index
         projectPath: UserSettings\Search.index
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: UserSettings\Search.settings
-        fullPath: D:\Unity Games\martian-defender\UserSettings\Search.settings
+        fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Search.settings
         projectPath: UserSettings\Search.settings
         originalPath: 
         indexStatus: 4
@@ -1839,268 +2926,33 @@ MonoBehaviour:
       commitTimeString: 2023-09-22T13:29:03.000-07:00
       changes:
       - path: .gitattributes
-        fullPath: D:\Unity Games\martian-defender\.gitattributes
+        fullPath: C:\Users\ldluc\Martian Defender\.gitattributes
         projectPath: .gitattributes
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: .gitignore
-        fullPath: D:\Unity Games\martian-defender\.gitignore
+        fullPath: C:\Users\ldluc\Martian Defender\.gitignore
         projectPath: .gitignore
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\.gitignore
-        fullPath: D:\Unity Games\martian-defender\Assets\.gitignore
+        fullPath: C:\Users\ldluc\Martian Defender\Assets\.gitignore
         projectPath: Assets\.gitignore
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2023-09-29T19:10:07.486-07:00
+      updatedTimeString: 2023-09-28T15:56:35.072-07:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2023-09-29T19:10:07.476-07:00
+      updatedTimeString: 2023-09-28T15:56:35.330-07:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
-      - commitID: 7aa9c5b8676388337cc1077d24f65d9463edeed0
-        mergeA: 
-        mergeB: 
-        authorName: Luke Dinh
-        authorEmail: lukexdinh@gmail.com
-        commitEmail: lukexdinh@gmail.com
-        commitName: Luke Dinh
-        summary: 'feat: created isometric tilemap and tile palette with barebones
-          tile sprites'
-        description: 
-        timeString: 2023-09-28T15:56:05.000-07:00
-        commitTimeString: 2023-09-28T15:56:05.000-07:00
-        changes:
-        - path: .vscode\extensions.json
-          fullPath: D:\Unity Games\martian-defender\.vscode\extensions.json
-          projectPath: .vscode\extensions.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: .vscode\launch.json
-          fullPath: D:\Unity Games\martian-defender\.vscode\launch.json
-          projectPath: .vscode\launch.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: .vscode\settings.json
-          fullPath: D:\Unity Games\martian-defender\.vscode\settings.json
-          projectPath: .vscode\settings.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Materials.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Materials.meta
-          projectPath: Assets\Materials.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Materials\Circle.mat
-          fullPath: D:\Unity Games\martian-defender\Assets\Materials\Circle.mat
-          projectPath: Assets\Materials\Circle.mat
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Materials\Circle.mat.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Materials\Circle.mat.meta
-          projectPath: Assets\Materials\Circle.mat.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\EnemyScene.unity
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\EnemyScene.unity
-          projectPath: Assets\Scenes\EnemyScene.unity
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-        - path: Assets\Scenes\EnemyScene.unity.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\EnemyScene.unity.meta
-          projectPath: Assets\Scenes\EnemyScene.unity.meta
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-        - path: Assets\Scenes\LevelScene.unity
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\LevelScene.unity
-          projectPath: Assets\Scenes\LevelScene.unity
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-        - path: Assets\Scenes\LevelScene.unity.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\LevelScene.unity.meta
-          projectPath: Assets\Scenes\LevelScene.unity.meta
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-        - path: Assets\Scenes\MainScene.unity
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\MainScene.unity
-          projectPath: Assets\Scenes\MainScene.unity
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-        - path: Assets\Scenes\MainScene.unity.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\MainScene.unity.meta
-          projectPath: Assets\Scenes\MainScene.unity.meta
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-        - path: Assets\Scenes\TowerScene.unity
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\TowerScene.unity
-          projectPath: Assets\Scenes\TowerScene.unity
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-        - path: Assets\Scenes\UIScene.unity
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\UIScene.unity
-          projectPath: Assets\Scenes\UIScene.unity
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-        - path: Assets\Scenes\UIScene.unity.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\UIScene.unity.meta
-          projectPath: Assets\Scenes\UIScene.unity.meta
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-        - path: Assets\Scripts.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Scripts.meta
-          projectPath: Assets\Scripts.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scripts\TowerController.cs
-          fullPath: D:\Unity Games\martian-defender\Assets\Scripts\TowerController.cs
-          projectPath: Assets\Scripts\TowerController.cs
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scripts\TowerController.cs.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Scripts\TowerController.cs.meta
-          projectPath: Assets\Scripts\TowerController.cs.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Sprites.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Sprites.meta
-          projectPath: Assets\Sprites.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Sprites\GrassTile.png
-          fullPath: D:\Unity Games\martian-defender\Assets\Sprites\GrassTile.png
-          projectPath: Assets\Sprites\GrassTile.png
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Sprites\GrassTile.png.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Sprites\GrassTile.png.meta
-          projectPath: Assets\Sprites\GrassTile.png.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Sprites\Isometric Diamond.asset
-          fullPath: D:\Unity Games\martian-defender\Assets\Sprites\Isometric Diamond.asset
-          projectPath: Assets\Sprites\Isometric Diamond.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Sprites\Isometric Diamond.asset.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Sprites\Isometric Diamond.asset.meta
-          projectPath: Assets\Sprites\Isometric Diamond.asset.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Sprites\IsometricDiamond.png
-          fullPath: D:\Unity Games\martian-defender\Assets\Sprites\IsometricDiamond.png
-          projectPath: Assets\Sprites\IsometricDiamond.png
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Sprites\IsometricDiamond.png.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Sprites\IsometricDiamond.png.meta
-          projectPath: Assets\Sprites\IsometricDiamond.png.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Sprites\Tower.asset
-          fullPath: D:\Unity Games\martian-defender\Assets\Sprites\Tower.asset
-          projectPath: Assets\Sprites\Tower.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Sprites\Tower.asset.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Sprites\Tower.asset.meta
-          projectPath: Assets\Sprites\Tower.asset.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\iso palette.prefab
-          fullPath: D:\Unity Games\martian-defender\Assets\iso palette.prefab
-          projectPath: Assets\iso palette.prefab
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\iso palette.prefab.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\iso palette.prefab.meta
-          projectPath: Assets\iso palette.prefab.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\isometric-sandbox-sheet.png
-          fullPath: D:\Unity Games\martian-defender\Assets\isometric-sandbox-sheet.png
-          projectPath: Assets\isometric-sandbox-sheet.png
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\isometric-sandbox-sheet.png.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\isometric-sandbox-sheet.png.meta
-          projectPath: Assets\isometric-sandbox-sheet.png.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Packages\manifest.json
-          fullPath: D:\Unity Games\martian-defender\Packages\manifest.json
-          projectPath: Packages\manifest.json
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-        - path: Packages\packages-lock.json
-          fullPath: D:\Unity Games\martian-defender\Packages\packages-lock.json
-          projectPath: Packages\packages-lock.json
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-        - path: ProjectSettings\GraphicsSettings.asset
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\GraphicsSettings.asset
-          projectPath: ProjectSettings\GraphicsSettings.asset
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-        - path: ProjectSettings\SceneTemplateSettings.json
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\SceneTemplateSettings.json
-          projectPath: ProjectSettings\SceneTemplateSettings.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: UserSettings\EditorUserSettings.asset
-          fullPath: D:\Unity Games\martian-defender\UserSettings\EditorUserSettings.asset
-          projectPath: UserSettings\EditorUserSettings.asset
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-        - path: UserSettings\Layouts\default-2022.dwlt
-          fullPath: D:\Unity Games\martian-defender\UserSettings\Layouts\default-2022.dwlt
-          projectPath: UserSettings\Layouts\default-2022.dwlt
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
       - commitID: d36cb9498942bc07cc5ff5564cd2100d41786dc5
         mergeA: 
         mergeB: 
@@ -2114,235 +2966,235 @@ MonoBehaviour:
         commitTimeString: 2023-09-22T13:32:46.000-07:00
         changes:
         - path: Assets\Scenes.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes.meta
           projectPath: Assets\Scenes.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes\EnemyScene.unity
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\EnemyScene.unity
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\EnemyScene.unity
           projectPath: Assets\Scenes\EnemyScene.unity
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes\EnemyScene.unity.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\EnemyScene.unity.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\EnemyScene.unity.meta
           projectPath: Assets\Scenes\EnemyScene.unity.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes\LevelScene.unity
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\LevelScene.unity
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\LevelScene.unity
           projectPath: Assets\Scenes\LevelScene.unity
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes\LevelScene.unity.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\LevelScene.unity.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\LevelScene.unity.meta
           projectPath: Assets\Scenes\LevelScene.unity.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes\MainScene.unity
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\MainScene.unity
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\MainScene.unity
           projectPath: Assets\Scenes\MainScene.unity
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes\MainScene.unity.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\MainScene.unity.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\MainScene.unity.meta
           projectPath: Assets\Scenes\MainScene.unity.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes\TowerScene.unity
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\TowerScene.unity
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity
           projectPath: Assets\Scenes\TowerScene.unity
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes\TowerScene.unity.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\TowerScene.unity.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity.meta
           projectPath: Assets\Scenes\TowerScene.unity.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes\UIScene.unity
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\UIScene.unity
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\UIScene.unity
           projectPath: Assets\Scenes\UIScene.unity
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes\UIScene.unity.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\UIScene.unity.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\UIScene.unity.meta
           projectPath: Assets\Scenes\UIScene.unity.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Packages\manifest.json
-          fullPath: D:\Unity Games\martian-defender\Packages\manifest.json
+          fullPath: C:\Users\ldluc\Martian Defender\Packages\manifest.json
           projectPath: Packages\manifest.json
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Packages\packages-lock.json
-          fullPath: D:\Unity Games\martian-defender\Packages\packages-lock.json
+          fullPath: C:\Users\ldluc\Martian Defender\Packages\packages-lock.json
           projectPath: Packages\packages-lock.json
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\AudioManager.asset
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\AudioManager.asset
+          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\AudioManager.asset
           projectPath: ProjectSettings\AudioManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\ClusterInputManager.asset
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\ClusterInputManager.asset
+          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\ClusterInputManager.asset
           projectPath: ProjectSettings\ClusterInputManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\DynamicsManager.asset
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\DynamicsManager.asset
+          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\DynamicsManager.asset
           projectPath: ProjectSettings\DynamicsManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\EditorBuildSettings.asset
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\EditorBuildSettings.asset
+          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\EditorBuildSettings.asset
           projectPath: ProjectSettings\EditorBuildSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\EditorSettings.asset
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\EditorSettings.asset
+          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\EditorSettings.asset
           projectPath: ProjectSettings\EditorSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\GraphicsSettings.asset
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\GraphicsSettings.asset
+          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\GraphicsSettings.asset
           projectPath: ProjectSettings\GraphicsSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\InputManager.asset
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\InputManager.asset
+          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\InputManager.asset
           projectPath: ProjectSettings\InputManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\MemorySettings.asset
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\MemorySettings.asset
+          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\MemorySettings.asset
           projectPath: ProjectSettings\MemorySettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\NavMeshAreas.asset
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\NavMeshAreas.asset
+          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\NavMeshAreas.asset
           projectPath: ProjectSettings\NavMeshAreas.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\NetworkManager.asset
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\NetworkManager.asset
+          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\NetworkManager.asset
           projectPath: ProjectSettings\NetworkManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\PackageManagerSettings.asset
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\PackageManagerSettings.asset
+          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\PackageManagerSettings.asset
           projectPath: ProjectSettings\PackageManagerSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\Physics2DSettings.asset
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\Physics2DSettings.asset
+          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\Physics2DSettings.asset
           projectPath: ProjectSettings\Physics2DSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\PresetManager.asset
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\PresetManager.asset
+          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\PresetManager.asset
           projectPath: ProjectSettings\PresetManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\ProjectSettings.asset
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\ProjectSettings.asset
           projectPath: ProjectSettings\ProjectSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\ProjectVersion.txt
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\ProjectVersion.txt
+          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\ProjectVersion.txt
           projectPath: ProjectSettings\ProjectVersion.txt
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\QualitySettings.asset
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\QualitySettings.asset
+          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\QualitySettings.asset
           projectPath: ProjectSettings\QualitySettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\TagManager.asset
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\TagManager.asset
+          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\TagManager.asset
           projectPath: ProjectSettings\TagManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\TimeManager.asset
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\TimeManager.asset
+          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\TimeManager.asset
           projectPath: ProjectSettings\TimeManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\UnityConnectSettings.asset
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\UnityConnectSettings.asset
+          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\UnityConnectSettings.asset
           projectPath: ProjectSettings\UnityConnectSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\VFXManager.asset
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\VFXManager.asset
+          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\VFXManager.asset
           projectPath: ProjectSettings\VFXManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\VersionControlSettings.asset
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\VersionControlSettings.asset
+          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\VersionControlSettings.asset
           projectPath: ProjectSettings\VersionControlSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\XRSettings.asset
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\XRSettings.asset
+          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\XRSettings.asset
           projectPath: ProjectSettings\XRSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: UserSettings\EditorUserSettings.asset
-          fullPath: D:\Unity Games\martian-defender\UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\ldluc\Martian Defender\UserSettings\EditorUserSettings.asset
           projectPath: UserSettings\EditorUserSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: UserSettings\Layouts\default-2022.dwlt
-          fullPath: D:\Unity Games\martian-defender\UserSettings\Layouts\default-2022.dwlt
+          fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Layouts\default-2022.dwlt
           projectPath: UserSettings\Layouts\default-2022.dwlt
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: UserSettings\Search.index
-          fullPath: D:\Unity Games\martian-defender\UserSettings\Search.index
+          fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Search.index
           projectPath: UserSettings\Search.index
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: UserSettings\Search.settings
-          fullPath: D:\Unity Games\martian-defender\UserSettings\Search.settings
+          fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Search.settings
           projectPath: UserSettings\Search.settings
           originalPath: 
           indexStatus: 4
@@ -2360,1332 +3212,55 @@ MonoBehaviour:
         commitTimeString: 2023-09-22T13:29:03.000-07:00
         changes:
         - path: .gitattributes
-          fullPath: D:\Unity Games\martian-defender\.gitattributes
+          fullPath: C:\Users\ldluc\Martian Defender\.gitattributes
           projectPath: .gitattributes
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: .gitignore
-          fullPath: D:\Unity Games\martian-defender\.gitignore
+          fullPath: C:\Users\ldluc\Martian Defender\.gitignore
           projectPath: .gitignore
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\.gitignore
-          fullPath: D:\Unity Games\martian-defender\Assets\.gitignore
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\.gitignore
           projectPath: Assets\.gitignore
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
       statusAhead: 0
-      selectedIndex: 0
+      selectedIndex: -1
     selectedEntry:
-      commitID: 7aa9c5b8676388337cc1077d24f65d9463edeed0
+      commitID: 
       mergeA: 
       mergeB: 
-      authorName: Luke Dinh
-      authorEmail: lukexdinh@gmail.com
-      commitEmail: lukexdinh@gmail.com
-      commitName: Luke Dinh
-      summary: 'feat: created isometric tilemap and tile palette with barebones tile
-        sprites'
+      authorName: 
+      authorEmail: 
+      commitEmail: 
+      commitName: 
+      summary: 
       description: 
-      timeString: 2023-09-28T15:56:05.000-07:00
-      commitTimeString: 2023-09-28T15:56:05.000-07:00
-      changes:
-      - path: .vscode\extensions.json
-        fullPath: D:\Unity Games\martian-defender\.vscode\extensions.json
-        projectPath: .vscode\extensions.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: .vscode\launch.json
-        fullPath: D:\Unity Games\martian-defender\.vscode\launch.json
-        projectPath: .vscode\launch.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: .vscode\settings.json
-        fullPath: D:\Unity Games\martian-defender\.vscode\settings.json
-        projectPath: .vscode\settings.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Materials.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Materials.meta
-        projectPath: Assets\Materials.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Materials\Circle.mat
-        fullPath: D:\Unity Games\martian-defender\Assets\Materials\Circle.mat
-        projectPath: Assets\Materials\Circle.mat
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Materials\Circle.mat.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Materials\Circle.mat.meta
-        projectPath: Assets\Materials\Circle.mat.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\EnemyScene.unity
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\EnemyScene.unity
-        projectPath: Assets\Scenes\EnemyScene.unity
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: Assets\Scenes\EnemyScene.unity.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\EnemyScene.unity.meta
-        projectPath: Assets\Scenes\EnemyScene.unity.meta
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: Assets\Scenes\LevelScene.unity
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\LevelScene.unity
-        projectPath: Assets\Scenes\LevelScene.unity
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: Assets\Scenes\LevelScene.unity.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\LevelScene.unity.meta
-        projectPath: Assets\Scenes\LevelScene.unity.meta
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: Assets\Scenes\MainScene.unity
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\MainScene.unity
-        projectPath: Assets\Scenes\MainScene.unity
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: Assets\Scenes\MainScene.unity.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\MainScene.unity.meta
-        projectPath: Assets\Scenes\MainScene.unity.meta
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: Assets\Scenes\TowerScene.unity
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\TowerScene.unity
-        projectPath: Assets\Scenes\TowerScene.unity
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: Assets\Scenes\UIScene.unity
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\UIScene.unity
-        projectPath: Assets\Scenes\UIScene.unity
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: Assets\Scenes\UIScene.unity.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Scenes\UIScene.unity.meta
-        projectPath: Assets\Scenes\UIScene.unity.meta
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: Assets\Scripts.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Scripts.meta
-        projectPath: Assets\Scripts.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scripts\TowerController.cs
-        fullPath: D:\Unity Games\martian-defender\Assets\Scripts\TowerController.cs
-        projectPath: Assets\Scripts\TowerController.cs
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scripts\TowerController.cs.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Scripts\TowerController.cs.meta
-        projectPath: Assets\Scripts\TowerController.cs.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Sprites.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Sprites.meta
-        projectPath: Assets\Sprites.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Sprites\GrassTile.png
-        fullPath: D:\Unity Games\martian-defender\Assets\Sprites\GrassTile.png
-        projectPath: Assets\Sprites\GrassTile.png
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Sprites\GrassTile.png.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Sprites\GrassTile.png.meta
-        projectPath: Assets\Sprites\GrassTile.png.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Sprites\Isometric Diamond.asset
-        fullPath: D:\Unity Games\martian-defender\Assets\Sprites\Isometric Diamond.asset
-        projectPath: Assets\Sprites\Isometric Diamond.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Sprites\Isometric Diamond.asset.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Sprites\Isometric Diamond.asset.meta
-        projectPath: Assets\Sprites\Isometric Diamond.asset.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Sprites\IsometricDiamond.png
-        fullPath: D:\Unity Games\martian-defender\Assets\Sprites\IsometricDiamond.png
-        projectPath: Assets\Sprites\IsometricDiamond.png
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Sprites\IsometricDiamond.png.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Sprites\IsometricDiamond.png.meta
-        projectPath: Assets\Sprites\IsometricDiamond.png.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Sprites\Tower.asset
-        fullPath: D:\Unity Games\martian-defender\Assets\Sprites\Tower.asset
-        projectPath: Assets\Sprites\Tower.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Sprites\Tower.asset.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\Sprites\Tower.asset.meta
-        projectPath: Assets\Sprites\Tower.asset.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\iso palette.prefab
-        fullPath: D:\Unity Games\martian-defender\Assets\iso palette.prefab
-        projectPath: Assets\iso palette.prefab
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\iso palette.prefab.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\iso palette.prefab.meta
-        projectPath: Assets\iso palette.prefab.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\isometric-sandbox-sheet.png
-        fullPath: D:\Unity Games\martian-defender\Assets\isometric-sandbox-sheet.png
-        projectPath: Assets\isometric-sandbox-sheet.png
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\isometric-sandbox-sheet.png.meta
-        fullPath: D:\Unity Games\martian-defender\Assets\isometric-sandbox-sheet.png.meta
-        projectPath: Assets\isometric-sandbox-sheet.png.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Packages\manifest.json
-        fullPath: D:\Unity Games\martian-defender\Packages\manifest.json
-        projectPath: Packages\manifest.json
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: Packages\packages-lock.json
-        fullPath: D:\Unity Games\martian-defender\Packages\packages-lock.json
-        projectPath: Packages\packages-lock.json
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: ProjectSettings\GraphicsSettings.asset
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\GraphicsSettings.asset
-        projectPath: ProjectSettings\GraphicsSettings.asset
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: ProjectSettings\SceneTemplateSettings.json
-        fullPath: D:\Unity Games\martian-defender\ProjectSettings\SceneTemplateSettings.json
-        projectPath: ProjectSettings\SceneTemplateSettings.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\EditorUserSettings.asset
-        fullPath: D:\Unity Games\martian-defender\UserSettings\EditorUserSettings.asset
-        projectPath: UserSettings\EditorUserSettings.asset
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2022.dwlt
-        fullPath: D:\Unity Games\martian-defender\UserSettings\Layouts\default-2022.dwlt
-        projectPath: UserSettings\Layouts\default-2022.dwlt
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
+      timeString: 0001-01-01T00:00:00.000+00:00
+      commitTimeString: 0001-01-01T00:00:00.000+00:00
+      changes: []
     treeChanges:
       assets:
         keys: []
         values: []
       folders:
-        keys:
-        - .vscode
-        - Assets
-        - Assets\Materials
-        - Assets\Scenes
-        - Assets\Scripts
-        - Assets\Sprites
-        - Packages
-        - ProjectSettings
-        - UserSettings
-        - UserSettings\Layouts
-        values:
-        - path: .vscode
-          label: .vscode
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Materials
-          label: Materials
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Sprites
-          label: Sprites
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Packages
-          label: Packages
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: ProjectSettings
-          label: ProjectSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings
-          label: UserSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings\Layouts
-          label: Layouts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
+        keys: []
+        values: []
       checkedFileNodes:
         keys: []
         values: []
       title: 
-      pathSeparator: \
+      pathSeparator: /
       displayRootNode: 0
       isSelectable: 1
       isCheckable: 0
       isUsingGlobalSelection: 0
-      nodes:
-      - path: 
-        label: 
-        level: -1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .vscode
-        label: .vscode
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .vscode\extensions.json
-        label: extensions.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .vscode\extensions.json
-          fullPath: D:\Unity Games\martian-defender\.vscode\extensions.json
-          projectPath: .vscode\extensions.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: .vscode\launch.json
-        label: launch.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .vscode\launch.json
-          fullPath: D:\Unity Games\martian-defender\.vscode\launch.json
-          projectPath: .vscode\launch.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: .vscode\settings.json
-        label: settings.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .vscode\settings.json
-          fullPath: D:\Unity Games\martian-defender\.vscode\settings.json
-          projectPath: .vscode\settings.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets
-        label: Assets
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Materials.meta
-        label: Materials.meta
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Materials.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Materials.meta
-          projectPath: Assets\Materials.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Materials
-        label: Materials
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Materials\Circle.mat
-        label: Circle.mat
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Materials\Circle.mat
-          fullPath: D:\Unity Games\martian-defender\Assets\Materials\Circle.mat
-          projectPath: Assets\Materials\Circle.mat
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Materials\Circle.mat.meta
-        label: Circle.mat.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Materials\Circle.mat.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Materials\Circle.mat.meta
-          projectPath: Assets\Materials\Circle.mat.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Scenes
-        label: Scenes
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scenes\EnemyScene.unity
-        label: EnemyScene.unity
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\EnemyScene.unity
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\EnemyScene.unity
-          projectPath: Assets\Scenes\EnemyScene.unity
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-      - path: Assets\Scenes\EnemyScene.unity.meta
-        label: EnemyScene.unity.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\EnemyScene.unity.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\EnemyScene.unity.meta
-          projectPath: Assets\Scenes\EnemyScene.unity.meta
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-      - path: Assets\Scenes\LevelScene.unity
-        label: LevelScene.unity
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\LevelScene.unity
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\LevelScene.unity
-          projectPath: Assets\Scenes\LevelScene.unity
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-      - path: Assets\Scenes\LevelScene.unity.meta
-        label: LevelScene.unity.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\LevelScene.unity.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\LevelScene.unity.meta
-          projectPath: Assets\Scenes\LevelScene.unity.meta
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-      - path: Assets\Scenes\MainScene.unity
-        label: MainScene.unity
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\MainScene.unity
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\MainScene.unity
-          projectPath: Assets\Scenes\MainScene.unity
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-      - path: Assets\Scenes\MainScene.unity.meta
-        label: MainScene.unity.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\MainScene.unity.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\MainScene.unity.meta
-          projectPath: Assets\Scenes\MainScene.unity.meta
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-      - path: Assets\Scenes\TowerScene.unity
-        label: TowerScene.unity
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\TowerScene.unity
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\TowerScene.unity
-          projectPath: Assets\Scenes\TowerScene.unity
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-      - path: Assets\Scenes\UIScene.unity
-        label: UIScene.unity
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\UIScene.unity
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\UIScene.unity
-          projectPath: Assets\Scenes\UIScene.unity
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-      - path: Assets\Scenes\UIScene.unity.meta
-        label: UIScene.unity.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\UIScene.unity.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Scenes\UIScene.unity.meta
-          projectPath: Assets\Scenes\UIScene.unity.meta
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-      - path: Assets\Scripts.meta
-        label: Scripts.meta
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Scripts.meta
-          projectPath: Assets\Scripts.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Scripts
-        label: Scripts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scripts\TowerController.cs
-        label: TowerController.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\TowerController.cs
-          fullPath: D:\Unity Games\martian-defender\Assets\Scripts\TowerController.cs
-          projectPath: Assets\Scripts\TowerController.cs
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Scripts\TowerController.cs.meta
-        label: TowerController.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\TowerController.cs.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Scripts\TowerController.cs.meta
-          projectPath: Assets\Scripts\TowerController.cs.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Sprites.meta
-        label: Sprites.meta
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Sprites.meta
-          projectPath: Assets\Sprites.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Sprites
-        label: Sprites
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Sprites\GrassTile.png
-        label: GrassTile.png
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\GrassTile.png
-          fullPath: D:\Unity Games\martian-defender\Assets\Sprites\GrassTile.png
-          projectPath: Assets\Sprites\GrassTile.png
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Sprites\GrassTile.png.meta
-        label: GrassTile.png.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\GrassTile.png.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Sprites\GrassTile.png.meta
-          projectPath: Assets\Sprites\GrassTile.png.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Sprites\Isometric Diamond.asset
-        label: Isometric Diamond.asset
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\Isometric Diamond.asset
-          fullPath: D:\Unity Games\martian-defender\Assets\Sprites\Isometric Diamond.asset
-          projectPath: Assets\Sprites\Isometric Diamond.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Sprites\Isometric Diamond.asset.meta
-        label: Isometric Diamond.asset.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\Isometric Diamond.asset.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Sprites\Isometric Diamond.asset.meta
-          projectPath: Assets\Sprites\Isometric Diamond.asset.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Sprites\IsometricDiamond.png
-        label: IsometricDiamond.png
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\IsometricDiamond.png
-          fullPath: D:\Unity Games\martian-defender\Assets\Sprites\IsometricDiamond.png
-          projectPath: Assets\Sprites\IsometricDiamond.png
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Sprites\IsometricDiamond.png.meta
-        label: IsometricDiamond.png.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\IsometricDiamond.png.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Sprites\IsometricDiamond.png.meta
-          projectPath: Assets\Sprites\IsometricDiamond.png.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Sprites\Tower.asset
-        label: Tower.asset
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\Tower.asset
-          fullPath: D:\Unity Games\martian-defender\Assets\Sprites\Tower.asset
-          projectPath: Assets\Sprites\Tower.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Sprites\Tower.asset.meta
-        label: Tower.asset.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\Tower.asset.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\Sprites\Tower.asset.meta
-          projectPath: Assets\Sprites\Tower.asset.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\iso palette.prefab
-        label: iso palette.prefab
-        level: 1
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\iso palette.prefab
-          fullPath: D:\Unity Games\martian-defender\Assets\iso palette.prefab
-          projectPath: Assets\iso palette.prefab
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\iso palette.prefab.meta
-        label: iso palette.prefab.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\iso palette.prefab.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\iso palette.prefab.meta
-          projectPath: Assets\iso palette.prefab.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\isometric-sandbox-sheet.png
-        label: isometric-sandbox-sheet.png
-        level: 1
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\isometric-sandbox-sheet.png
-          fullPath: D:\Unity Games\martian-defender\Assets\isometric-sandbox-sheet.png
-          projectPath: Assets\isometric-sandbox-sheet.png
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\isometric-sandbox-sheet.png.meta
-        label: isometric-sandbox-sheet.png.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\isometric-sandbox-sheet.png.meta
-          fullPath: D:\Unity Games\martian-defender\Assets\isometric-sandbox-sheet.png.meta
-          projectPath: Assets\isometric-sandbox-sheet.png.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Packages
-        label: Packages
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Packages\manifest.json
-        label: manifest.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Packages\manifest.json
-          fullPath: D:\Unity Games\martian-defender\Packages\manifest.json
-          projectPath: Packages\manifest.json
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-      - path: Packages\packages-lock.json
-        label: packages-lock.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Packages\packages-lock.json
-          fullPath: D:\Unity Games\martian-defender\Packages\packages-lock.json
-          projectPath: Packages\packages-lock.json
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-      - path: ProjectSettings
-        label: ProjectSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: ProjectSettings\GraphicsSettings.asset
-        label: GraphicsSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\GraphicsSettings.asset
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\GraphicsSettings.asset
-          projectPath: ProjectSettings\GraphicsSettings.asset
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-      - path: ProjectSettings\SceneTemplateSettings.json
-        label: SceneTemplateSettings.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\SceneTemplateSettings.json
-          fullPath: D:\Unity Games\martian-defender\ProjectSettings\SceneTemplateSettings.json
-          projectPath: ProjectSettings\SceneTemplateSettings.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: UserSettings
-        label: UserSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\EditorUserSettings.asset
-        label: EditorUserSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\EditorUserSettings.asset
-          fullPath: D:\Unity Games\martian-defender\UserSettings\EditorUserSettings.asset
-          projectPath: UserSettings\EditorUserSettings.asset
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-      - path: UserSettings\Layouts
-        label: Layouts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2022.dwlt
-        label: default-2022.dwlt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Layouts\default-2022.dwlt
-          fullPath: D:\Unity Games\martian-defender\UserSettings\Layouts\default-2022.dwlt
-          projectPath: UserSettings\Layouts\default-2022.dwlt
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
+      nodes: []
       selectedNode:
         path: 
         label: 
@@ -3705,31 +3280,31 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    detailsScroll: {x: 0, y: 762}
+    detailsScroll: {x: 0, y: 0}
   settingsView:
     gitPathView:
-      gitPath: C:\Users\piolo\AppData\Local\GitForUnity\git\cmd\git.exe
-      gitLfsPath: C:\Users\piolo\AppData\Local\GitForUnity\git\mingw64\libexec\git-core\git-lfs.exe
+      gitPath: C:\Program Files\Git\cmd\git.exe
+      gitLfsPath: C:\Program Files\Git\cmd\git-lfs.exe
       errorMessage: 
       resetToBundled: 0
       resetToSystem: 0
       changingManually: 0
     hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2023-09-29T19:09:41.807-07:00
+      updatedTimeString: 2023-10-01T23:30:25.961-07:00
       cacheType: 1
     newRepositoryRemoteUrl: https://github.com/lxkedinh/martian-defender.git
     repositoryRemoteName: origin
     repositoryRemoteUrl: https://github.com/lxkedinh/martian-defender.git
     scroll: {x: 0, y: 0}
     userSettingsView:
-      gitName: nipplelion
-      gitEmail: piolotorrico@yahoo.com
-      newGitName: nipplelion
-      newGitEmail: piolotorrico@yahoo.com
+      gitName: Luke Dinh
+      gitEmail: lukexdinh@gmail.com
+      newGitName: Luke Dinh
+      newGitEmail: lukexdinh@gmail.com
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2023-09-29T19:09:43.090-07:00
+        updatedTimeString: 2023-10-01T23:12:06.764-07:00
         cacheType: 8
     webTimeout: 100000
     gitTimeout: 5000
@@ -3758,16 +3333,64 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 1 Jan 0001, 00:00
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2023-09-29T19:09:41.807-07:00
+      updatedTimeString: 2023-10-05T22:51:13.154-07:00
       cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 2023-09-29T19:09:43.085-07:00
+      updatedTimeString: 2023-10-05T22:51:14.682-07:00
       cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-10-05T22:51:14.353-07:00
       cacheType: 6
     lockedFiles: []
-    gitStatusEntries: []
+    gitStatusEntries:
+    - path: Assets\Prefabs\OverlayTile.prefab
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\OverlayTile.prefab
+      projectPath: Assets\Prefabs\OverlayTile.prefab
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Prefabs\Tower.prefab
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\Tower.prefab
+      projectPath: Assets\Prefabs\Tower.prefab
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scenes\TowerScene.unity
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity
+      projectPath: Assets\Scenes\TowerScene.unity
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scripts\MapController.cs
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\MapController.cs
+      projectPath: Assets\Scripts\MapController.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scripts\MouseController.cs
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\MouseController.cs
+      projectPath: Assets\Scripts\MouseController.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scripts\PlayerController.cs
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\PlayerController.cs
+      projectPath: Assets\Scripts\PlayerController.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scripts\Tower.cs
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Tower.cs
+      projectPath: Assets\Scripts\Tower.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UserSettings\Layouts\default-2022.dwlt
+      fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Layouts\default-2022.dwlt
+      projectPath: UserSettings\Layouts\default-2022.dwlt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     currentUsername: 
     unlockFileMenuContent:
       m_Text: Release Lock
@@ -3779,14 +3402,14 @@ MonoBehaviour:
       m_Tooltip: 
   hasRemote: 1
   currentRemoteName: origin
-  currentBranch: enemy-ai
+  currentBranch: luke/tower-ai
   currentRemoteUrl: https://github.com/lxkedinh/martian-defender.git
   statusAhead: 0
   statusBehind: 0
   hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
   currentBranchContent:
-    m_Text: enemy-ai
+    m_Text: luke/tower-ai
     m_Image: {fileID: 0}
     m_Tooltip: Active branch
   currentRemoteUrlContent:
@@ -3794,13 +3417,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-09-29T19:10:40.570-07:00
+    updatedTimeString: 2023-10-06T18:01:58.309-07:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-09-29T19:28:16.993-07:00
+    updatedTimeString: 2023-10-06T18:02:15.671-07:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-11-04T13:03:37.660-07:00
+    updatedTimeString: 2023-10-06T18:44:15.528-07:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull

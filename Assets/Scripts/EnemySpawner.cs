@@ -42,17 +42,6 @@ public class EnemySpawner : MonoBehaviour
             NavMeshAgent agent = newEnemy.GetComponent<NavMeshAgent>();
             agent.updateRotation = false;
             agent.updateUpAxis = false;
-
-            Enemy newEnemyScript = newEnemy.GetComponent<Enemy>();
-
-            if (newEnemyScript != null )
-            {
-                newEnemyScript.target = target;
-            } else
-            {
-                UnityEngine.Debug.Log("No 'Enemy' script found.");
-            }
-
         }
     }
 
