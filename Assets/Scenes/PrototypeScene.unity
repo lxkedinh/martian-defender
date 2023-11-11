@@ -542,7 +542,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.6817387}
   m_AnchorMax: {x: 0.24410413, y: 1}
-  m_AnchoredPosition: {x: 45.317993, y: -9.336212}
+  m_AnchoredPosition: {x: 45.31787, y: -9.336182}
   m_SizeDelta: {x: 62.477, y: -18.6722}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &356820925
@@ -37850,7 +37850,7 @@ GameObject:
   - component: {fileID: 1789588126}
   - component: {fileID: 1789588128}
   - component: {fileID: 1789588129}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Cursor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38482,10 +38482,10 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 1975
+    m_Bits: 1943
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 96
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
