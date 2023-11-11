@@ -536,6 +536,6 @@ MonoBehaviour:
   towerBody: {fileID: 7326185850550892512}
   rangeIndicator: {fileID: 2850841656061583421}
   firePoint: {fileID: 3638108297183621161}
-  projectilePrefab: {fileID: 7401622448639956225, guid: 39afe696854b1344bbeeebba22d7eb5c, type: 3}
+  projectilePrefab: {fileID: 1667813552120557579, guid: 39afe696854b1344bbeeebba22d7eb5c, type: 3}
   attackCooldown: 1.5
   targetController: {fileID: 6006898086933840357}

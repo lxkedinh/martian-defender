@@ -52,8 +52,7 @@ public class Tower : MonoBehaviour
         {
             nextAttack = Time.time + attackCooldown;
             Projectile projectile = Instantiate(projectilePrefab, firePoint.transform.position, transform.rotation);
-            Vector2 fireDirection = (targetController.TargetedEnemy.transform.position - transform.position).normalized;
-            projectile.fireDirection = fireDirection;
+            projectile.target = targetController.TargetedEnemy;
         }
     }
 }
