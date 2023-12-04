@@ -29,6 +29,12 @@ public class MouseController : MonoBehaviour, IPointerClickHandler
 
     void FixedUpdate()
     {
+        if (PlayerController.Instance.playMode == PlayMode.Normal)
+        {
+            HideCursorTile();
+            return;
+        }
+
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(mouse.position.ReadValue());
         RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
 
@@ -37,6 +43,7 @@ public class MouseController : MonoBehaviour, IPointerClickHandler
         {
             return;
         }
+
 
         ShowCursorTile(mousePos);
     }
@@ -49,8 +56,13 @@ public class MouseController : MonoBehaviour, IPointerClickHandler
         spriteRenderer.enabled = true;
     }
 
+    public void HideCursorTile()
+    {
+        spriteRenderer.enabled = false;
+    }
+
     public void OnPointerClick(PointerEventData eventData)
     {
-        MapController.Instance.PlaceTower(transform.position);
+        MapController.Instance.PlaceObject(transform.position);
     }
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using NavMeshPlus.Components;
 using UnityEngine.Tilemaps;
 
 public class MapController : MonoBehaviour
@@ -8,7 +9,12 @@ public class MapController : MonoBehaviour
     public static MapController Instance { get; private set; }
     public Tower towerPrefab;
     public HashSet<Tower> towersPlaced = new();
+    public Wall wallPrefab;
+    public HashSet<Wall> wallsPlaced = new();
 
+    public NavMeshSurface Surface2D;
+
+    public ObjectPlacementType objectPlacementType = ObjectPlacementType.Tower;
 
     private void Awake()
     {
@@ -37,5 +43,48 @@ public class MapController : MonoBehaviour
         tower.transform.position = new Vector3(pos.x, pos.y, pos.z + 1);
         Instance.towersPlaced.Add(tower);
         Instance.SelectTower(tower);
+
+        Surface2D.BuildNavMesh();
+    }
+
+    public void PlaceWall(Vector3 pos)
+    {
+
+        Wall wall = Instantiate(wallPrefab);
+        wall.transform.position = new Vector3(pos.x, pos.y, pos.z);
+        Instance.wallsPlaced.Add(wall);
+
+        Surface2D.BuildNavMesh();
+    }
+
+    public void PlaceObject(Vector3 pos)
+    {
+        if (objectPlacementType == ObjectPlacementType.Tower)
+        {
+            PlaceTower(pos);
+        }
+        else
+        {
+            PlaceWall(pos);
+        }
+    }
+
+    public void ChangeObjectPlacementType()
+    {
+        if (objectPlacementType == ObjectPlacementType.Tower)
+        {
+            objectPlacementType = ObjectPlacementType.Wall;
+        }
+        else
+        {
+            objectPlacementType = ObjectPlacementType.Tower;
+        }
     }
 }
+
+public enum ObjectPlacementType
+{
+    Tower,
+    Wall
+}
+

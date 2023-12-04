@@ -340,8 +340,8 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -795,7 +795,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy
+      name: ore-vein
       rect:
         serializedVersion: 2
         x: 0
@@ -803,7 +803,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+      pivot: {x: 0.5, y: 0.75}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1162,7 +1162,6 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      enemy: -1645213594
       green_square_tile: -1828174824
       half-grass: 1546882233
       isometric-sandbox-sheet_0: 956264851
@@ -1210,6 +1209,7 @@ TextureImporter:
       isometric-sandbox-sheet_7: 1892575876
       isometric-sandbox-sheet_8: 1862114993
       isometric-sandbox-sheet_9: -608842647
+      ore-vein: -1645213594
       tower: 1546882233
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

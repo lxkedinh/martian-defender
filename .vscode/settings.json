@@ -56,5 +56,7 @@
         "temp/": true,
         "Temp/": true
     },
+    "Martian Defender.sln=======dotnet.defaultSolution": "martian-defender.sln",
+    "dotnet.preferCSharpExtension": true,
     "dotnet.defaultSolution": "Martian Defender.sln"
 }

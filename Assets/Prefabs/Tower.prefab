@@ -159,7 +159,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.33333334}
   m_FlipX: 0
   m_FlipY: 0
@@ -536,6 +537,7 @@ MonoBehaviour:
   towerBody: {fileID: 7326185850550892512}
   rangeIndicator: {fileID: 2850841656061583421}
   firePoint: {fileID: 3638108297183621161}
-  projectilePrefab: {fileID: 1667813552120557579, guid: 39afe696854b1344bbeeebba22d7eb5c, type: 3}
-  attackCooldown: 1.5
+  projectilePrefab: {fileID: 1667813552120557579, guid: 39afe696854b1344bbeeebba22d7eb5c,
+    type: 3}
+  attackCooldown: 1
   targetController: {fileID: 6006898086933840357}
