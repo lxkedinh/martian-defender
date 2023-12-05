@@ -131,17 +131,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 592647462054718787, guid: d5e517b46c611d441858f3ba96e9d3b1, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1602916612229385779, guid: d5e517b46c611d441858f3ba96e9d3b1, type: 3}
+      propertyPath: moveSpeed
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3304296178228698720, guid: d5e517b46c611d441858f3ba96e9d3b1, type: 3}
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4858481532897602598, guid: d5e517b46c611d441858f3ba96e9d3b1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.33
+      value: 2.48
       objectReference: {fileID: 0}
     - target: {fileID: 4858481532897602598, guid: d5e517b46c611d441858f3ba96e9d3b1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.48
+      value: 13.29
       objectReference: {fileID: 0}
     - target: {fileID: 4858481532897602598, guid: d5e517b46c611d441858f3ba96e9d3b1, type: 3}
       propertyPath: m_LocalPosition.z

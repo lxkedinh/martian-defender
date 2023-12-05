@@ -8,13 +8,20 @@ using UnityEngine.EventSystems;
 public class Tower : MonoBehaviour
 {
     public int rangeRadius;
-    private bool isSelected;
     public TowerBody towerBody;
     public GameObject rangeIndicator;
     public GameObject firePoint;
     public Projectile projectilePrefab;
     public float attackCooldown = 1.5f; // seconds
     private float nextAttack = 0.0f;
+    public static int buildCost = 3;
+    public static bool CanBuild
+    {
+        get
+        {
+            return InventoryController.Instance.inventory[Materials.Copper] >= buildCost;
+        }
+    }
     public TargetController targetController;
 
     // Start is called before the first frame update
@@ -32,14 +39,12 @@ public class Tower : MonoBehaviour
 
     public void Select()
     {
-        isSelected = true;
         rangeIndicator.GetComponent<SpriteRenderer>().enabled = true;
         towerBody.ShowOutline();
     }
 
     public void Deselect()
     {
-        isSelected = false;
         rangeIndicator.GetComponent<SpriteRenderer>().enabled = false;
         towerBody.HideOutline();
     }

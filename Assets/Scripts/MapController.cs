@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using NavMeshPlus.Components;
 using UnityEngine.Tilemaps;
+using UnityEngine.EventSystems;
 
-public class MapController : MonoBehaviour
+public class MapController : MonoBehaviour, IPointerClickHandler
 {
     public static MapController Instance { get; private set; }
     public Tower towerPrefab;
@@ -37,8 +38,19 @@ public class MapController : MonoBehaviour
         tower.Select();
     }
 
+    public void DeselectStructures()
+    {
+        foreach (Tower placedTower in towersPlaced)
+        {
+            placedTower.Deselect();
+        }
+    }
+
     public void PlaceTower(Vector3 pos)
     {
+        if (!Tower.CanBuild) return;
+
+        InventoryController.Instance.RemoveMaterial(Materials.Copper, Tower.buildCost);
         Tower tower = Instantiate(towerPrefab);
         tower.transform.position = new Vector3(pos.x, pos.y, pos.z + 1);
         Instance.towersPlaced.Add(tower);
@@ -49,7 +61,9 @@ public class MapController : MonoBehaviour
 
     public void PlaceWall(Vector3 pos)
     {
+        if (!Wall.CanBuild) return;
 
+        InventoryController.Instance.RemoveMaterial(Materials.Iron, Wall.buildCost);
         Wall wall = Instantiate(wallPrefab);
         wall.transform.position = new Vector3(pos.x, pos.y, pos.z);
         Instance.wallsPlaced.Add(wall);
@@ -79,6 +93,11 @@ public class MapController : MonoBehaviour
         {
             objectPlacementType = ObjectPlacementType.Tower;
         }
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        DeselectStructures();
     }
 }
 
