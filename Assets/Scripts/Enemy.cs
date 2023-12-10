@@ -15,6 +15,9 @@ public class Enemy : MonoBehaviour
 
     NavMeshAgent agent;
 
+    public float damageInterval = 1f;
+    private float nextDamageTime = 0f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -61,6 +64,25 @@ public class Enemy : MonoBehaviour
         if (collider.transform == target)
         {
             Destroy(gameObject);
+        }
+    }
+
+    void OnTriggerStay2D(Collider2D collider)
+    {
+        if (collider.gameObject.CompareTag("Wall") && Time.time >= nextDamageTime)
+        {
+            DealDamageToWall(collider);
+            nextDamageTime = Time.time + damageInterval; // Sets new damage time
+        }
+    }
+
+    void DealDamageToWall(Collider2D collider)
+    {
+        Health wallHealth = collider.gameObject.GetComponent<Health>();
+        Attack enemyAttack = GetComponent<Attack>();
+        if (wallHealth != null)
+        {
+            wallHealth.TakeDamage(enemyAttack);
         }
     }
 }

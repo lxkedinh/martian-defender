@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(Attack))]
 [RequireComponent(typeof(Health))]
-public class Tower : MonoBehaviour
+public class Tower: MonoBehaviour
 {
     public int rangeRadius;
     private bool isSelected;

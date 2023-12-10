@@ -467,7 +467,7 @@ GameObject:
   - component: {fileID: 1403372068998415167}
   - component: {fileID: 1594055660536132756}
   - component: {fileID: 835058883451228277}
-  - component: {fileID: 4403567562380353086}
+  - component: {fileID: 1742075329400151406}
   m_Layer: 8
   m_Name: Tower
   m_TagString: Untagged
@@ -519,8 +519,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cb51927033b0a3469d68edf25a48cb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
---- !u!114 &4403567562380353086
+  maxHealth: 100
+  currentHealth: 0
+  healthBar: {fileID: 0}
+--- !u!114 &1742075329400151406
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -532,10 +534,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3dfb0b854e8a034f8494f861c6d0bd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rangeRadius: 4
+  rangeRadius: 0
   towerBody: {fileID: 7326185850550892512}
   rangeIndicator: {fileID: 2850841656061583421}
   firePoint: {fileID: 3638108297183621161}
   projectilePrefab: {fileID: 7401622448639956225, guid: 39afe696854b1344bbeeebba22d7eb5c, type: 3}
-  attackCooldown: 1
+  attackCooldown: 1.5
   targetController: {fileID: 6006898086933840357}

@@ -250,7 +250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a1594a9082132a489fa4e428c6b8302, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 4403567562380353086, guid: 10260b8a830428243b8441b231bf326a, type: 3}
+  towerPrefab: {fileID: 1742075329400151406, guid: 10260b8a830428243b8441b231bf326a, type: 3}
   wallPrefab: {fileID: -203406398077621601, guid: 6dd859eedfc9c902b9e10d0c134707ed, type: 3}
   Surface2D: {fileID: 957205591}
   objectPlacementType: 0
@@ -37694,7 +37694,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cb51927033b0a3469d68edf25a48cb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 40
+  maxHealth: 50
+  currentHealth: 0
+  healthBar: {fileID: 0}
 --- !u!50 &1630357520
 Rigidbody2D:
   serializedVersion: 4

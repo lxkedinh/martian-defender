@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using NavMeshPlus.Components;
 
 public class Health : MonoBehaviour
 {
@@ -11,18 +12,34 @@ public class Health : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
-        
+
+        if (healthBar != null)
+        {
+            healthBar.SetMaxHealth(maxHealth);
+        }
+    
     }
 
 
     public void TakeDamage(Attack attack)
     {
         currentHealth -= attack.attackDamage;
-        healthBar.SetHealth(currentHealth);
+        if (healthBar != null)
+        {
+            healthBar.SetHealth(currentHealth);
+        }
         if (currentHealth <= 0)
         {
             Destroy(gameObject);
+
+            if (gameObject.CompareTag("Wall"))
+            {
+                NavMeshSurface Surface2D = FindObjectOfType<NavMeshSurface>();
+                if (Surface2D != null)
+                {
+                    Surface2D.BuildNavMesh();
+                }
+            }
         }
     }
 }
