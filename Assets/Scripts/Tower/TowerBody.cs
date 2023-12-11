@@ -23,7 +23,10 @@ public class TowerBody : MonoBehaviour, IPointerClickHandler, IPointerEnterHandl
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        HideOutline();
+        if (!GetComponentInParent<Tower>().isSelected)
+        {
+            HideOutline();
+        }
     }
 
     public void OnPointerClick(PointerEventData eventData)

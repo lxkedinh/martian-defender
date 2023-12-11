@@ -54,11 +54,13 @@ public class MouseController : MonoBehaviour, IPointerClickHandler
 
         transform.position = tilemap.GetCellCenterWorld(cell);
         spriteRenderer.enabled = true;
+        transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = true;
     }
 
     public void HideCursorTile()
     {
         spriteRenderer.enabled = false;
+        transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = false;
     }
 
     public void OnPointerClick(PointerEventData eventData)

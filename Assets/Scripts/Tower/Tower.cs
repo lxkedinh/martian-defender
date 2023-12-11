@@ -8,6 +8,7 @@ using UnityEngine.EventSystems;
 public class Tower : MonoBehaviour
 {
     public int rangeRadius;
+    public bool isSelected;
     public TowerBody towerBody;
     public GameObject rangeIndicator;
     public GameObject firePoint;
@@ -28,6 +29,7 @@ public class Tower : MonoBehaviour
     void Start()
     {
         rangeRadius = 4;
+        isSelected = true;
         float scaleFactor = (2 * rangeRadius) + 1f;
         rangeIndicator.transform.localScale = new Vector3(scaleFactor, scaleFactor, scaleFactor);
     }
@@ -39,12 +41,14 @@ public class Tower : MonoBehaviour
 
     public void Select()
     {
+        isSelected = true;
         rangeIndicator.GetComponent<SpriteRenderer>().enabled = true;
         towerBody.ShowOutline();
     }
 
     public void Deselect()
     {
+        isSelected = false;
         rangeIndicator.GetComponent<SpriteRenderer>().enabled = false;
         towerBody.HideOutline();
     }

@@ -182,7 +182,7 @@ PolygonCollider2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -558,6 +558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rangeRadius: 4
+  isSelected: 0
   towerBody: {fileID: 7326185850550892512}
   rangeIndicator: {fileID: 2850841656061583421}
   firePoint: {fileID: 3638108297183621161}
