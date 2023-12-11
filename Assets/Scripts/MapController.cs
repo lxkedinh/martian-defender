@@ -53,6 +53,8 @@ public class MapController : MonoBehaviour
         Wall wall = Instantiate(wallPrefab);
         wall.transform.position = new Vector3(pos.x, pos.y, pos.z);
         Instance.wallsPlaced.Add(wall);
+        
+        wall.ChangeWallSprite(pos, Instance.wallsPlaced);
 
         Surface2D.BuildNavMesh();
     }
