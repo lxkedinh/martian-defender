@@ -43,6 +43,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 3348931295
+    locked: 0
+  - name: Character & Structures
+    uniqueID: 1879840751
+    locked: 0
+  - name: FloatingText
+    uniqueID: 4166636345
+    locked: 0
   - name: Top
     uniqueID: 1239277957
     locked: 0

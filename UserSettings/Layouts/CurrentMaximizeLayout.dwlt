@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 8895
+  controlID: 32444
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -32,11 +32,11 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
@@ -46,8 +46,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 362
     y: 73
-    width: 1098
-    height: 562
+    width: 1099
+    height: 577
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -64,7 +64,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 2560, y: 1440}
+  m_TargetSize: {x: 1920, y: 1080}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -73,16 +73,16 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 03000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -1280
-    m_HBaseRangeMax: 1280
-    m_VBaseRangeMin: -720
-    m_VBaseRangeMax: 720
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -540
+    m_VBaseRangeMax: 540
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -91,7 +91,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -100,23 +100,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1098
-      height: 541
-    m_Scale: {x: 0.37569445, y: 0.37569445}
-    m_Translation: {x: 549, y: 270.5}
+      width: 1099
+      height: 556
+    m_Scale: {x: 1.1844151, y: 1.1844151}
+    m_Translation: {x: 639.55444, y: 336.52905}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1461.2938
-      y: -720
-      width: 2922.5876
-      height: 1440
+      x: -539.9749
+      y: -284.131
+      width: 927.88416
+      height: 469.43002
     m_MinimalGUI: 1
-  m_defaultScale: 0.37569445
-  m_LastWindowPixelSize: {x: 1098, y: 562}
+  m_defaultScale: 0.5148148
+  m_LastWindowPixelSize: {x: 1099, y: 577}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -136,7 +136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 4}
-  - {fileID: 17}
+  - {fileID: 16}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 8896
+  controlID: 32445
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,12 +166,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1462
+    width: 1463
     height: 987
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 8888
+  controlID: 32340
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -191,12 +191,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1462
-    height: 583
+    width: 1463
+    height: 598
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 8816
+  controlID: 32341
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -215,7 +215,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 362
-    height: 583
+    height: 598
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 7}
@@ -246,7 +246,7 @@ MonoBehaviour:
     x: 0
     y: 73
     width: 361
-    height: 562
+    height: 577
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -262,7 +262,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 02fbffffac680000c668000022690000
+      m_ExpandedIDs: f6faffffb8680000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -303,10 +303,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 362
     y: 0
-    width: 1100
-    height: 583
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 1101
+    height: 598
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 9}
@@ -335,8 +335,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 362
     y: 73
-    width: 1098
-    height: 562
+    width: 1099
+    height: 577
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -649,7 +649,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 1
+      displayed: 0
       snapOffset: {x: 48, y: 48}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -676,7 +676,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -216, y: -285}
+      snapOffset: {x: -216, y: -300}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: AINavigationOverlay
@@ -695,9 +695,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 67.5841, y: 598.39996, z: -17.382273}
+    m_Target: {x: 1.556917, y: 0.33427987, z: -0.0880877}
     speed: 2
-    m_Value: {x: 67.5841, y: 598.39996, z: -17.382273}
+    m_Value: {x: 1.556917, y: 0.33427987, z: -0.0880877}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -747,9 +747,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 571.7951
+    m_Target: 2.5743058
     speed: 2
-    m_Value: 571.7951
+    m_Value: 2.5743058
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -788,17 +788,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 11}
-  - {fileID: 15}
+  - {fileID: 13}
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 583
-    width: 1462
-    height: 404
+    y: 598
+    width: 1463
+    height: 389
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 8889
+  controlID: 32413
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -807,7 +807,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
@@ -816,17 +816,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 972
-    height: 404
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+    width: 297
+    height: 389
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
-  - {fileID: 13}
-  - {fileID: 14}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -848,9 +846,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 656
-    width: 971
-    height: 383
+    y: 671
+    width: 296
+    height: 368
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -872,12 +870,12 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts/Material
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
     m_FilterByTypeIntersection: 0
-  m_ViewMode: 1
+  m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders:
   - Assets/Prefabs
@@ -887,9 +885,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 926b0000
-    m_LastClickedID: 27538
-    m_ExpandedIDs: 00000000386a000000ca9a3b
+    m_SelectedIDs: 426b0000
+    m_LastClickedID: 27458
+    m_ExpandedIDs: ffffffff00000000726a0000746a0000766a0000426b00004a6b00000a6c00001e6c0000aa6c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -905,7 +903,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 13}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -914,38 +912,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 214}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000386a000000ca9a3b
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_ListAreaState:
-    m_SelectedInstanceIDs: ce680000
-    m_LastClickedInstanceID: 26830
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c62300002c670000000000004c6600005a660000
+    m_ExpandedIDs: ffffffff00000000726a0000746a0000766a0000426b00004a6b00000a6c00001e6c0000aa6c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -962,6 +932,34 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c62300002c670000000000004c6600005a66000002670000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 13}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -972,8 +970,35 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 207
+  m_DirectoriesAreaWidth: 121
 --- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: AnimationWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 297
+    y: 0
+    width: 1166
+    height: 389
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 14}
+  - {fileID: 15}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -993,10 +1018,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 656
-    width: 971
-    height: 383
+    x: 297
+    y: 671
+    width: 1164
+    height: 368
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1007,41 +1032,6 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
---- !u!114 &14
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6629f1bb292b749a18b5fff7994c8b19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 600, y: 350}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Unity Version Control
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 657
-    width: 1462
-    height: 382
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  mForceToOpen: 0
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1051,47 +1041,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GridPaintPaletteWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 972
-    y: 0
-    width: 490
-    height: 404
-  m_MinSize: {x: 240, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 16}
-  m_Panes:
-  - {fileID: 16}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &16
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f683d99f24875748a6656966ca9cea0, type: 3}
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 240, y: 200}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Tile Palette
-    m_Image: {fileID: 0}
+    m_Text: Animation
+    m_Image: {fileID: -8166618308981325432, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 972
-    y: 656
-    width: 488
-    height: 383
+    x: 297
+    y: 671
+    width: 1164
+    height: 368
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1102,7 +1066,10 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
---- !u!114 &17
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: -79216
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1112,24 +1079,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: AnimatorControllerTool
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1462
+    x: 1463
     y: 0
-    width: 458
+    width: 457
     height: 987
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 19}
   m_Panes:
+  - {fileID: 17}
   - {fileID: 18}
   - {fileID: 19}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &18
+  m_Selected: 2
+  m_LastSelected: 0
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1137,11 +1105,11 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 275, y: 50}
+  m_MinSize: {x: 275, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
@@ -1149,9 +1117,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1462
+    x: 1463
     y: 73
-    width: 457
+    width: 456
     height: 966
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1166,17 +1134,17 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 160
-    m_ControlHash: -371814159
+    m_CachedPref: 151
+    m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 26830
+  m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &19
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1460,28 +1428,26 @@ MonoBehaviour:
     currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: 
-    currentBranch: luke/tower-ai
+    currentBranch: luke/ore-veins
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
         keys:
         - 00000000000000001000000000000000
-        - a21456362c7ba4445ab522be1fcfc958
-        - 2c7f3f8c888a3704cbc002de804a4210
-        - 10260b8a830428243b8441b231bf326a
-        - 631654073d5532f42ab7904d65da19fa
-        - 8ed826d334a38d741abc978badad276b
+        - 9289bf39fa7ed454499beac3828789fe
+        - 760c693bfbaa3c2488ce345452aa8f89
+        - 8e92b6487f7ce534f80a67bafd0ac039
+        - caf3cec21ad41b84fb5acaabbbda086e
+        - a7dd760071160be4985623ae79f78556
+        - 086c1e5b990ebb144b53ada8478ca720
         - 13b3e73534a146e4c979b3e8bceb04f2
-        - 1a4e11b3afa661c42808a553bac078a6
-        - 886573ea152c3b045973b4b4f735700c
-        - 5cb51927033b0a3469d68edf25a48cb5
-        - d5033a16e30008347a062bdf2e3378d9
-        - b569db6d841cfd44a9170efd49acbbdb
-        - 9a1594a9082132a489fa4e428c6b8302
-        - f6056829c5d32a340a2adfb0d4328721
-        - 673671ef8fa7bc145beb0d6678451e6a
+        - be5c61a8a1db47f44be4d342faead4ea
+        - ada57508e6c5697488f53f46e8cc3330
         - 53fd6845a17d19c4a99b25f391c142d3
-        - db740ea4eb6779e4c9e80c33d745729a
+        - 4e1c41c00179f694ea338a8bf3b3752f
+        - e18ac5b992a67304cbe5556b2a38e353
+        - 32264d25e16dd89428b7c1e3762399bc
+        - 05baaaaa4a5d4174daea4e03dbc13992
         values:
         - path: Assets
           label: Assets
@@ -1501,6 +1467,78 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
+        - path: Assets\Animations
+          label: Animations
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Animations\Copper_Ore_Break.anim
+          label: Copper_Ore_Break.anim
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Animations\Copper_Ore_Break.anim
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\Copper_Ore_Break.anim
+            projectPath: Assets\Animations\Copper_Ore_Break.anim
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Animations\CopperOre.controller
+          label: CopperOre.controller
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Animations\CopperOre.controller
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\CopperOre.controller
+            projectPath: Assets\Animations\CopperOre.controller
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Copper_Ore_Idle.anim
+          label: Copper_Ore_Idle.anim
+          level: 1
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Copper_Ore_Idle.anim
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Copper_Ore_Idle.anim
+            projectPath: Assets\Copper_Ore_Idle.anim
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
         - path: Assets\Prefabs
           label: Prefabs
           level: 1
@@ -1519,8 +1557,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Prefabs\OverlayTile.prefab
-          label: OverlayTile.prefab
+        - path: Assets\Prefabs\CopperOre.prefab
+          label: CopperOre.prefab
           level: 2
           isFolder: 0
           isContainer: 0
@@ -1531,63 +1569,9 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\Prefabs\OverlayTile.prefab
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\OverlayTile.prefab
-            projectPath: Assets\Prefabs\OverlayTile.prefab
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Prefabs\Tower.prefab
-          label: Tower.prefab
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Prefabs\Tower.prefab
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\Tower.prefab
-            projectPath: Assets\Prefabs\Tower.prefab
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes\TowerScene.unity
-          label: TowerScene.unity
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scenes\TowerScene.unity
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity
-            projectPath: Assets\Scenes\TowerScene.unity
+            path: Assets\Prefabs\CopperOre.prefab
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\CopperOre.prefab
+            projectPath: Assets\Prefabs\CopperOre.prefab
             originalPath: 
             indexStatus: 0
             workTreeStatus: 3
@@ -1609,8 +1593,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Scripts\Components
-          label: Components
+        - path: Assets\Scripts\Material
+          label: Material
           level: 2
           isFolder: 1
           isContainer: 0
@@ -1627,81 +1611,9 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Scripts\Components\Attack.cs
-          label: Attack.cs
+        - path: Assets\Scripts\Material\OreVein.cs
+          label: OreVein.cs
           level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Components\Attack.cs
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Attack.cs
-            projectPath: Assets\Scripts\Components\Attack.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Scripts\Components\Health.cs
-          label: Health.cs
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Components\Health.cs
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Health.cs
-            projectPath: Assets\Scripts\Components\Health.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Scripts\Components\Hitbox.cs
-          label: Hitbox.cs
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Components\Hitbox.cs
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Hitbox.cs
-            projectPath: Assets\Scripts\Components\Hitbox.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Scripts\IMouseable.cs
-          label: IMouseable.cs
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\IMouseable.cs
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\IMouseable.cs
-            projectPath: Assets\Scripts\IMouseable.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Scripts\MapController.cs
-          label: MapController.cs
-          level: 2
           isFolder: 0
           isContainer: 0
           isCollapsed: 0
@@ -1711,45 +1623,9 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\Scripts\MapController.cs
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\MapController.cs
-            projectPath: Assets\Scripts\MapController.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scripts\MouseController.cs
-          label: MouseController.cs
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\MouseController.cs
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\MouseController.cs
-            projectPath: Assets\Scripts\MouseController.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scripts\Tower.cs
-          label: Tower.cs
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Tower.cs
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Tower.cs
-            projectPath: Assets\Scripts\Tower.cs
+            path: Assets\Scripts\Material\OreVein.cs
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Material\OreVein.cs
+            projectPath: Assets\Scripts\Material\OreVein.cs
             originalPath: 
             indexStatus: 0
             workTreeStatus: 3
@@ -1771,9 +1647,27 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Sprites\tower_outline.png
-          label: tower_outline.png
+        - path: Assets\Sprites\Animations
+          label: Animations
           level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Sprites\Animations\copper_ore_break.png
+          label: copper_ore_break.png
+          level: 3
           isFolder: 0
           isContainer: 1
           isCollapsed: 0
@@ -1783,42 +1677,58 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\Sprites\tower_outline.png
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\tower_outline.png
-            projectPath: Assets\Sprites\tower_outline.png
+            path: Assets\Sprites\Animations\copper_ore_break.png
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\Animations\copper_ore_break.png
+            projectPath: Assets\Sprites\Animations\copper_ore_break.png
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
+        - path: Assets\Sprites\copper_ore.png
+          label: copper_ore.png
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Sprites\copper_ore.png
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\copper_ore.png
+            projectPath: Assets\Sprites\copper_ore.png
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Sprites\iron_ore.png
+          label: iron_ore.png
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Sprites\iron_ore.png
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\iron_ore.png
+            projectPath: Assets\Sprites\iron_ore.png
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
       folders:
         keys:
-        - .vscode
         - Assets
+        - Assets\Animations
         - Assets\Prefabs
-        - Assets\Scenes
         - Assets\Scripts
-        - Assets\Scripts\Components
+        - Assets\Scripts\Material
         - Assets\Sprites
-        - UserSettings
-        - UserSettings\Layouts
+        - Assets\Sprites\Animations
         values:
-        - path: .vscode
-          label: .vscode
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
         - path: Assets
           label: Assets
           level: 0
@@ -1837,8 +1747,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Prefabs
-          label: Prefabs
+        - path: Assets\Animations
+          label: Animations
           level: 1
           isFolder: 1
           isContainer: 0
@@ -1855,8 +1765,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Scenes
-          label: Scenes
+        - path: Assets\Prefabs
+          label: Prefabs
           level: 1
           isFolder: 1
           isContainer: 0
@@ -1891,8 +1801,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Scripts\Components
-          label: Components
+        - path: Assets\Scripts\Material
+          label: Material
           level: 2
           isFolder: 1
           isContainer: 0
@@ -1927,27 +1837,9 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: UserSettings
-          label: UserSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings\Layouts
-          label: Layouts
-          level: 1
+        - path: Assets\Sprites\Animations
+          label: Animations
+          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1991,42 +1883,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: .vscode
-        label: .vscode
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .vscode\settings.json
-        label: settings.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .vscode\settings.json
-          fullPath: C:\Users\ldluc\Martian Defender\.vscode\settings.json
-          projectPath: .vscode\settings.json
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       - path: Assets
         label: Assets
         level: 0
@@ -2045,6 +1901,150 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: Assets\Animations.meta
+        label: Animations.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Animations.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations.meta
+          projectPath: Assets\Animations.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Animations
+        label: Animations
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Animations\Copper_Ore_Break.anim
+        label: Copper_Ore_Break.anim
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Animations\Copper_Ore_Break.anim
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\Copper_Ore_Break.anim
+          projectPath: Assets\Animations\Copper_Ore_Break.anim
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Animations\Copper_Ore_Break.anim.meta
+        label: Copper_Ore_Break.anim.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Animations\Copper_Ore_Break.anim.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\Copper_Ore_Break.anim.meta
+          projectPath: Assets\Animations\Copper_Ore_Break.anim.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Animations\CopperOre.controller
+        label: CopperOre.controller
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Animations\CopperOre.controller
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\CopperOre.controller
+          projectPath: Assets\Animations\CopperOre.controller
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Animations\CopperOre.controller.meta
+        label: CopperOre.controller.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Animations\CopperOre.controller.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\CopperOre.controller.meta
+          projectPath: Assets\Animations\CopperOre.controller.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Copper_Ore_Idle.anim
+        label: Copper_Ore_Idle.anim
+        level: 1
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Copper_Ore_Idle.anim
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Copper_Ore_Idle.anim
+          projectPath: Assets\Copper_Ore_Idle.anim
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Copper_Ore_Idle.anim.meta
+        label: Copper_Ore_Idle.anim.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Copper_Ore_Idle.anim.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Copper_Ore_Idle.anim.meta
+          projectPath: Assets\Copper_Ore_Idle.anim.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
       - path: Assets\Prefabs
         label: Prefabs
         level: 1
@@ -2063,8 +2063,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Prefabs\OverlayTile.prefab
-        label: OverlayTile.prefab
+      - path: Assets\Prefabs\CopperOre.prefab
+        label: CopperOre.prefab
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2075,63 +2075,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Prefabs\OverlayTile.prefab
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\OverlayTile.prefab
-          projectPath: Assets\Prefabs\OverlayTile.prefab
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Prefabs\Tower.prefab
-        label: Tower.prefab
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\Tower.prefab
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\Tower.prefab
-          projectPath: Assets\Prefabs\Tower.prefab
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scenes
-        label: Scenes
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scenes\TowerScene.unity
-        label: TowerScene.unity
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\TowerScene.unity
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity
-          projectPath: Assets\Scenes\TowerScene.unity
+          path: Assets\Prefabs\CopperOre.prefab
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\CopperOre.prefab
+          projectPath: Assets\Prefabs\CopperOre.prefab
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -2153,26 +2099,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Scripts\Components.meta
-        label: Components.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Components.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components.meta
-          projectPath: Assets\Scripts\Components.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\Components
-        label: Components
+      - path: Assets\Scripts\Material
+        label: Material
         level: 2
         isFolder: 1
         isContainer: 0
@@ -2189,134 +2117,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Scripts\Components\Attack.cs
-        label: Attack.cs
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Components\Attack.cs
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Attack.cs
-          projectPath: Assets\Scripts\Components\Attack.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\Components\Attack.cs.meta
-        label: Attack.cs.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Components\Attack.cs.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Attack.cs.meta
-          projectPath: Assets\Scripts\Components\Attack.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\Components\Health.cs
-        label: Health.cs
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Components\Health.cs
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Health.cs
-          projectPath: Assets\Scripts\Components\Health.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\Components\Health.cs.meta
-        label: Health.cs.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Components\Health.cs.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Health.cs.meta
-          projectPath: Assets\Scripts\Components\Health.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\Components\Hitbox.cs
-        label: Hitbox.cs
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Components\Hitbox.cs
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Hitbox.cs
-          projectPath: Assets\Scripts\Components\Hitbox.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\Components\Hitbox.cs.meta
-        label: Hitbox.cs.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Components\Hitbox.cs.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Hitbox.cs.meta
-          projectPath: Assets\Scripts\Components\Hitbox.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\IMouseable.cs
-        label: IMouseable.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\IMouseable.cs
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\IMouseable.cs
-          projectPath: Assets\Scripts\IMouseable.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\IMouseable.cs.meta
-        label: IMouseable.cs.meta
+      - path: Assets\Scripts\Material\OreVein.cs
+        label: OreVein.cs
         level: 3
         isFolder: 0
         isContainer: 0
@@ -2327,63 +2129,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scripts\IMouseable.cs.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\IMouseable.cs.meta
-          projectPath: Assets\Scripts\IMouseable.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\MapController.cs
-        label: MapController.cs
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\MapController.cs
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\MapController.cs
-          projectPath: Assets\Scripts\MapController.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scripts\MouseController.cs
-        label: MouseController.cs
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\MouseController.cs
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\MouseController.cs
-          projectPath: Assets\Scripts\MouseController.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scripts\Tower.cs
-        label: Tower.cs
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Tower.cs
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Tower.cs
-          projectPath: Assets\Scripts\Tower.cs
+          path: Assets\Scripts\Material\OreVein.cs
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Material\OreVein.cs
+          projectPath: Assets\Scripts\Material\OreVein.cs
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -2405,9 +2153,45 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Sprites\tower_outline.png
-        label: tower_outline.png
+      - path: Assets\Sprites\Animations.meta
+        label: Animations.meta
         level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Sprites\Animations.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\Animations.meta
+          projectPath: Assets\Sprites\Animations.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Sprites\Animations
+        label: Animations
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Sprites\Animations\copper_ore_break.png
+        label: copper_ore_break.png
+        level: 3
         isFolder: 0
         isContainer: 1
         isCollapsed: 0
@@ -2417,15 +2201,15 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Sprites\tower_outline.png
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\tower_outline.png
-          projectPath: Assets\Sprites\tower_outline.png
+          path: Assets\Sprites\Animations\copper_ore_break.png
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\Animations\copper_ore_break.png
+          projectPath: Assets\Sprites\Animations\copper_ore_break.png
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: Assets\Sprites\tower_outline.png.meta
-        label: tower_outline.png.meta
-        level: 3
+      - path: Assets\Sprites\Animations\copper_ore_break.png.meta
+        label: copper_ore_break.png.meta
+        level: 4
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -2435,50 +2219,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Sprites\tower_outline.png.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\tower_outline.png.meta
-          projectPath: Assets\Sprites\tower_outline.png.meta
+          path: Assets\Sprites\Animations\copper_ore_break.png.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\Animations\copper_ore_break.png.meta
+          projectPath: Assets\Sprites\Animations\copper_ore_break.png.meta
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: UserSettings
-        label: UserSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts
-        label: Layouts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-        label: CurrentMaximizeLayout.dwlt
+      - path: Assets\Sprites\copper_ore.png
+        label: copper_ore.png
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2489,14 +2237,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-          fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-          projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          path: Assets\Sprites\copper_ore.png
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\copper_ore.png
+          projectPath: Assets\Sprites\copper_ore.png
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: UserSettings\Layouts\default-2022.dwlt
-        label: default-2022.dwlt
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Sprites\iron_ore.png
+        label: iron_ore.png
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2507,161 +2255,125 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: UserSettings\Layouts\default-2022.dwlt
-          fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Layouts\default-2022.dwlt
-          projectPath: UserSettings\Layouts\default-2022.dwlt
+          path: Assets\Sprites\iron_ore.png
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\iron_ore.png
+          projectPath: Assets\Sprites\iron_ore.png
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
       selectedNode:
-        path: 
-        label: 
-        level: 0
+        path: Assets\Sprites\copper_ore.png
+        label: copper_ore.png
+        level: 2
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
-        treeIsCheckable: 0
+        treeIsCheckable: 1
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
+          path: Assets\Sprites\copper_ore.png
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\copper_ore.png
+          projectPath: Assets\Sprites\copper_ore.png
           originalPath: 
           indexStatus: 0
-          workTreeStatus: 0
+          workTreeStatus: 3
     gitStatusEntries:
-    - path: .vscode\settings.json
-      fullPath: C:\Users\ldluc\Martian Defender\.vscode\settings.json
-      projectPath: .vscode\settings.json
+    - path: Assets\Animations.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations.meta
+      projectPath: Assets\Animations.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Animations\Copper_Ore_Break.anim
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\Copper_Ore_Break.anim
+      projectPath: Assets\Animations\Copper_Ore_Break.anim
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Animations\Copper_Ore_Break.anim.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\Copper_Ore_Break.anim.meta
+      projectPath: Assets\Animations\Copper_Ore_Break.anim.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Animations\CopperOre.controller
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\CopperOre.controller
+      projectPath: Assets\Animations\CopperOre.controller
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Animations\CopperOre.controller.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\CopperOre.controller.meta
+      projectPath: Assets\Animations\CopperOre.controller.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Copper_Ore_Idle.anim
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Copper_Ore_Idle.anim
+      projectPath: Assets\Copper_Ore_Idle.anim
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Copper_Ore_Idle.anim.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Copper_Ore_Idle.anim.meta
+      projectPath: Assets\Copper_Ore_Idle.anim.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\CopperOre.prefab
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\CopperOre.prefab
+      projectPath: Assets\Prefabs\CopperOre.prefab
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Assets\Prefabs\OverlayTile.prefab
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\OverlayTile.prefab
-      projectPath: Assets\Prefabs\OverlayTile.prefab
+    - path: Assets\Scripts\Material\OreVein.cs
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Material\OreVein.cs
+      projectPath: Assets\Scripts\Material\OreVein.cs
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Assets\Prefabs\Tower.prefab
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\Tower.prefab
-      projectPath: Assets\Prefabs\Tower.prefab
+    - path: Assets\Sprites\Animations.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\Animations.meta
+      projectPath: Assets\Sprites\Animations.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Sprites\Animations\copper_ore_break.png
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\Animations\copper_ore_break.png
+      projectPath: Assets\Sprites\Animations\copper_ore_break.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Sprites\Animations\copper_ore_break.png.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\Animations\copper_ore_break.png.meta
+      projectPath: Assets\Sprites\Animations\copper_ore_break.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Sprites\copper_ore.png
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\copper_ore.png
+      projectPath: Assets\Sprites\copper_ore.png
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Assets\Scenes\TowerScene.unity
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\TowerScene.unity
-      projectPath: Assets\Scenes\TowerScene.unity
+    - path: Assets\Sprites\iron_ore.png
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\iron_ore.png
+      projectPath: Assets\Sprites\iron_ore.png
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Assets\Scripts\Components.meta
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components.meta
-      projectPath: Assets\Scripts\Components.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Components\Attack.cs
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Attack.cs
-      projectPath: Assets\Scripts\Components\Attack.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Components\Attack.cs.meta
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Attack.cs.meta
-      projectPath: Assets\Scripts\Components\Attack.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Components\Health.cs
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Health.cs
-      projectPath: Assets\Scripts\Components\Health.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Components\Health.cs.meta
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Health.cs.meta
-      projectPath: Assets\Scripts\Components\Health.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Components\Hitbox.cs
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Hitbox.cs
-      projectPath: Assets\Scripts\Components\Hitbox.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Components\Hitbox.cs.meta
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\Hitbox.cs.meta
-      projectPath: Assets\Scripts\Components\Hitbox.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\IMouseable.cs
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\IMouseable.cs
-      projectPath: Assets\Scripts\IMouseable.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\IMouseable.cs.meta
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\IMouseable.cs.meta
-      projectPath: Assets\Scripts\IMouseable.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\MapController.cs
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\MapController.cs
-      projectPath: Assets\Scripts\MapController.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\MouseController.cs
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\MouseController.cs
-      projectPath: Assets\Scripts\MouseController.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\Tower.cs
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Tower.cs
-      projectPath: Assets\Scripts\Tower.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Sprites\tower_outline.png
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\tower_outline.png
-      projectPath: Assets\Sprites\tower_outline.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\tower_outline.png.meta
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\tower_outline.png.meta
-      projectPath: Assets\Sprites\tower_outline.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-      fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-      projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\Layouts\default-2022.dwlt
-      fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Layouts\default-2022.dwlt
-      projectPath: UserSettings\Layouts\default-2022.dwlt
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    changedFilesText: 20 changed files
+    changedFilesText: 14 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-11-05T21:52:09.994-08:00
+      updatedTimeString: 2023-12-12T19:08:49.713-08:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-11-05T22:04:52.584-08:00
+      updatedTimeString: 2023-12-12T19:45:26.829-08:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-12-12T19:45:31.879-08:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -3402,14 +3114,14 @@ MonoBehaviour:
       m_Tooltip: 
   hasRemote: 1
   currentRemoteName: origin
-  currentBranch: luke/tower-ai
+  currentBranch: luke/ore-veins
   currentRemoteUrl: https://github.com/lxkedinh/martian-defender.git
   statusAhead: 0
   statusBehind: 0
   hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
   currentBranchContent:
-    m_Text: luke/tower-ai
+    m_Text: luke/ore-veins
     m_Image: {fileID: 0}
     m_Tooltip: Active branch
   currentRemoteUrlContent:
@@ -3417,13 +3129,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-10-06T18:01:58.309-07:00
+    updatedTimeString: 2023-12-12T18:07:09.018-08:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-10-06T18:02:15.671-07:00
+    updatedTimeString: 2023-12-12T18:22:39.815-08:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-10-06T18:44:15.528-07:00
+    updatedTimeString: 2023-12-12T18:37:14.590-08:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -3446,3 +3158,73 @@ MonoBehaviour:
   appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1463
+    y: 73
+    width: 456
+    height: 966
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: -6751072465925751411, guid: 8e92b6487f7ce534f80a67bafd0ac039, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 0.6617643
+      e01: 0
+      e02: 0
+      e03: -112.0499
+      e10: 0
+      e11: 0.6617643
+      e12: 0
+      e13: 240.41298
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 8e92b6487f7ce534f80a67bafd0ac039, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: -6751072465925751411, guid: 8e92b6487f7ce534f80a67bafd0ac039, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 1
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
