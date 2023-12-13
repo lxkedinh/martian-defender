@@ -1,18 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using NavMeshPlus.Components;
 using UnityEngine.Tilemaps;
+using UnityEngine.EventSystems;
 
-public class MapController : MonoBehaviour
+public class MapController : MonoBehaviour, IPointerClickHandler
 {
     public static MapController Instance { get; private set; }
-    public Tilemap tilemap;
-    public OverlayTile overlayTilePrefab;
     public Tower towerPrefab;
-    public GameObject overlayContainer;
     public HashSet<Tower> towersPlaced = new();
+    public Wall wallPrefab;
+    public HashSet<Wall> wallsPlaced = new();
 
-    private Dictionary<Vector2Int, OverlayTile> map;
+    public NavMeshSurface Surface2D;
+
+    public ObjectPlacementType objectPlacementType = ObjectPlacementType.Tower;
 
     private void Awake()
     {
@@ -26,42 +29,6 @@ public class MapController : MonoBehaviour
         }
     }
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        map = new Dictionary<Vector2Int, OverlayTile>();
-        GenerateOverlayTiles();
-
-    }
-
-    private void GenerateOverlayTiles()
-    {
-        BoundsInt bounds = tilemap.cellBounds;
-        // looping through all tiles from highest to lowest elevation
-        for (int z = bounds.max.z; z >= bounds.min.z; z--)
-        {
-            for (int y = bounds.min.y; y < bounds.max.y; y++)
-            {
-                for (int x = bounds.min.x; x < bounds.max.x; x++)
-                {
-                    Vector3Int tileLocation = new(x, y, z);
-                    Vector2Int tileKey = new(x, y);
-
-                    // we only want to create overlay tiles to show cursor on the surface tiles
-                    if (tilemap.HasTile(tileLocation) && !map.ContainsKey(tileKey))
-                    {
-                        OverlayTile overlayTile = Instantiate(overlayTilePrefab, overlayContainer.transform);
-                        Vector3 gridLocation = tilemap.GetCellCenterWorld(tileLocation);
-                        overlayTile.transform.position = new Vector3(gridLocation.x, gridLocation.y, gridLocation.z + 1);
-                        overlayTile.GetComponent<SpriteRenderer>().sortingOrder = tilemap.GetComponent<TilemapRenderer>().sortingOrder;
-                        map.Add(tileKey, overlayTile);
-                    }
-                }
-            }
-        }
-    }
-
     public void SelectTower(Tower tower)
     {
         foreach (Tower placedTower in towersPlaced)
@@ -71,17 +38,72 @@ public class MapController : MonoBehaviour
         tower.Select();
     }
 
-    public void PlaceTowerOnTile(OverlayTile tile)
+    public void DeselectStructures()
     {
+        foreach (Tower placedTower in towersPlaced)
+        {
+            placedTower.Deselect();
+        }
+    }
+
+    public void PlaceTower(Vector3 pos)
+    {
+        if (!Tower.CanBuild) return;
+
+        InventoryController.Instance.RemoveMaterial(Materials.Copper, Tower.buildCost);
         Tower tower = Instantiate(towerPrefab);
-        tower.transform.position = new Vector3(tile.transform.position.x, tile.transform.position.y, tile.transform.position.z + 1);
+        tower.transform.position = new Vector3(pos.x, pos.y, pos.z + 1);
         Instance.towersPlaced.Add(tower);
         Instance.SelectTower(tower);
+
+        Surface2D.BuildNavMesh();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void PlaceWall(Vector3 pos)
     {
+        if (!Wall.CanBuild) return;
 
+        InventoryController.Instance.RemoveMaterial(Materials.Iron, Wall.buildCost);
+        Wall wall = Instantiate(wallPrefab);
+        wall.transform.position = new Vector3(pos.x, pos.y, pos.z);
+        Instance.wallsPlaced.Add(wall);
+
+        Surface2D.BuildNavMesh();
+    }
+
+    public void PlaceObject(Vector3 pos)
+    {
+        if (objectPlacementType == ObjectPlacementType.Tower)
+        {
+            PlaceTower(pos);
+        }
+        else
+        {
+            PlaceWall(pos);
+        }
+    }
+
+    public void ChangeObjectPlacementType()
+    {
+        if (objectPlacementType == ObjectPlacementType.Tower)
+        {
+            objectPlacementType = ObjectPlacementType.Wall;
+        }
+        else
+        {
+            objectPlacementType = ObjectPlacementType.Tower;
+        }
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        DeselectStructures();
     }
 }
+
+public enum ObjectPlacementType
+{
+    Tower,
+    Wall
+}
+
