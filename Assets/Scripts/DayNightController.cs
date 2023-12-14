@@ -25,13 +25,13 @@ public class DayNightController : MonoBehaviour
 
     void Start()
     {
-        dayDuration = dayTimer = 5;
+        ChangeToDay();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (cyclePhase == TimeOfDay.Night) return;
+        if (cyclePhase == TimeOfDay.Night || GameStateManager.Instance.currentState != GameState.Playing) return;
 
         if (dayTimer <= 0)
         {
@@ -58,6 +58,13 @@ public class DayNightController : MonoBehaviour
     private void OnNightFall()
     {
         EnemyManager.Instance.SpawnEnemies(Random.Range(8, 14));
+    }
+
+    public void ChangeToDay()
+    {
+        // dayDuration = dayTimer = 5 * 60;
+        dayDuration = dayTimer = 5;
+        cyclePhase = TimeOfDay.Day;
     }
 }
 

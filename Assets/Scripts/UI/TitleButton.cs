@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BackToTitleButton : MonoBehaviour
+public class TitleButton : MonoBehaviour
 {
     public void GoToTitleScreen()
     {

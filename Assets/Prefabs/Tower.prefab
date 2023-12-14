@@ -531,7 +531,7 @@ GameObject:
   - component: {fileID: 4403567562380353086}
   m_Layer: 8
   m_Name: Tower
-  m_TagString: Untagged
+  m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -582,6 +582,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 10
   onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+  onHit:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &4403567562380353086

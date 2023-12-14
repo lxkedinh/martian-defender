@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Projectile
   - Ship
+  - Enemy
+  - Tower
+  - Wall
   layers:
   - Default
   - TransparentFX

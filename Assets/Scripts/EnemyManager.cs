@@ -29,15 +29,6 @@ public class EnemyManager : MonoBehaviour
     {
         spawnedEnemies = new();
     }
-
-    void Update()
-    {
-        if (DayNightController.Instance.cyclePhase == TimeOfDay.Night && spawnedEnemies.Count <= 0)
-        {
-            GameStateManager.Instance.SetGameState(GameState.Win);
-        }
-    }
-
     public void SpawnEnemies(int numEnemies)
     {
         for (int i = 0; i < numEnemies; i++)
@@ -61,6 +52,21 @@ public class EnemyManager : MonoBehaviour
     public void RemoveEnemy(Enemy enemy)
     {
         spawnedEnemies.Remove(enemy);
+
+        if (Ship.Instance.GetComponent<Health>().health > 0 && spawnedEnemies.Count <= 0)
+        {
+            GameStateManager.Instance.SetGameState(GameState.Win);
+        }
+    }
+
+    public void DespawnEnemies()
+    {
+        spawnedEnemies.Clear();
+
+        foreach (var enemy in GameObject.FindGameObjectsWithTag("Enemy"))
+        {
+            Destroy(enemy);
+        }
     }
 
 

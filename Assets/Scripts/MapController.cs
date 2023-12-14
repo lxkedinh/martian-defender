@@ -101,6 +101,24 @@ public class MapController : MonoBehaviour, IPointerClickHandler
         }
     }
 
+    public void ResetMap()
+    {
+        towersPlaced.Clear();
+        foreach (var tower in GameObject.FindGameObjectsWithTag("Tower"))
+        {
+            Destroy(tower);
+        }
+
+        wallsPlaced.Clear();
+        foreach (var wall in GameObject.FindGameObjectsWithTag("Wall"))
+        {
+            Destroy(wall);
+        }
+
+        Ship.Instance.GetComponent<SpriteRenderer>().enabled = true;
+        Ship.Instance.GetComponent<Health>().ResetHealth();
+    }
+
     public void OnPointerClick(PointerEventData eventData)
     {
         DeselectStructures();

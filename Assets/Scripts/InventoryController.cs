@@ -24,11 +24,7 @@ public class InventoryController : MonoBehaviour
 
     void Start()
     {
-        inventory = new()
-        {
-            { Materials.Iron, 0 },
-            { Materials.Copper, 0}
-        };
+        ResetInventory();
     }
 
     void Update()
@@ -48,6 +44,15 @@ public class InventoryController : MonoBehaviour
     {
         int current = inventory[m];
         inventory[m] = Mathf.Clamp(current - quantity, 0, current);
+    }
+
+    public void ResetInventory()
+    {
+        inventory = new()
+        {
+            { Materials.Iron, 0 },
+            { Materials.Copper, 0 }
+        };
     }
 }
 
