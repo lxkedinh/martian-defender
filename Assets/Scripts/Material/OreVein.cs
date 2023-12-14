@@ -9,9 +9,26 @@ public abstract class OreVein : MonoBehaviour
     public Animator animator;
     public Animator textAnimator;
     public TextMeshPro floatingText;
+    public TextMeshPro mineTooltip;
+    public Interactable interactHitbox;
+    public bool hasPlayerMined;
+
+    void Update()
+    {
+        if (interactHitbox.isPlayerInRange && !hasPlayerMined)
+        {
+            mineTooltip.renderer.enabled = true;
+        }
+        else
+        {
+            mineTooltip.renderer.enabled = false;
+        }
+    }
 
     public void BreakOre()
     {
+        hasPlayerMined = true;
+
         int materialsToAdd = Random.Range(1, 5);
         InventoryController.Instance.AddMaterial(MaterialType, materialsToAdd);
 
