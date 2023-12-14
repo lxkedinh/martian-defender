@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class InventoryController : MonoBehaviour
@@ -7,6 +8,7 @@ public class InventoryController : MonoBehaviour
     public static InventoryController Instance { get; private set; }
 
     public Dictionary<Materials, int> inventory;
+    public TMP_Text inventoryUI;
 
     private void Awake()
     {
@@ -24,9 +26,17 @@ public class InventoryController : MonoBehaviour
     {
         inventory = new()
         {
-            { Materials.Iron, 5 },
-            { Materials.Copper, 15}
+            { Materials.Iron, 0 },
+            { Materials.Copper, 0}
         };
+    }
+
+    void Update()
+    {
+        inventoryUI.text =
+            $"{inventory[Materials.Copper]} <sprite name=\"icon_copper_ingot\">" +
+            "\n" +
+            $"{inventory[Materials.Iron]} <sprite name=\"icon_iron_ingot\">";
     }
 
     public void AddMaterial(Materials m, int quantity)
