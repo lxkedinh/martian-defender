@@ -3944,7 +3944,7 @@ MonoBehaviour:
   m_LayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_UseGeometry: 0
+  m_UseGeometry: 1
   m_DefaultArea: 0
   m_IgnoreNavMeshAgent: 1
   m_IgnoreNavMeshObstacle: 1
@@ -41039,7 +41039,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   towerPrefab: {fileID: 4403567562380353086, guid: 10260b8a830428243b8441b231bf326a, type: 3}
   wallPrefab: {fileID: -203406398077621601, guid: 6dd859eedfc9c902b9e10d0c134707ed, type: 3}
-  shipPrefab: {fileID: 2578854017936141211, guid: 1eb8daeb01c6cdf458e69cb0abda8055, type: 3}
   Surface2D: {fileID: 957205591}
   objectPlacementType: 0
 --- !u!1 &1306210006

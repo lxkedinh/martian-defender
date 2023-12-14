@@ -117,6 +117,7 @@ public class MapController : MonoBehaviour, IPointerClickHandler
 
         Ship.Instance.GetComponent<SpriteRenderer>().enabled = true;
         Ship.Instance.GetComponent<Health>().ResetHealth();
+        Surface2D.BuildNavMesh();
     }
 
     public void OnPointerClick(PointerEventData eventData)

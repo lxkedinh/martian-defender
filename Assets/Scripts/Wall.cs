@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using NavMeshPlus.Components;
 using UnityEngine;
 
+[RequireComponent(typeof(Health))]
 public class Wall : MonoBehaviour
 {
     public GameObject wallPrefab;
@@ -14,14 +16,13 @@ public class Wall : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
+    public void OnDeath()
     {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        Destroy(gameObject);
+        NavMeshSurface surface = FindObjectOfType<NavMeshSurface>();
+        if (surface != null)
+        {
+            surface.BuildNavMesh();
+        }
     }
 }

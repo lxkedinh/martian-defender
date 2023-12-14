@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 8051315353729537429}
   - component: {fileID: 891728336114575373}
   - component: {fileID: 3364543309361456141}
+  - component: {fileID: 6276264794976223859}
   m_Layer: 9
   m_Name: Enemy
   m_TagString: Enemy
@@ -80,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 1879840751
   m_SortingLayer: 2
   m_SortingOrder: 10
-  m_Sprite: {fileID: -1645213594, guid: 5ce635b016724424980ef3bec54c625c, type: 3}
+  m_Sprite: {fileID: -229970472, guid: 14d4d50bbf5679c4dac37cb4837016fb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -147,14 +148,14 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.25}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.5, y: 0.3}
+    oldSize: {x: 3.2, y: 3.2}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -198,7 +199,19 @@ MonoBehaviour:
         m_CallState: 2
   onTakeDamage:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8051315353729537429}
+        m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
+        m_MethodName: OnTakeDamage
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: Attack, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &8231997686784479004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,6 +224,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5033a16e30008347a062bdf2e3378d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8051315353729537429}
+        m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
+        m_MethodName: OnTakeDamage
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &8051315353729537429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,6 +254,8 @@ MonoBehaviour:
   rbody: {fileID: 7718165733040109233}
   moveSpeed: 1
   target: {fileID: 0}
+  animator: {fileID: 6276264794976223859}
+  isAttacking: 0
 --- !u!195 &891728336114575373
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -235,7 +265,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 3088411444965922091}
   m_Enabled: 1
   m_AgentTypeID: -1372625422
-  m_Radius: 0.5
+  m_Radius: 0.25
   m_Speed: 1
   m_Acceleration: 4
   avoidancePriority: 50
@@ -261,3 +291,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 5
+  attackEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8051315353729537429}
+        m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
+        m_MethodName: PerformAttack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!95 &6276264794976223859
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3088411444965922091}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8961c1429ba49d942925322781ffc78d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

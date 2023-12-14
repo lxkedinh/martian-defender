@@ -50,8 +50,8 @@ public class InventoryController : MonoBehaviour
     {
         inventory = new()
         {
-            { Materials.Iron, 0 },
-            { Materials.Copper, 0 }
+            { Materials.Iron, 100 },
+            { Materials.Copper, 100 }
         };
     }
 }
