@@ -36,7 +36,8 @@ public class MouseController : MonoBehaviour, IPointerClickHandler
         }
 
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(mouse.position.ReadValue());
-        RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
+        LayerMask mask = LayerMask.GetMask("UI", "Ground", "Ship", "Obstacles");
+        RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero, 100f, mask);
 
 
         if (hit.collider == null || !hit.collider.name.Equals("Tilemap"))

@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     public PlayMode playMode = PlayMode.Normal;
 
     private Vector2 moveInput;
-    private List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
+    private readonly List<RaycastHit2D> castCollisions = new();
     private Rigidbody2D rb;
 
     public void Awake()

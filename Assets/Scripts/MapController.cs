@@ -59,6 +59,12 @@ public class MapController : MonoBehaviour, IPointerClickHandler
         Surface2D.BuildNavMesh();
     }
 
+    public void DeleteTower(Tower tower)
+    {
+        InventoryController.Instance.AddMaterial(Materials.Copper, Tower.buildCost);
+        Destroy(tower.gameObject);
+    }
+
     public void PlaceWall(Vector3 pos)
     {
         if (!Wall.CanBuild) return;

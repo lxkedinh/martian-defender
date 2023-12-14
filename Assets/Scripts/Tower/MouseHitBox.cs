@@ -22,6 +22,15 @@ public class MouseHitBox : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        MapController.Instance.SelectTower(GetComponentInParent<Tower>());
+        switch (PlayerController.Instance.playMode)
+        {
+            case PlayMode.Normal:
+                MapController.Instance.SelectTower(GetComponentInParent<Tower>());
+                break;
+            case PlayMode.Delete:
+                MapController.Instance.DeleteTower(GetComponentInParent<Tower>());
+                break;
+        }
+
     }
 }
