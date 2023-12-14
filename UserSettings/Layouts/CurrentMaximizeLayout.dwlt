@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 32444
+  controlID: 136
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -47,7 +47,7 @@ MonoBehaviour:
     x: 362
     y: 73
     width: 1099
-    height: 577
+    height: 581
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -91,7 +91,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -101,22 +101,22 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 1099
-      height: 556
-    m_Scale: {x: 1.1844151, y: 1.1844151}
-    m_Translation: {x: 639.55444, y: 336.52905}
+      height: 560
+    m_Scale: {x: 0.5185185, y: 0.5185185}
+    m_Translation: {x: 549.5, y: 280}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -539.9749
-      y: -284.131
-      width: 927.88416
-      height: 469.43002
+      x: -1059.75
+      y: -540
+      width: 2119.5
+      height: 1080
     m_MinimalGUI: 1
-  m_defaultScale: 0.5148148
-  m_LastWindowPixelSize: {x: 1099, y: 577}
+  m_defaultScale: 0.5185185
+  m_LastWindowPixelSize: {x: 1099, y: 581}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -136,7 +136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 4}
-  - {fileID: 16}
+  - {fileID: 17}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 32445
+  controlID: 137
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 32340
+  controlID: 99
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -192,11 +192,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1463
-    height: 598
+    height: 602
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 32341
+  controlID: 56
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -215,7 +215,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 362
-    height: 598
+    height: 602
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 7}
@@ -246,7 +246,7 @@ MonoBehaviour:
     x: 0
     y: 73
     width: 361
-    height: 577
+    height: 581
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -262,21 +262,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f6faffffb8680000
+      m_ExpandedIDs: 46a5faff9020fbff704afbffa06ffbffd883fbff5897fbffe49afbffe2adfbff18b1fbff04b7fbff62bcfbffd6cbfbff50ebfbff38f9fbff7cfffbff92fffbff0403fcffa004fcff583ffcff8899fcff369afcff04f5fcffe0fbfdffb847feff145cfefffc46ffffbe56ffff505fffff9661ffff8e62fffff879ffff467affff129bffff229bffff96edfffff0faffff00fbffff02fbffffdc6800003e69000068690000c0a1000024a200004ea200007a4e010068500100ce500100fe500100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Screen Canvas
+        m_OriginalName: Screen Canvas
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 86128
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 6}
       m_SearchString: 
@@ -304,7 +304,7 @@ MonoBehaviour:
     x: 362
     y: 0
     width: 1101
-    height: 598
+    height: 602
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 2}
@@ -336,7 +336,7 @@ MonoBehaviour:
     x: 362
     y: 73
     width: 1099
-    height: 577
+    height: 581
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -675,8 +675,8 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 1
-      snapOffset: {x: -216, y: -300}
+      displayed: 0
+      snapOffset: {x: -207, y: -194}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: AINavigationOverlay
@@ -695,9 +695,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.556917, y: 0.33427987, z: -0.0880877}
+    m_Target: {x: 1090.8451, y: 538.9876, z: 4.5319424}
     speed: 2
-    m_Value: {x: 1.556917, y: 0.33427987, z: -0.0880877}
+    m_Value: {x: 1090.8451, y: 538.9876, z: 4.5319424}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -747,9 +747,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2.5743058
+    m_Target: 621.1599
     speed: 2
-    m_Value: 2.5743058
+    m_Value: 621.1599
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -767,7 +767,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: 0.036131475, y: -0.03953838, z: -0.00089777535, w: 0.9985675}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -792,13 +792,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 598
+    y: 602
     width: 1463
-    height: 389
+    height: 385
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 32413
+  controlID: 100
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -816,10 +816,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 297
-    height: 389
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
+    width: 312
+    height: 385
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -846,9 +846,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 671
-    width: 296
-    height: 368
+    y: 675
+    width: 311
+    height: 364
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -870,7 +870,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Material
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -887,7 +887,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 426b0000
     m_LastClickedID: 27458
-    m_ExpandedIDs: ffffffff00000000726a0000746a0000766a0000426b00004a6b00000a6c00001e6c0000aa6c0000
+    m_ExpandedIDs: 000000003a6a00000c6b00000e6b0000106b0000126b0000146b0000166b0000186b00001a6b00001c6b00001e6b0000206b0000226b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -912,10 +912,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 214}
-    m_SelectedIDs: 
+    scrollPos: {x: 0, y: 344}
+    m_SelectedIDs: 70500100
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000726a0000746a0000766a0000426b00004a6b00000a6c00001e6c0000aa6c0000
+    m_ExpandedIDs: ffffffff000000003a6a00000c6b00000e6b0000106b0000146b0000186b00001a6b00001c6b00001e6b0000206b0000226b0000906b0000926b0000946b000068d1000076fb0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -940,8 +940,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 70500100
+    m_LastClickedInstanceID: 86128
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300002c670000000000004c6600005a66000002670000
     m_RenameOverlay:
@@ -981,22 +981,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: AnimationWindow
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 297
+    x: 312
     y: 0
-    width: 1166
-    height: 389
+    width: 1151
+    height: 385
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 15}
-  m_Selected: 1
+  - {fileID: 16}
+  m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &14
 MonoBehaviour:
@@ -1018,10 +1019,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 297
-    y: 671
-    width: 1164
-    height: 368
+    x: 312
+    y: 675
+    width: 1149
+    height: 364
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1052,10 +1053,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 297
-    y: 671
-    width: 1164
-    height: 368
+    x: 312
+    y: 675
+    width: 1149
+    height: 364
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1068,8 +1069,112 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -79216
+  m_LastSelectedObjectID: -319390
 --- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 309
+    y: 675
+    width: 1152
+    height: 364
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: -6751072465925751411, guid: 8e92b6487f7ce534f80a67bafd0ac039, type: 2}
+    - {fileID: -4331767064990164780, guid: de8899a7cacbfb449ac4441d82eec79c, type: 2}
+    - {fileID: -3394623368908221989, guid: a7d4b090f29b64f4fa65078cd62933be, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 105
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 9.5
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1.4532056
+      e01: 0
+      e02: 0
+      e03: -14.616157
+      e10: 0
+      e11: 1.4532056
+      e12: 0
+      e13: 61.184998
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 105.5
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 17.5
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: a7d4b090f29b64f4fa65078cd62933be, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: -3394623368908221989, guid: a7d4b090f29b64f4fa65078cd62933be, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 1
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1079,7 +1184,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: AnimatorControllerTool
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -1088,16 +1193,15 @@ MonoBehaviour:
     y: 0
     width: 457
     height: 987
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_MinSize: {x: 275, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 17}
   - {fileID: 18}
   - {fileID: 19}
-  m_Selected: 2
-  m_LastSelected: 0
---- !u!114 &17
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1137,14 +1241,14 @@ MonoBehaviour:
     m_CachedPref: 151
     m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: 86128
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1178,7 +1282,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  progressMessageClearTime: -1
+  progressMessageClearTime: 15890.514094099999
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
@@ -1435,19 +1539,44 @@ MonoBehaviour:
         keys:
         - 00000000000000001000000000000000
         - 9289bf39fa7ed454499beac3828789fe
-        - 760c693bfbaa3c2488ce345452aa8f89
         - 8e92b6487f7ce534f80a67bafd0ac039
-        - caf3cec21ad41b84fb5acaabbbda086e
+        - 760c693bfbaa3c2488ce345452aa8f89
+        - 7e924ac49c6bcca4a966b9dc797ff33d
+        - a7d4b090f29b64f4fa65078cd62933be
+        - de8899a7cacbfb449ac4441d82eec79c
+        - 226e7f46ae83d7a459716f45c3edbf9e
         - a7dd760071160be4985623ae79f78556
-        - 086c1e5b990ebb144b53ada8478ca720
+        - aaa7246c36f911444b6f7b817161e5aa
+        - c1b42c286a370694599321f11e85da81
+        - 098fe1e2b0203244eb58226c751fad23
+        - 631654073d5532f42ab7904d65da19fa
+        - 3cecf8c8f948e61418585335c2025ec7
         - 13b3e73534a146e4c979b3e8bceb04f2
+        - 1a4e11b3afa661c42808a553bac078a6
+        - 40c656709eeca6444b134a84e0e06831
         - be5c61a8a1db47f44be4d342faead4ea
         - ada57508e6c5697488f53f46e8cc3330
+        - f255712af55e63e4e814cc762635a2ce
         - 53fd6845a17d19c4a99b25f391c142d3
         - 4e1c41c00179f694ea338a8bf3b3752f
         - e18ac5b992a67304cbe5556b2a38e353
+        - d0140f6d4ef936344a15752638aa1a02
         - 32264d25e16dd89428b7c1e3762399bc
         - 05baaaaa4a5d4174daea4e03dbc13992
+        - f54d1bd14bd3ca042bd867b519fee8cc
+        - 243e06394e614e5d99fab26083b707fa
+        - 731f1baa9d144a9897cb1d341c2092b8
+        - d2ad0c93dd043344a91ccead1fbed851
+        - d0f3ad46307abb64380d40d9ba69471c
+        - 4d9f9b4cedf2d834f877334231d63f2a
+        - 059312735b5f48e478e913afdbf00b16
+        - bf072ab5a08b18e4cbbe65312ac0beda
+        - ea42807fe43976d44b8c6f44063474c7
+        - 512a49d95c0c4332bdd98131869c23c9
+        - 72742d94f285340489c1780eaeffe7e4
+        - d0603b6d5186471b96c778c3949c7ce2
+        - f4a622bc865ac4e4ea944e16ad6dfa1f
+        - 00000000000000003000000000000000
         values:
         - path: Assets
           label: Assets
@@ -1485,24 +1614,6 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Animations\Copper_Ore_Break.anim
-          label: Copper_Ore_Break.anim
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Animations\Copper_Ore_Break.anim
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\Copper_Ore_Break.anim
-            projectPath: Assets\Animations\Copper_Ore_Break.anim
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
         - path: Assets\Animations\CopperOre.controller
           label: CopperOre.controller
           level: 2
@@ -1521,9 +1632,9 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
-        - path: Assets\Copper_Ore_Idle.anim
-          label: Copper_Ore_Idle.anim
-          level: 1
+        - path: Assets\Animations\CopperOreBreak.anim
+          label: CopperOreBreak.anim
+          level: 2
           isFolder: 0
           isContainer: 1
           isCollapsed: 0
@@ -1533,9 +1644,81 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\Copper_Ore_Idle.anim
-            fullPath: C:\Users\ldluc\Martian Defender\Assets\Copper_Ore_Idle.anim
-            projectPath: Assets\Copper_Ore_Idle.anim
+            path: Assets\Animations\CopperOreBreak.anim
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\CopperOreBreak.anim
+            projectPath: Assets\Animations\CopperOreBreak.anim
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Animations\FloatingText.anim
+          label: FloatingText.anim
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Animations\FloatingText.anim
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\FloatingText.anim
+            projectPath: Assets\Animations\FloatingText.anim
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Animations\FloatingText.controller
+          label: FloatingText.controller
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Animations\FloatingText.controller
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\FloatingText.controller
+            projectPath: Assets\Animations\FloatingText.controller
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Animations\IronOre.controller
+          label: IronOre.controller
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Animations\IronOre.controller
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\IronOre.controller
+            projectPath: Assets\Animations\IronOre.controller
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Animations\IronOreBreak.anim
+          label: IronOreBreak.anim
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Animations\IronOreBreak.anim
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\IronOreBreak.anim
+            projectPath: Assets\Animations\IronOreBreak.anim
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
@@ -1561,7 +1744,7 @@ MonoBehaviour:
           label: CopperOre.prefab
           level: 2
           isFolder: 0
-          isContainer: 0
+          isContainer: 1
           isCollapsed: 0
           isHidden: 0
           isActive: 0
@@ -1572,6 +1755,78 @@ MonoBehaviour:
             path: Assets\Prefabs\CopperOre.prefab
             fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\CopperOre.prefab
             projectPath: Assets\Prefabs\CopperOre.prefab
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Prefabs\FloatingText.prefab
+          label: FloatingText.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\FloatingText.prefab
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\FloatingText.prefab
+            projectPath: Assets\Prefabs\FloatingText.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\IronOre.prefab
+          label: IronOre.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\IronOre.prefab
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\IronOre.prefab
+            projectPath: Assets\Prefabs\IronOre.prefab
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes\PrototypeScene.unity
+          label: PrototypeScene.unity
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scenes\PrototypeScene.unity
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\PrototypeScene.unity
+            projectPath: Assets\Scenes\PrototypeScene.unity
             originalPath: 
             indexStatus: 0
             workTreeStatus: 3
@@ -1593,6 +1848,42 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
+        - path: Assets\Scripts\Components
+          label: Components
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scripts\Components\FloatingTextDestroy.cs
+          label: FloatingTextDestroy.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\Components\FloatingTextDestroy.cs
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\FloatingTextDestroy.cs
+            projectPath: Assets\Scripts\Components\FloatingTextDestroy.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
         - path: Assets\Scripts\Material
           label: Material
           level: 2
@@ -1629,6 +1920,24 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 3
+        - path: Assets\Scripts\Material\VeinDestroy.cs
+          label: VeinDestroy.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\Material\VeinDestroy.cs
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Material\VeinDestroy.cs
+            projectPath: Assets\Scripts\Material\VeinDestroy.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
         - path: Assets\Sprites
           label: Sprites
           level: 1
@@ -1683,6 +1992,24 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
+        - path: Assets\Sprites\Animations\iron_ore_break.png
+          label: iron_ore_break.png
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Sprites\Animations\iron_ore_break.png
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\Animations\iron_ore_break.png
+            projectPath: Assets\Sprites\Animations\iron_ore_break.png
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
         - path: Assets\Sprites\copper_ore.png
           label: copper_ore.png
           level: 2
@@ -1719,15 +2046,287 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 3
+        - path: Assets\TextMesh Pro
+          label: TextMesh Pro
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources
+          label: Resources
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials
+          label: Fonts & Materials
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro SDF.asset
+          label: CompassPro SDF.asset
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro SDF.asset
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+              & Materials\CompassPro SDF.asset
+            projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro
+              SDF.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro.ttf
+          label: CompassPro.ttf
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro.ttf
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+              & Materials\CompassPro.ttf
+            projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro.ttf
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro SDF.asset
+          label: FutilePro SDF.asset
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro SDF.asset
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+              & Materials\FutilePro SDF.asset
+            projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro
+              SDF.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro.ttf
+          label: FutilePro.ttf
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro.ttf
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+              & Materials\FutilePro.ttf
+            projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro.ttf
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro SDF.asset
+          label: MatchupPro SDF.asset
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro SDF.asset
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+              & Materials\MatchupPro SDF.asset
+            projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro
+              SDF.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro.ttf
+          label: MatchupPro.ttf
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro.ttf
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+              & Materials\MatchupPro.ttf
+            projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro.ttf
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\TextMesh Pro\Resources\Sprite Assets
+          label: Sprite Assets
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Sprite Assets\material_icons.asset
+          label: material_icons.asset
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\TextMesh Pro\Resources\Sprite Assets\material_icons.asset
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Sprite
+              Assets\material_icons.asset
+            projectPath: Assets\TextMesh Pro\Resources\Sprite Assets\material_icons.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\TextMesh Pro\Sprites
+          label: Sprites
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Sprites\material_icons.png
+          label: material_icons.png
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\TextMesh Pro\Sprites\material_icons.png
+            fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Sprites\material_icons.png
+            projectPath: Assets\TextMesh Pro\Sprites\material_icons.png
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\TagManager.asset
+          label: TagManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\TagManager.asset
+            fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\TagManager.asset
+            projectPath: ProjectSettings\TagManager.asset
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
       folders:
         keys:
         - Assets
         - Assets\Animations
         - Assets\Prefabs
+        - Assets\Scenes
         - Assets\Scripts
+        - Assets\Scripts\Components
         - Assets\Scripts\Material
         - Assets\Sprites
         - Assets\Sprites\Animations
+        - Assets\TextMesh Pro
+        - Assets\TextMesh Pro\Resources
+        - Assets\TextMesh Pro\Resources\Fonts & Materials
+        - Assets\TextMesh Pro\Resources\Sprite Assets
+        - Assets\TextMesh Pro\Sprites
+        - ProjectSettings
+        - UserSettings
+        - UserSettings\Layouts
         values:
         - path: Assets
           label: Assets
@@ -1783,9 +2382,45 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
         - path: Assets\Scripts
           label: Scripts
           level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scripts\Components
+          label: Components
+          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1840,6 +2475,150 @@ MonoBehaviour:
         - path: Assets\Sprites\Animations
           label: Animations
           level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\TextMesh Pro
+          label: TextMesh Pro
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources
+          label: Resources
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials
+          label: Fonts & Materials
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Sprite Assets
+          label: Sprite Assets
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Sprites
+          label: Sprites
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: ProjectSettings
+          label: ProjectSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings
+          label: UserSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings\Layouts
+          label: Layouts
+          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1937,42 +2716,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Animations\Copper_Ore_Break.anim
-        label: Copper_Ore_Break.anim
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Animations\Copper_Ore_Break.anim
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\Copper_Ore_Break.anim
-          projectPath: Assets\Animations\Copper_Ore_Break.anim
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Animations\Copper_Ore_Break.anim.meta
-        label: Copper_Ore_Break.anim.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Animations\Copper_Ore_Break.anim.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\Copper_Ore_Break.anim.meta
-          projectPath: Assets\Animations\Copper_Ore_Break.anim.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: Assets\Animations\CopperOre.controller
         label: CopperOre.controller
         level: 2
@@ -2009,9 +2752,9 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: Assets\Copper_Ore_Idle.anim
-        label: Copper_Ore_Idle.anim
-        level: 1
+      - path: Assets\Animations\CopperOreBreak.anim
+        label: CopperOreBreak.anim
+        level: 2
         isFolder: 0
         isContainer: 1
         isCollapsed: 0
@@ -2021,15 +2764,15 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Copper_Ore_Idle.anim
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Copper_Ore_Idle.anim
-          projectPath: Assets\Copper_Ore_Idle.anim
+          path: Assets\Animations\CopperOreBreak.anim
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\CopperOreBreak.anim
+          projectPath: Assets\Animations\CopperOreBreak.anim
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: Assets\Copper_Ore_Idle.anim.meta
-        label: Copper_Ore_Idle.anim.meta
-        level: 2
+      - path: Assets\Animations\CopperOreBreak.anim.meta
+        label: CopperOreBreak.anim.meta
+        level: 3
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -2039,9 +2782,153 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Copper_Ore_Idle.anim.meta
-          fullPath: C:\Users\ldluc\Martian Defender\Assets\Copper_Ore_Idle.anim.meta
-          projectPath: Assets\Copper_Ore_Idle.anim.meta
+          path: Assets\Animations\CopperOreBreak.anim.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\CopperOreBreak.anim.meta
+          projectPath: Assets\Animations\CopperOreBreak.anim.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Animations\FloatingText.anim
+        label: FloatingText.anim
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Animations\FloatingText.anim
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\FloatingText.anim
+          projectPath: Assets\Animations\FloatingText.anim
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Animations\FloatingText.anim.meta
+        label: FloatingText.anim.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Animations\FloatingText.anim.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\FloatingText.anim.meta
+          projectPath: Assets\Animations\FloatingText.anim.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Animations\FloatingText.controller
+        label: FloatingText.controller
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Animations\FloatingText.controller
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\FloatingText.controller
+          projectPath: Assets\Animations\FloatingText.controller
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Animations\FloatingText.controller.meta
+        label: FloatingText.controller.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Animations\FloatingText.controller.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\FloatingText.controller.meta
+          projectPath: Assets\Animations\FloatingText.controller.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Animations\IronOre.controller
+        label: IronOre.controller
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Animations\IronOre.controller
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\IronOre.controller
+          projectPath: Assets\Animations\IronOre.controller
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Animations\IronOre.controller.meta
+        label: IronOre.controller.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Animations\IronOre.controller.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\IronOre.controller.meta
+          projectPath: Assets\Animations\IronOre.controller.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Animations\IronOreBreak.anim
+        label: IronOreBreak.anim
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Animations\IronOreBreak.anim
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\IronOreBreak.anim
+          projectPath: Assets\Animations\IronOreBreak.anim
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Animations\IronOreBreak.anim.meta
+        label: IronOreBreak.anim.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Animations\IronOreBreak.anim.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\IronOreBreak.anim.meta
+          projectPath: Assets\Animations\IronOreBreak.anim.meta
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -2067,7 +2954,7 @@ MonoBehaviour:
         label: CopperOre.prefab
         level: 2
         isFolder: 0
-        isContainer: 0
+        isContainer: 1
         isCollapsed: 0
         isHidden: 0
         isActive: 0
@@ -2078,6 +2965,132 @@ MonoBehaviour:
           path: Assets\Prefabs\CopperOre.prefab
           fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\CopperOre.prefab
           projectPath: Assets\Prefabs\CopperOre.prefab
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Prefabs\CopperOre.prefab.meta
+        label: CopperOre.prefab.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\CopperOre.prefab.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\CopperOre.prefab.meta
+          projectPath: Assets\Prefabs\CopperOre.prefab.meta
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Prefabs\FloatingText.prefab
+        label: FloatingText.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\FloatingText.prefab
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\FloatingText.prefab
+          projectPath: Assets\Prefabs\FloatingText.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\FloatingText.prefab.meta
+        label: FloatingText.prefab.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\FloatingText.prefab.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\FloatingText.prefab.meta
+          projectPath: Assets\Prefabs\FloatingText.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\IronOre.prefab
+        label: IronOre.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\IronOre.prefab
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\IronOre.prefab
+          projectPath: Assets\Prefabs\IronOre.prefab
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Prefabs\IronOre.prefab.meta
+        label: IronOre.prefab.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\IronOre.prefab.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\IronOre.prefab.meta
+          projectPath: Assets\Prefabs\IronOre.prefab.meta
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Scenes
+        label: Scenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scenes\PrototypeScene.unity
+        label: PrototypeScene.unity
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\PrototypeScene.unity
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\PrototypeScene.unity
+          projectPath: Assets\Scenes\PrototypeScene.unity
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -2099,6 +3112,60 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: Assets\Scripts\Components
+        label: Components
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scripts\Components\FloatingTextDestroy.cs
+        label: FloatingTextDestroy.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\Components\FloatingTextDestroy.cs
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\FloatingTextDestroy.cs
+          projectPath: Assets\Scripts\Components\FloatingTextDestroy.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scripts\Components\FloatingTextDestroy.cs.meta
+        label: FloatingTextDestroy.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\Components\FloatingTextDestroy.cs.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\FloatingTextDestroy.cs.meta
+          projectPath: Assets\Scripts\Components\FloatingTextDestroy.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
       - path: Assets\Scripts\Material
         label: Material
         level: 2
@@ -2135,6 +3202,42 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
+      - path: Assets\Scripts\Material\VeinDestroy.cs
+        label: VeinDestroy.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\Material\VeinDestroy.cs
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Material\VeinDestroy.cs
+          projectPath: Assets\Scripts\Material\VeinDestroy.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scripts\Material\VeinDestroy.cs.meta
+        label: VeinDestroy.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\Material\VeinDestroy.cs.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Material\VeinDestroy.cs.meta
+          projectPath: Assets\Scripts\Material\VeinDestroy.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
       - path: Assets\Sprites
         label: Sprites
         level: 1
@@ -2225,6 +3328,42 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
+      - path: Assets\Sprites\Animations\iron_ore_break.png
+        label: iron_ore_break.png
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Sprites\Animations\iron_ore_break.png
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\Animations\iron_ore_break.png
+          projectPath: Assets\Sprites\Animations\iron_ore_break.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Sprites\Animations\iron_ore_break.png.meta
+        label: iron_ore_break.png.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Sprites\Animations\iron_ore_break.png.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\Animations\iron_ore_break.png.meta
+          projectPath: Assets\Sprites\Animations\iron_ore_break.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
       - path: Assets\Sprites\copper_ore.png
         label: copper_ore.png
         level: 2
@@ -2261,6 +3400,494 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
+      - path: Assets\TextMesh Pro
+        label: TextMesh Pro
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources
+        label: Resources
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials
+        label: Fonts & Materials
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro SDF.asset
+        label: CompassPro SDF.asset
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro SDF.asset
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+            & Materials\CompassPro SDF.asset
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro
+            SDF.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro SDF.asset.meta
+        label: CompassPro SDF.asset.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro SDF.asset.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+            & Materials\CompassPro SDF.asset.meta
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro
+            SDF.asset.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro.ttf
+        label: CompassPro.ttf
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro.ttf
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+            & Materials\CompassPro.ttf
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro.ttf
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro.ttf.meta
+        label: CompassPro.ttf.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro.ttf.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+            & Materials\CompassPro.ttf.meta
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro.ttf.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro SDF.asset
+        label: FutilePro SDF.asset
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro SDF.asset
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+            & Materials\FutilePro SDF.asset
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro
+            SDF.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro SDF.asset.meta
+        label: FutilePro SDF.asset.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro SDF.asset.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+            & Materials\FutilePro SDF.asset.meta
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro
+            SDF.asset.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro.ttf
+        label: FutilePro.ttf
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro.ttf
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+            & Materials\FutilePro.ttf
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro.ttf
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro.ttf.meta
+        label: FutilePro.ttf.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro.ttf.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+            & Materials\FutilePro.ttf.meta
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro.ttf.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro SDF.asset
+        label: MatchupPro SDF.asset
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro SDF.asset
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+            & Materials\MatchupPro SDF.asset
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro
+            SDF.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro SDF.asset.meta
+        label: MatchupPro SDF.asset.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro SDF.asset.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+            & Materials\MatchupPro SDF.asset.meta
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro
+            SDF.asset.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro.ttf
+        label: MatchupPro.ttf
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro.ttf
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+            & Materials\MatchupPro.ttf
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro.ttf
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro.ttf.meta
+        label: MatchupPro.ttf.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro.ttf.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+            & Materials\MatchupPro.ttf.meta
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro.ttf.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\TextMesh Pro\Resources\Sprite Assets
+        label: Sprite Assets
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Sprite Assets\material_icons.asset
+        label: material_icons.asset
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TextMesh Pro\Resources\Sprite Assets\material_icons.asset
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Sprite
+            Assets\material_icons.asset
+          projectPath: Assets\TextMesh Pro\Resources\Sprite Assets\material_icons.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\TextMesh Pro\Resources\Sprite Assets\material_icons.asset.meta
+        label: material_icons.asset.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TextMesh Pro\Resources\Sprite Assets\material_icons.asset.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Sprite
+            Assets\material_icons.asset.meta
+          projectPath: Assets\TextMesh Pro\Resources\Sprite Assets\material_icons.asset.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\TextMesh Pro\Sprites
+        label: Sprites
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Sprites\material_icons.png
+        label: material_icons.png
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TextMesh Pro\Sprites\material_icons.png
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Sprites\material_icons.png
+          projectPath: Assets\TextMesh Pro\Sprites\material_icons.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\TextMesh Pro\Sprites\material_icons.png.meta
+        label: material_icons.png.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TextMesh Pro\Sprites\material_icons.png.meta
+          fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Sprites\material_icons.png.meta
+          projectPath: Assets\TextMesh Pro\Sprites\material_icons.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings
+        label: ProjectSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: ProjectSettings\TagManager.asset
+        label: TagManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\TagManager.asset
+          fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\TagManager.asset
+          projectPath: ProjectSettings\TagManager.asset
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: UserSettings
+        label: UserSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts
+        label: Layouts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+        label: CurrentMaximizeLayout.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       selectedNode:
         path: Assets\Sprites\copper_ore.png
         label: copper_ore.png
@@ -2287,18 +3914,6 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Assets\Animations\Copper_Ore_Break.anim
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\Copper_Ore_Break.anim
-      projectPath: Assets\Animations\Copper_Ore_Break.anim
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Animations\Copper_Ore_Break.anim.meta
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\Copper_Ore_Break.anim.meta
-      projectPath: Assets\Animations\Copper_Ore_Break.anim.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
     - path: Assets\Animations\CopperOre.controller
       fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\CopperOre.controller
       projectPath: Assets\Animations\CopperOre.controller
@@ -2311,15 +3926,63 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Assets\Copper_Ore_Idle.anim
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Copper_Ore_Idle.anim
-      projectPath: Assets\Copper_Ore_Idle.anim
+    - path: Assets\Animations\CopperOreBreak.anim
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\CopperOreBreak.anim
+      projectPath: Assets\Animations\CopperOreBreak.anim
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Assets\Copper_Ore_Idle.anim.meta
-      fullPath: C:\Users\ldluc\Martian Defender\Assets\Copper_Ore_Idle.anim.meta
-      projectPath: Assets\Copper_Ore_Idle.anim.meta
+    - path: Assets\Animations\CopperOreBreak.anim.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\CopperOreBreak.anim.meta
+      projectPath: Assets\Animations\CopperOreBreak.anim.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Animations\FloatingText.anim
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\FloatingText.anim
+      projectPath: Assets\Animations\FloatingText.anim
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Animations\FloatingText.anim.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\FloatingText.anim.meta
+      projectPath: Assets\Animations\FloatingText.anim.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Animations\FloatingText.controller
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\FloatingText.controller
+      projectPath: Assets\Animations\FloatingText.controller
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Animations\FloatingText.controller.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\FloatingText.controller.meta
+      projectPath: Assets\Animations\FloatingText.controller.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Animations\IronOre.controller
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\IronOre.controller
+      projectPath: Assets\Animations\IronOre.controller
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Animations\IronOre.controller.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\IronOre.controller.meta
+      projectPath: Assets\Animations\IronOre.controller.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Animations\IronOreBreak.anim
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\IronOreBreak.anim
+      projectPath: Assets\Animations\IronOreBreak.anim
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Animations\IronOreBreak.anim.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Animations\IronOreBreak.anim.meta
+      projectPath: Assets\Animations\IronOreBreak.anim.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
@@ -2329,12 +3992,72 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
+    - path: Assets\Prefabs\CopperOre.prefab.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\CopperOre.prefab.meta
+      projectPath: Assets\Prefabs\CopperOre.prefab.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Prefabs\FloatingText.prefab
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\FloatingText.prefab
+      projectPath: Assets\Prefabs\FloatingText.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\FloatingText.prefab.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\FloatingText.prefab.meta
+      projectPath: Assets\Prefabs\FloatingText.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\IronOre.prefab
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\IronOre.prefab
+      projectPath: Assets\Prefabs\IronOre.prefab
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Prefabs\IronOre.prefab.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Prefabs\IronOre.prefab.meta
+      projectPath: Assets\Prefabs\IronOre.prefab.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scenes\PrototypeScene.unity
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scenes\PrototypeScene.unity
+      projectPath: Assets\Scenes\PrototypeScene.unity
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scripts\Components\FloatingTextDestroy.cs
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\FloatingTextDestroy.cs
+      projectPath: Assets\Scripts\Components\FloatingTextDestroy.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts\Components\FloatingTextDestroy.cs.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Components\FloatingTextDestroy.cs.meta
+      projectPath: Assets\Scripts\Components\FloatingTextDestroy.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
     - path: Assets\Scripts\Material\OreVein.cs
       fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Material\OreVein.cs
       projectPath: Assets\Scripts\Material\OreVein.cs
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
+    - path: Assets\Scripts\Material\VeinDestroy.cs
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Material\VeinDestroy.cs
+      projectPath: Assets\Scripts\Material\VeinDestroy.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts\Material\VeinDestroy.cs.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Scripts\Material\VeinDestroy.cs.meta
+      projectPath: Assets\Scripts\Material\VeinDestroy.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
     - path: Assets\Sprites\Animations.meta
       fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\Animations.meta
       projectPath: Assets\Sprites\Animations.meta
@@ -2353,6 +4076,18 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
+    - path: Assets\Sprites\Animations\iron_ore_break.png
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\Animations\iron_ore_break.png
+      projectPath: Assets\Sprites\Animations\iron_ore_break.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Sprites\Animations\iron_ore_break.png.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\Animations\iron_ore_break.png.meta
+      projectPath: Assets\Sprites\Animations\iron_ore_break.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
     - path: Assets\Sprites\copper_ore.png
       fullPath: C:\Users\ldluc\Martian Defender\Assets\Sprites\copper_ore.png
       projectPath: Assets\Sprites\copper_ore.png
@@ -2365,15 +4100,137 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    changedFilesText: 14 changed files
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro SDF.asset
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+        & Materials\CompassPro SDF.asset
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro SDF.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro SDF.asset.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+        & Materials\CompassPro SDF.asset.meta
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro SDF.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro.ttf
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+        & Materials\CompassPro.ttf
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro.ttf
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro.ttf.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+        & Materials\CompassPro.ttf.meta
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\CompassPro.ttf.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro SDF.asset
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+        & Materials\FutilePro SDF.asset
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro SDF.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro SDF.asset.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+        & Materials\FutilePro SDF.asset.meta
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro SDF.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro.ttf
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+        & Materials\FutilePro.ttf
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro.ttf
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro.ttf.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+        & Materials\FutilePro.ttf.meta
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\FutilePro.ttf.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro SDF.asset
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+        & Materials\MatchupPro SDF.asset
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro SDF.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro SDF.asset.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+        & Materials\MatchupPro SDF.asset.meta
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro SDF.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro.ttf
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+        & Materials\MatchupPro.ttf
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro.ttf
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro.ttf.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Fonts
+        & Materials\MatchupPro.ttf.meta
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\MatchupPro.ttf.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TextMesh Pro\Resources\Sprite Assets\material_icons.asset
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Sprite
+        Assets\material_icons.asset
+      projectPath: Assets\TextMesh Pro\Resources\Sprite Assets\material_icons.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TextMesh Pro\Resources\Sprite Assets\material_icons.asset.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Resources\Sprite
+        Assets\material_icons.asset.meta
+      projectPath: Assets\TextMesh Pro\Resources\Sprite Assets\material_icons.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TextMesh Pro\Sprites\material_icons.png
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Sprites\material_icons.png
+      projectPath: Assets\TextMesh Pro\Sprites\material_icons.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TextMesh Pro\Sprites\material_icons.png.meta
+      fullPath: C:\Users\ldluc\Martian Defender\Assets\TextMesh Pro\Sprites\material_icons.png.meta
+      projectPath: Assets\TextMesh Pro\Sprites\material_icons.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\TagManager.asset
+      fullPath: C:\Users\ldluc\Martian Defender\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+      fullPath: C:\Users\ldluc\Martian Defender\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+      projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 50 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-12-12T19:08:49.713-08:00
+      updatedTimeString: 2023-12-13T23:03:57.150-08:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-12-12T19:45:26.829-08:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-12-12T19:45:31.879-08:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -3132,10 +4989,10 @@ MonoBehaviour:
     updatedTimeString: 2023-12-12T18:07:09.018-08:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-12-12T18:22:39.815-08:00
+    updatedTimeString: 2023-12-12T22:28:20.489-08:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-12-12T18:37:14.590-08:00
+    updatedTimeString: 2023-12-12T22:28:20.452-08:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -3153,78 +5010,8 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
+  repositoryProgressValue: 1
   repositoryProgressMessage: 
   appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
---- !u!114 &19
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Animator
-    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1463
-    y: 73
-    width: 456
-    height: 966
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  m_ViewTransforms:
-    m_KeySerializationHelper:
-    - {fileID: -6751072465925751411, guid: 8e92b6487f7ce534f80a67bafd0ac039, type: 2}
-    m_ValueSerializationHelper:
-    - e00: 0.6617643
-      e01: 0
-      e02: 0
-      e03: -112.0499
-      e10: 0
-      e11: 0.6617643
-      e12: 0
-      e13: 240.41298
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 8e92b6487f7ce534f80a67bafd0ac039, type: 2}
-  m_BreadCrumbs:
-  - m_Target: {fileID: -6751072465925751411, guid: 8e92b6487f7ce534f80a67bafd0ac039, type: 2}
-    m_ScrollPosition: {x: 0, y: 0}
-  stateMachineGraph: {fileID: 0}
-  stateMachineGraphGUI: {fileID: 0}
-  blendTreeGraph: {fileID: 0}
-  blendTreeGraphGUI: {fileID: 0}
-  m_AutoLiveLink: 1
-  m_MiniTool: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_CurrentEditor: 1
-  m_LayerEditor:
-    m_SelectedLayerIndex: 0

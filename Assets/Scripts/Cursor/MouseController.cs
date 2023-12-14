@@ -36,7 +36,8 @@ public class MouseController : MonoBehaviour, IPointerClickHandler
         }
 
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(mouse.position.ReadValue());
-        RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
+        LayerMask mask = LayerMask.GetMask("UI", "Ground", "Ship", "Obstacles");
+        RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero, 100f, mask);
 
 
         if (hit.collider == null || !hit.collider.name.Equals("Tilemap"))
@@ -50,6 +51,7 @@ public class MouseController : MonoBehaviour, IPointerClickHandler
 
     public void ShowCursorTile(Vector2 mousePos)
     {
+        GetComponent<PolygonCollider2D>().enabled = true;
         Vector3Int cell = tilemap.WorldToCell(mousePos);
 
         transform.position = tilemap.GetCellCenterWorld(cell);
@@ -59,6 +61,7 @@ public class MouseController : MonoBehaviour, IPointerClickHandler
 
     public void HideCursorTile()
     {
+        GetComponent<PolygonCollider2D>().enabled = false;
         spriteRenderer.enabled = false;
         transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = false;
     }

@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     public PlayMode playMode = PlayMode.Normal;
 
     private Vector2 moveInput;
-    private List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
+    private readonly List<RaycastHit2D> castCollisions = new();
     private Rigidbody2D rb;
 
     public void Awake()
@@ -54,7 +54,6 @@ public class PlayerController : MonoBehaviour
                 success = MovePlayer(new Vector2(0, moveInput.y));
             }
         }
-
     }
 
     // Tries to move the player in a direction by casting in that direction by the amount
@@ -71,7 +70,7 @@ public class PlayerController : MonoBehaviour
 
         if (count == 0)
         {
-            Vector2 moveVector = direction * moveSpeed * Time.fixedDeltaTime;
+            Vector2 moveVector = moveSpeed * Time.fixedDeltaTime * direction;
 
             // No collisions
             rb.MovePosition(rb.position + moveVector);
@@ -79,12 +78,6 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            // Print collisions
-            foreach (RaycastHit2D hit in castCollisions)
-            {
-                print(hit.ToString());
-            }
-
             return false;
         }
     }
@@ -114,5 +107,6 @@ public class PlayerController : MonoBehaviour
 public enum PlayMode
 {
     Normal,
-    Build
+    Build,
+    Delete
 }

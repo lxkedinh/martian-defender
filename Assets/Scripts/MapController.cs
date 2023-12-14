@@ -52,11 +52,17 @@ public class MapController : MonoBehaviour, IPointerClickHandler
 
         InventoryController.Instance.RemoveMaterial(Materials.Copper, Tower.buildCost);
         Tower tower = Instantiate(towerPrefab);
-        tower.transform.position = new Vector3(pos.x, pos.y, pos.z + 1);
+        tower.transform.position = new Vector3(pos.x, pos.y, pos.z);
         Instance.towersPlaced.Add(tower);
         Instance.SelectTower(tower);
 
         Surface2D.BuildNavMesh();
+    }
+
+    public void DeleteTower(Tower tower)
+    {
+        InventoryController.Instance.AddMaterial(Materials.Copper, Tower.buildCost);
+        Destroy(tower.gameObject);
     }
 
     public void PlaceWall(Vector3 pos)

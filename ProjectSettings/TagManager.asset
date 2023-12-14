@@ -10,16 +10,16 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
-  - Ground
+  - Player
   - Obstacles
   - Towers
   - Enemies
   - Projectiles
   - Ship
-  - 
+  - Border
   - 
   - 
   - 
@@ -46,8 +46,11 @@ TagManager:
   - name: Ground
     uniqueID: 3348931295
     locked: 0
-  - name: Character & Structures
+  - name: Characters & Structures
     uniqueID: 1879840751
+    locked: 0
+  - name: Projectiles
+    uniqueID: 2567799623
     locked: 0
   - name: FloatingText
     uniqueID: 4166636345
