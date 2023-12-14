@@ -52,7 +52,7 @@ public class MapController : MonoBehaviour, IPointerClickHandler
 
         InventoryController.Instance.RemoveMaterial(Materials.Copper, Tower.buildCost);
         Tower tower = Instantiate(towerPrefab);
-        tower.transform.position = new Vector3(pos.x, pos.y, pos.z + 1);
+        tower.transform.position = new Vector3(pos.x, pos.y, pos.z);
         Instance.towersPlaced.Add(tower);
         Instance.SelectTower(tower);
 
@@ -97,7 +97,6 @@ public class MapController : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        Debug.Log("clicked");
         DeselectStructures();
     }
 }

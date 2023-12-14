@@ -14,7 +14,7 @@ public class FirePoint : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating(nameof(RotateTowardsEnemy), 0, 0.1f);
+        InvokeRepeating(nameof(RotateTowardsEnemy), 0, 0.05f);
     }
 
     // Update is called once per frame

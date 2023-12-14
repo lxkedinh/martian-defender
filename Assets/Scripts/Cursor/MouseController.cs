@@ -50,6 +50,7 @@ public class MouseController : MonoBehaviour, IPointerClickHandler
 
     public void ShowCursorTile(Vector2 mousePos)
     {
+        GetComponent<PolygonCollider2D>().enabled = true;
         Vector3Int cell = tilemap.WorldToCell(mousePos);
 
         transform.position = tilemap.GetCellCenterWorld(cell);
@@ -59,6 +60,7 @@ public class MouseController : MonoBehaviour, IPointerClickHandler
 
     public void HideCursorTile()
     {
+        GetComponent<PolygonCollider2D>().enabled = false;
         spriteRenderer.enabled = false;
         transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = false;
     }

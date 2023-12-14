@@ -22,7 +22,6 @@ public class MouseHitBox : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        Debug.Log("clicked");
         MapController.Instance.SelectTower(GetComponentInParent<Tower>());
     }
 }
