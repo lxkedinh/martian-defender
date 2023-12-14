@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using NavMeshPlus.Components;
+using System.Diagnostics;
 
 public class Health : MonoBehaviour
 {
@@ -24,10 +25,13 @@ public class Health : MonoBehaviour
     public void TakeDamage(Attack attack)
     {
         currentHealth -= attack.attackDamage;
+
+        UnityEngine.Debug.Log("TakeDamage() called from: " + new System.Diagnostics.StackTrace());
         if (healthBar != null)
         {
             healthBar.SetHealth(currentHealth);
         }
+
         if (currentHealth <= 0)
         {
             Destroy(gameObject);
