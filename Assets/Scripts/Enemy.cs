@@ -18,6 +18,8 @@ public class Enemy : MonoBehaviour
     private float distance;
     private Transform closestWall;
 
+    private Animator animator;
+
     NavMeshAgent agent;
 
     NavMeshPath path;
@@ -43,6 +45,11 @@ public class Enemy : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+    }
+
+    void Awake()
+    {
+        animator = GetComponent<Animator>();
     }
 
     public Transform getClosestWall()
@@ -106,6 +113,7 @@ public class Enemy : MonoBehaviour
             isStopped = true;
             DealDamageToWall(getClosestWall().GetComponent<Collider2D>());
             nextDamageTime = Time.time + damageInterval; // Sets new damage time
+            animator.SetTrigger("isAttacking");
         }
     }
 
@@ -115,7 +123,6 @@ public class Enemy : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
     }
 
     void OnTriggerExit2D(Collider2D collider)
@@ -170,4 +177,9 @@ public class Enemy : MonoBehaviour
         }
     }
     
+    public void Dead()
+    {
+        Destroy(gameObject);
+    }
+
 }

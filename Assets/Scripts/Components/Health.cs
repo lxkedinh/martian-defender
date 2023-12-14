@@ -9,6 +9,7 @@ public class Health : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth;
     public HealthBar healthBar;
+    private Animator animator;
 
     void Start()
     {
@@ -21,10 +22,16 @@ public class Health : MonoBehaviour
     
     }
 
+    void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
+
 
     public void TakeDamage(Attack attack)
     {
         currentHealth -= attack.attackDamage;
+
 
         UnityEngine.Debug.Log("TakeDamage() called from: " + new System.Diagnostics.StackTrace());
         if (healthBar != null)
@@ -34,15 +41,28 @@ public class Health : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            Destroy(gameObject);
-
-            if (gameObject.CompareTag("Wall"))
+            if (gameObject.CompareTag("Enemy") && animator != null)
             {
-                NavMeshSurface Surface2D = FindObjectOfType<NavMeshSurface>();
-                if (Surface2D != null)
+                animator.SetTrigger("isDead");
+            }
+            else
+            {
+                Destroy(gameObject);
+                if (gameObject.CompareTag("Wall"))
                 {
-                    Surface2D.BuildNavMesh();
+                    NavMeshSurface Surface2D = FindObjectOfType<NavMeshSurface>();
+                    if (Surface2D != null)
+                    {
+                        Surface2D.BuildNavMesh();
+                    }
                 }
+            }
+            
+        } else
+        {
+            if (gameObject.CompareTag("Enemy") && animator != null)
+            {
+                animator.SetTrigger("isHit");
             }
         }
     }
