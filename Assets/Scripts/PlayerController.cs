@@ -114,5 +114,6 @@ public class PlayerController : MonoBehaviour
 public enum PlayMode
 {
     Normal,
-    Build
+    Build,
+    Delete
 }

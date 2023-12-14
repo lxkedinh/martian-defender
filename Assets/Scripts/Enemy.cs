@@ -52,7 +52,7 @@ public class Enemy : MonoBehaviour
             distance = Vector2.Distance(transform.position, target.position);
             Vector2 direction = target.position - transform.position;
 
-            transform.position = Vector2.MoveTowards(this.transform.position, target.position, moveSpeed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(this.transform.position, target.position, moveSpeed * Time.fixedDeltaTime);
         }
     }
 

@@ -3,34 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class TowerBody : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
+public class MouseHitBox : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
-    public GameObject outlineIndicator;
-    public void ShowOutline()
-    {
-        outlineIndicator.GetComponent<SpriteRenderer>().enabled = true;
-    }
-
-    public void HideOutline()
-    {
-        outlineIndicator.GetComponent<SpriteRenderer>().enabled = false;
-    }
+    public Outline outline;
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        ShowOutline();
+        outline.ShowOutline();
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
         if (!GetComponentInParent<Tower>().isSelected)
         {
-            HideOutline();
+            outline.HideOutline();
         }
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        Debug.Log("clicked");
         MapController.Instance.SelectTower(GetComponentInParent<Tower>());
     }
 }
