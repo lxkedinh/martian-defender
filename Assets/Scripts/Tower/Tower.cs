@@ -34,6 +34,8 @@ public class Tower : MonoBehaviour
 
     void Update()
     {
+        if (GameStateManager.Instance.currentState != GameState.Playing) return;
+
         FireAttack();
     }
 

@@ -37,9 +37,7 @@ public class PlayerController : MonoBehaviour
 
     public void FixedUpdate()
     {
-
-        // rb.MovePosition(rb.position + (moveInput * moveSpeed * Time.fixedDeltaTime));
-
+        if (GameStateManager.Instance.currentState != GameState.Playing) return;
 
         // Try to move player in input direction, followed by left right and up down input if failed
         bool success = MovePlayer(moveInput);

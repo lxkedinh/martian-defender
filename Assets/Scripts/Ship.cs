@@ -18,6 +18,6 @@ public class Ship : MonoBehaviour
 
     public void OnDeath()
     {
-        Destroy(healthUI);
+        GameStateManager.Instance.SetGameState(GameState.Death);
     }
 }

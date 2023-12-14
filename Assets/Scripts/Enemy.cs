@@ -40,6 +40,8 @@ public class Enemy : MonoBehaviour
             return;
         }
 
+        if (GameStateManager.Instance.currentState != GameState.Playing) return;
+
         NavMeshPath path = new NavMeshPath();
         agent.CalculatePath(target.position, path);
 
@@ -56,11 +58,17 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    public void OnDeath()
+    {
+        EnemyManager.Instance.RemoveEnemy(this);
+        Destroy(gameObject);
+    }
+
     void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.transform == target)
         {
-            Destroy(gameObject);
+            OnDeath();
         }
     }
 }

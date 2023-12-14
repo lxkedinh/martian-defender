@@ -17,6 +17,8 @@ public class Projectile : MonoBehaviour
             return;
         }
 
+        if (GameStateManager.Instance.currentState != GameState.Playing) return;
+
         Vector3 direction = (target.transform.position - transform.position).normalized;
         rbody.MovePosition(transform.position + moveSpeed * Time.fixedDeltaTime * direction);
     }
