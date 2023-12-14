@@ -69,9 +69,8 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    public void OnTakeDamage(Attack attack)
+    public void OnTakeDamage()
     {
-        GetComponent<Health>().TakeDamage(attack);
         animator.SetTrigger("wasHit");
     }
 

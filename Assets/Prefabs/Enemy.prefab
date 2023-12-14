@@ -203,10 +203,10 @@ MonoBehaviour:
       - m_Target: {fileID: 8051315353729537429}
         m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
         m_MethodName: OnTakeDamage
-        m_Mode: 2
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: Attack, Assembly-CSharp
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -224,21 +224,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5033a16e30008347a062bdf2e3378d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8051315353729537429}
-        m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
-        m_MethodName: OnTakeDamage
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &8051315353729537429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -296,11 +281,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8051315353729537429}
         m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
-        m_MethodName: PerformAttack
-        m_Mode: 1
+        m_MethodName: AttackWall
+        m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: Wall, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

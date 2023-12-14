@@ -62,8 +62,7 @@ public class DayNightController : MonoBehaviour
 
     public void ChangeToDay()
     {
-        // dayDuration = dayTimer = 5 * 60;
-        dayDuration = dayTimer = 5;
+        dayDuration = dayTimer = 5 * 60;
         cyclePhase = TimeOfDay.Day;
     }
 }
